@@ -1,0 +1,4 @@
+baseURL = "https://namashin.github.io/"
+languageCode = 'en-us'
+title = '@namashin'
+theme = "ananke"
