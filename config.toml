@@ -2,6 +2,7 @@ baseURL = "https://namashin.github.io/"
 languageCode = 'en-us'
 title = '@namashin'
 theme = "ananke"
+publishDir = "docs"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -21,4 +22,3 @@ contentDir = "content/ja"
 languageName = "中文"
 weight = 3
 contentDir = "content/ch"
-publishDir = "docs"
