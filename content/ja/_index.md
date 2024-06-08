@@ -35,11 +35,14 @@ draft = false
 
 ## プロフェッショナルスキル
 
-- **Go:** バックエンド開発、RESTful API、ソケットプログラミングでの経験
-- **Python:** 自動化、スクリプト、ウェブ開発に精通
-- **フレームワーク/ツール:** Gin, Django, Docker, Git, SQL
+- **プログラミング言語:** Go, Python, C, C#, SQL
+- **フレームワーク:** .NET
+- **ウェブ開発:** Gin, Django, Flask
+- **ツール:** Git, GitHub, ffmpeg, OpenCV, Docker
+- **オペレーティングシステム:** Windows, Linux
+- **その他の技術:** TCP/IP, ソケットプログラミング
 
-## 主なプロジェクト
+## 自身のプロジェクト
 
 - [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - CPU使用率に基づいて変更されるシステムトレイアイコンアプリケーション、トレイから直接アプリケーションを起動するサポート
 - [GoDrone](https://github.com/namashin/GoDrone) - DJI Telloドローンのリモートコントロールおよびビデオストリーミングをウェブブラウザ経由で実現

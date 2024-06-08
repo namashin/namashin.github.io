@@ -40,9 +40,12 @@ April 2021 - June 2023
 
 ## Professional Technical Skills
 
-- **Go:** Experienced in using Go for backend development, REST-ful APIs, and socket programming.
-- **Python:** Proficient in automation, scripting, and web development.
-- **Frameworks/Tools:** Gin, Django, Docker, Git, SQL.
+- **Programming Languages:** Go, Python, C, C#, SQL
+- **Frameworks:** .NET
+- **Web Development:** Gin, Django, Flask
+- **Tools:** Git, GitHub, ffmpeg, OpenCV, Docker
+- **Operating Systems:** Windows, Linux
+- **Other Technologies:** TCP/IP, Socket Programming
 
 ## Featured My Projects
 

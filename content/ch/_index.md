@@ -35,9 +35,12 @@ draft = false
 
 ## 专业技术技能
 
-- **Go:** 具有后端开发、RESTful API和套接字编程经验
-- **Python:** 精通自动化、脚本编写和web开发
-- **框架/工具:** Gin, Django, Docker, Git, SQL
+- **编程语言:** Go, Python, C, C#, SQL
+- **框架:** .NET
+- **网页开发:** Gin, Django, Flask
+- **工具:** Git, GitHub, ffmpeg, OpenCV, Docker
+- **操作系统:** Windows, Linux
+- **其他技术:** TCP/IP, 套接字编程
 
 ## 我的项目
 
