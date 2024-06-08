@@ -8,27 +8,31 @@ body {
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
-    transition: background-color 0.3s;
 }
 
 /* ヘッダーのスタイル */
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
 }
 
-header nav a {
+header a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 30px; /* マージンを広げる */
+}
+
+header a:hover {
+    color: #ff5722;
 }
 
 /* ヒーローセクションのスタイル */
@@ -51,28 +55,6 @@ header nav a {
     margin: 0;
 }
 
-/* ナビゲーションバーのスタイル */
-nav {
-    display: flex;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: #ff5722;
-}
-
 /* コンテンツエリアのスタイル */
 .content {
     padding: 20px;
@@ -89,30 +71,27 @@ footer {
     padding: 20px 0;
     background-color: #333;
     color: white;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* テキストの見出し */
+/* 見出し */
 h1, h2, h3, h4, h5, h6 {
     color: #222;
-    transition: color 0.3s;
 }
 
 h1 {
     font-size: 28px;
 }
 
-/* リンクの基本スタイル */
+/* リンク */
 a {
     color: #1a0dab;
-    transition: color 0.3s;
 }
 
 a:hover {
     color: #ff5722;
 }
 
-/* ボタンのスタイル */
+/* ボタン */
 button {
     background-color: #007BFF;
     color: white;
@@ -120,7 +99,6 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -138,13 +116,5 @@ button:hover {
 @media (max-width: 768px) {
     #menu-toggle {
         display: block;
-    }
-
-    nav.active {
-        display: block;
-    }
-
-    nav {
-        display: none;
     }
 }
