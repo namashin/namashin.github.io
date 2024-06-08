@@ -10,7 +10,7 @@ draft = false
 **LINE:** namashinxx  
 **WhatsApp:** +86 17717394831  
 **LinkedIn:** [namashin](https://www.linkedin.com/in/namashin/)  
-**履歴書:** [履歴書をダウンロード](/resume/resume.pdf)
+**履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)
 
 ## 学歴
 

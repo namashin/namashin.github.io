@@ -10,7 +10,7 @@ draft = false
 **LINE:** namashinxx  
 **WhatsApp:** +86 17717394831  
 **LinkedIn:** [namashin](https://www.linkedin.com/in/namashin/)  
-**简历:** [下载我的简历](/resume/resume.pdf)
+**简历:** [下载我的简历](/resume/resume-ch.pdf)
 
 ## 教育背景
 
