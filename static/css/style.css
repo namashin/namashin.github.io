@@ -10,55 +10,54 @@ body {
     color: #333;
     line-height: 1.6;
     display: flex;
-    justify-content: center; /* 中央揃え */
-    align-items: center;     /* 中央揃え */
-    min-height: 100vh;       /* ビューポートの高さに合わせる */
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
 }
 
 /* ヘッダーのスタイル */
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px; /* paddingを調整 */
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: flex-end; /* 右揃えに変更 */
-    align-items: center;
+    padding: 10px 0;
+    text-align: right;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 20px; /* リンク間のスペースを調整 */
+    margin: 0 15px;
 }
 
-header a:hover {
-    color: #ff5722;
-}
-
-/* ヒーローセクションのスタイル */
-.hero {
-    background-image: url('/images/shanghai.JPG');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+/* ナビゲーションバーのスタイル */
+nav {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 60px; /* ヘッダーの高さを考慮 */
+    justify-content: flex-end;
+    background: #333;
+    padding: 10px 0;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin: 0;
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff5722;
 }
 
 /* コンテンツエリアのスタイル */
@@ -69,7 +68,6 @@ header a:hover {
     background: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    text-align: center; /* テキストの中央揃え */
 }
 
 /* フッターのスタイル */
@@ -78,28 +76,30 @@ footer {
     padding: 20px 0;
     background-color: #333;
     color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* 見出し */
+/* テキストの見出し */
 h1, h2, h3, h4, h5, h6 {
     color: #222;
-    text-align: center; /* 見出しの中央揃え */
+    transition: color 0.3s;
 }
 
 h1 {
     font-size: 28px;
 }
 
-/* リンク */
+/* リンクの基本スタイル */
 a {
     color: #1a0dab;
+    transition: color 0.3s;
 }
 
 a:hover {
     color: #ff5722;
 }
 
-/* ボタン */
+/* ボタンのスタイル */
 button {
     background-color: #007BFF;
     color: white;
@@ -107,22 +107,25 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-#menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 30px;
-    color: white;
-}
-
 @media (max-width: 768px) {
-    #menu-toggle {
-        display: block;
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
     }
 }
