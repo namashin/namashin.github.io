@@ -5,17 +5,17 @@ draft = false
 +++
 
 **メール:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
-**GitHub:** [namashin](https://github.com/namashin)  
-**電話:** +86 17717394831  
-**LINE:** namashinxx  
-**WhatsApp:** +86 17717394831  
-**LinkedIn:** [namashin](https://www.linkedin.com/in/namashin/)  
+**GitHub:** [https://github.com/namashin](https://github.com/namashin)  
+**電話:** [+86 17717394831](tel:+8617717394831)   
+**LINE:** [namashinxx](https://line.me/ti/p/~namashinxx)  
+**WhatsApp:** [+86 17717394831](https://wa.me/8617717394831)  
+**LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)
 
 ## 学歴
 
 - [上海外国語大学](https://www.shisu.edu.cn/)  
-  2021年卒、GPA: 3.4/4.0
+  文学士 2021年卒業, GPA: 3.4/4.0
 
 - [華東師範大学](https://www.ecnu.edu.cn/)  
   ソフトウェア工学修士課程、2026年卒業予定
