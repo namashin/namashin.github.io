@@ -18,7 +18,7 @@ draft = false
   Bachelor of Arts Graduated in 2021, GPA: 3.4/4.0
 
 - [East China Normal University](https://www.ecnu.edu.cn/)  
-  Master of Software Engineering, Expected Graduation in 2026
+  Master of Engineering in Software Engineering, Expected Graduation in 2026
 
 ## Professional Experience
 
