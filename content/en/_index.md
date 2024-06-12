@@ -8,6 +8,7 @@ draft = false
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **Phone:** [+86 17717394831](tel:+8617717394831)   
 **LINE:** [namashinxx](https://line.me/ti/p/~namashinxx)  
+**WeChat:** namashinxx  
 **WhatsApp:** [+86 17717394831](https://wa.me/8617717394831)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **Resume:** [Download My Resume](/resume/resume-en.pdf)

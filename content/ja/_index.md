@@ -8,6 +8,7 @@ draft = false
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **電話:** [+86 17717394831](tel:+8617717394831)   
 **LINE:** [namashinxx](https://line.me/ti/p/~namashinxx)  
+**WeChat:** namashinxx  
 **WhatsApp:** [+86 17717394831](https://wa.me/8617717394831)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)
