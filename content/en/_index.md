@@ -60,3 +60,17 @@ April 2021 - June 2023
 - Japanese (Native)
 - English (Fluent)
 - Chinese (Fluent: HSK6 level)
+
+## About Me
+
+I am currently living in Shanghai, China, pursuing a Master's degree in Software Engineering at East China Normal University, 
+expected to graduate in 2026. As a software engineer specializing in Go, 
+
+I have a solid background in software development and a passion for technology.
+I aim to leverage my skills to contribute to innovative projects and solutions in the tech industry.
+
+Currently, I am unable to relocate due to my Master's degree program in Shanghai,
+but I am fully available for remote work opportunities. 
+Upon graduation in 2026, I will be available for relocation for on-site work immediately.
+
+Thank you
