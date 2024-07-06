@@ -6,12 +6,8 @@ draft = false
 
 **メール:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
-**電話:** [+86 17717394831](tel:+8617717394831)   
-**LINE:** [namashinxx](https://line.me/ti/p/~namashinxx)  
-**WeChat:** namashinxx  
-**WhatsApp:** [+86 17717394831](https://wa.me/8617717394831)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)
+**履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)  
 
 ## 学歴
 
@@ -27,10 +23,11 @@ draft = false
 
 2021年4月 - 2023年6月
 
-- IT要件を具体的な設計に変換し、以前のCゲートウェイシステムを新しいGo、Pythonゲートウェイシステムに改良。
-- 産業プラントにおけるリアルタイムデータフローを管理するための高性能通信アプリケーションをGoとPythonで開発。Goの並行処理機能（ゴルーチンとチャネル）を使用して、同時に数千のセンサーデータストリームを処理し、ハードウェアコストを増やさずにデータスループットを40％以上向上。
-- Goを使用してTCP/IPベースのソケットゲートウェイをプログラムし、工場のセンサーからのリアルタイムデータをデータベースに保存し、データをウェブフロントエンドに渡すことで、システムの応答性と信頼性を向上。
-- ウォーターフォール方式を使用してソフトウェア文書を計画、開発し、作成。合計7名のチーム環境で強いコミットメントを示す。
+- IT要件を具体的な設計に変換し、以前のVB、C言語ゲートウェイシステムを新しいGolang、Pythonゲートウェイシステムに改良又は新規作成。
+- 産業プラントにおけるリアルタイムデータフローを管理するための高性能通信アプリケーションをGolang、Pythonで開発。
+- Golangの並行処理機能（ゴルーチンとチャネル）を使用して、同時に数千のデータセンサータグを処理し、ハードウェアコストを増やさずにデータスループットを40％以上向上（ベンチマーク）。
+- Golang、Pythonを使用してTCP/IPベースのソケットゲートウェイをプログラムし、工場のセンサーからのリアルタイムデータをデータベースに保存し、データをウェブフロントエンドに渡すことで、システムの応答性と信頼性を向上。
+- ソフトウェア機能仕様書を計画、作成、納品。合計7名のチーム環境での開発経験。
 
 **会社のウェブサイト:** [ピクセルソフトウェア株式会社](https://www.pixelsoft.co.jp/pc/index.html)
 
@@ -41,12 +38,12 @@ draft = false
 - **ウェブ開発:** Gin, Django, Flask
 - **ツール:** Git, GitHub, ffmpeg, OpenCV, Docker
 - **オペレーティングシステム:** Windows, Linux
-- **その他の技術:** TCP/IP, ソケットプログラミング
+- **その他の技術:** TCP/IP（ネットワークプログラミング、ソケットプログラミング）
 
 ## 自身のプロジェクト
 
-- [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - CPU使用率に基づいて変更されるシステムトレイアイコンアプリケーション、トレイから直接アプリケーションを起動するサポート
-- [GoDrone](https://github.com/namashin/GoDrone) - DJI Telloドローンのリモートコントロールおよびビデオストリーミングをウェブブラウザ経由で実現
+- [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - CPU使用率に基づいて変更されるシステムトレイアニマルアイコンアプリケーション。
+- [GoDrone](https://github.com/namashin/GoDrone) - ウェブブラウザ経由で、DJI Telloドローンをリモートコントロール及びビデオストリーミング
 
 ## 言語
 
