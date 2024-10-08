@@ -42,10 +42,10 @@ April 2021 - June 2023
 ## Education Background
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
-  Bachelor of Arts Graduated in 2021, GPA: 3.4/4.0
+  Bachelor of Arts Graduated in 2021; GPA 3.4/4.0
 
 - [East China Normal University](https://www.ecnu.edu.cn/)  
-  Master of Engineering in Software Engineering, Expected Graduation in 2026
+  Master of Engineering in Software Engineering; GPA 3.1/4.0; Expected Graduation in 2026
 
 ## Professional Technical Skills
 
