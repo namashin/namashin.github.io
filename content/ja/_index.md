@@ -1,13 +1,12 @@
 +++
-title = 'IKUMA NAGAHARA - ソフトウェアエンジニア'
+title = '長原 生真 - ソフトウェアエンジニア'
 date = 2024-05-10T20:31:31+08:00
 draft = false
 +++
 
 **メール:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
-**LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**履歴書:** [履歴書をダウンロード](/resume/resume-ja.xlsx)
+**LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)
 
 ## 職務経験
 
@@ -42,15 +41,15 @@ draft = false
 ## 学歴
 
 - [上海外国语大学](https://www.shisu.edu.cn/)  
-  文学士、2021年卒業、GPA: 3.4/4.0
+  文学士、2021年卒業; GPA: 3.4/4.0
 
 - [華東師範大学](https://www.ecnu.edu.cn/)  
-  ソフトウェア工学修士、2026年卒業予定
+  ソフトウェア工学修士; GPA: 3.1 / 4.0; 2026年卒業予定
 
 ## 専門技術スキル
 
 - **プログラミング言語：** Golang, Python, C, C#, SQL
-- **フレームワーク：** .NET, Gin, Django, Flask
+- **フレームワーク：** .NET
 - **Web開発：** Gin, Django, Flask
 - **ツール：** Git, GitHub, ffmpeg, OpenCV, Docker
 - **オペレーティングシステム：** Windows, Linux
@@ -72,11 +71,11 @@ draft = false
 
 ## 自己紹介
 
-現在、中国上海に居住し、華東師範大学でソフトウェア工学の修士号を取得中です。
+現在、中国上海に居住し華東師範大学でソフトウェア工学の修士号を取得中です。
 2026年の卒業を予定しています。
 
-**現在、中国上海での修士課程のため、転居はできません。しかし、リモートワークの機会には完全に対応可能です。**
+**現在、中国上海での修士課程のため、転居はできません。
+しかし、リモートワークの機会には完全に対応可能です。**
 
 **2026年の卒業後は、即座に転居および現場での勤務が可能です。**
-
 ありがとうございます。

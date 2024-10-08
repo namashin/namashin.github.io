@@ -7,7 +7,7 @@ draft = false
 **Email:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**Resume:** [Download My Resume](/resume/resume-en.pdf)
+**Resume:** [Download My English Resume](/resume/resume-en.pdf)
 
 ## Professional Experience
 
@@ -50,7 +50,7 @@ April 2021 - June 2023
 ## Professional Technical Skills
 
 - **Programming Languages:** Golang, Python, C, C#, SQL
-- **Frameworks:** .NET, Gin, Django, Flask
+- **Frameworks:** .NET
 - **Web Development:** Gin, Django, Flask
 - **Tools:** Git, GitHub, ffmpeg, OpenCV, Docker
 - **Operating Systems:** Windows, Linux

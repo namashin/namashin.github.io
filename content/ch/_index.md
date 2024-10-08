@@ -1,5 +1,5 @@
 +++
-title = 'IKUMA NAGAHARA - 软件工程师'
+title = 'IKUMA NAGAHARA - 软件开发工程师'
 date = 2024-05-10T20:31:31+08:00
 draft = false
 +++
@@ -8,11 +8,11 @@ draft = false
 **GitHub：** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn：** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **微信 ID：** nama_shin  
-**简历：** [下载我的简历](/resume/resume-ch.pdf)
+**简历：** [下载我的中文简历](/resume/resume-ch.pdf)
 
 ## 工作经历
 
-### Pixel Software 株式会社 - 软件工程师
+### Pixel Software 株式会社 - 软件开发工程师
 
 2021年4月 - 2023年6月
 
@@ -46,12 +46,12 @@ draft = false
   文学学士，2021年毕业，GPA: 3.4/4.0
 
 - [华东师范大学](https://www.ecnu.edu.cn/)  
-  软件工程硕士，预计2026年毕业
+  软件工程硕士，GPA: 3.1/4.0 预计2026年毕业
 
 ## 专业技术技能
 
 - **编程语言：** Golang, Python, C, C#, SQL
-- **框架：** .NET, Gin, Django, Flask
+- **框架：** .NET
 - **Web开发：** Gin, Django, Flask
 - **工具：** Git, GitHub, ffmpeg, OpenCV, Docker
 - **操作系统：** Windows, Linux
@@ -81,4 +81,4 @@ draft = false
 
 **2026年毕业后，我将立即可以搬迁并进行现场工作。**
 
-谢谢。
+谢谢
