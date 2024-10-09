@@ -19,6 +19,10 @@ April 2021 - June 2023
   - Upgraded legacy VB and C gateway systems to modern architectures using Golang and Python.
   - Designed scalable and maintainable software solutions tailored to client needs.
 
+- **Backend Web Development with REST APIs for Internal Management Systems**:
+   - Developed and maintained REST-ful APIs for internal management system using Python (Django). 
+   - Focused on creating efficient, scalable backend systems and providing ongoing maintenance.
+
 - **High-Performance Application Development**:
   - Developed communication applications to manage real-time data flow in industrial environments.
   - Utilized Golang’s concurrency features to handle thousands of data sensor tags, increasing data throughput by over 40% based on benchmark testing.
