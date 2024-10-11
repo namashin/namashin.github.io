@@ -48,10 +48,10 @@ draft = false
 
 ## 専門技術スキル
 
-- **プログラミング言語：** Golang, Python, C, C#, SQL
+- **プログラミング言語：** Golang, Python, C#, SQL
 - **フレームワーク：** .NET
-- **Web開発：** Gin, Django, Flask
-- **ツール：** Git, GitHub, ffmpeg, OpenCV, Docker
+- **Web開発：** Gin, Django
+- **ツール：** Git, GitHub, Docker
 - **オペレーティングシステム：** Windows, Linux
 - **その他技術：** TCP/IP（ネットワークプログラミング、ソケットプログラミング）
 
