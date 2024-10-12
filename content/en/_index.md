@@ -15,30 +15,28 @@ draft = false
 
 April 2021 - June 2023
 
-- **System Design and Modernization**:
-  - Upgraded legacy VB and C gateway systems to modern architectures using Golang and Python.
-  - Designed scalable and maintainable software solutions tailored to client needs.
+- **Industrial and Public Plant Monitoring System Development**:
+  - Developed a new system using Golang and Python to replace the existing VB and C gateway
+    systems, improving maintainability and scalability.
 
-- **Backend Web Development with REST APIs for Internal Management Systems**:
-   - Developed and maintained REST-ful APIs for internal management system using Python (Django). 
-   - Focused on creating efficient, scalable backend systems and providing ongoing maintenance.
+  - Optimized Golang's concurrency features to handle thousands of sensor tags, increasing data
+    throughput by over 40%, enhancing data stability, and reducing processing time.
+  
+  - Developed a TCP/IP-based socket gateway to manage real-time data flow in industrial
+    environments.
+  
+  - Programmed control software in C# for data operation in Windows environments
 
-- **High-Performance Application Development**:
-  - Developed communication applications to manage real-time data flow in industrial environments.
-  - Utilized Golang’s concurrency features to handle thousands of data sensor tags, increasing data throughput by over 40% based on benchmark testing.
+- **Backend Development with REST API**:
+   - Designed and maintained internal management systems using Python (Django) to support employee
+     information management and project tracking.
 
-- **Network Programming and Data Management**:
-  - Implemented a TCP/IP-based socket gateway for real-time data transmission to centralized databases.
-  - Enhanced system responsiveness and reliability by integrating data with web frontends.
+- **Collaborative Development and Quality Assurance**:
+  - Collaborated within a 7-member team to plan, design, and deliver software functional specifications.
+  - Developed and executed test plans to ensure functionality, performance, and security.
 
-- **Collaborative Software Development**:
-  - Worked within a 7-member team to plan, create, and deliver software functional specifications.
-
-- **Software Testing and Quality Assurance**:
-  - Developed and executed testing plans to ensure functionality, performance, and security.
-
-- **Documentation and Technical Reporting**:
-  - Created technical documentation, including system architectures and API specifications.
+- **Documentation and Reporting**:
+  - Created detailed technical documentation, including system architecture and API specifications.
   - Prepared reports and presentations to communicate project progress and solutions to stakeholders.
 
 **Company Website:** [Pixel Software Corporation](https://www.pixelsoft.co.jp/pc/index.html)
@@ -78,7 +76,6 @@ I am currently living in Shanghai, China, pursuing a Master's degree in Software
 I have a solid background in software development and a passion for new technology. I aim to leverage my skills to contribute to innovative projects and solutions as a software engineer specializing in Golang.
 
 **Currently, I can NOT relocate because of my Master's degree program in Shanghai, China. However, I am fully available for remote work opportunities.**
-
 **After graduation in 2026, I will be immediately available for relocation and on-site work.**
 
 Thank you.
