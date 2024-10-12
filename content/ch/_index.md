@@ -50,7 +50,7 @@ draft = false
 
 ## 专业技术技能
 
-- **编程语言：** Golang, Python, C#, SQL
+- **编程语言：** Golang, Python, C#, JavaScript, SQL
 - **框架：** .NET
 - **Web开发：** Gin, Django
 - **工具：** Git, GitHub, Docker

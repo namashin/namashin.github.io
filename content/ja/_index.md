@@ -48,7 +48,7 @@ draft = false
 
 ## 専門技術スキル
 
-- **プログラミング言語：** Golang, Python, C#, SQL
+- **プログラミング言語：** Golang, Python, C#, JavaScript, SQL
 - **フレームワーク：** .NET
 - **Web開発：** Gin, Django
 - **ツール：** Git, GitHub, Docker

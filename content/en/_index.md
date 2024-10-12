@@ -53,7 +53,7 @@ April 2021 - June 2023
 
 ## Professional Technical Skills
 
-- **Programming Languages:** Golang, Python, C#, SQL
+- **Programming Languages:** Golang, Python, C#, JavaScript, SQL
 - **Frameworks:** .NET
 - **Web Development:** Gin, Django
 - **Tools:** Git, GitHub, Docker
