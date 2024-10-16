@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://namashin.github.io/ch/</loc>
+    <loc>http://localhost:1313/ch/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://namashin.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://namashin.github.io/ja/"
+                href="http://localhost:1313/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ch"
-                href="https://namashin.github.io/ch/"
+                href="http://localhost:1313/ch/"
                 />
   </url><url>
-    <loc>https://namashin.github.io/ch/categories/</loc>
+    <loc>http://localhost:1313/ch/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://namashin.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://namashin.github.io/ja/categories/"
+                href="http://localhost:1313/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ch"
-                href="https://namashin.github.io/ch/categories/"
+                href="http://localhost:1313/ch/categories/"
                 />
   </url><url>
-    <loc>https://namashin.github.io/ch/tags/</loc>
+    <loc>http://localhost:1313/ch/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://namashin.github.io/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://namashin.github.io/ja/tags/"
+                href="http://localhost:1313/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ch"
-                href="https://namashin.github.io/ch/tags/"
+                href="http://localhost:1313/ch/tags/"
                 />
   </url>
 </urlset>
