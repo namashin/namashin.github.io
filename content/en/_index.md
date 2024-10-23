@@ -52,6 +52,7 @@ April 2021 - June 2023
   - Bachelor of Arts Graduated in 2021
   - GPA 3.4/4.0
   - [View Transcript (PDF)](/resume/transcript-bachelor-en.pdf)
+  - [View Certificate (PDF)](/resume/certificate-bachelor.pdf)
 
 ## Professional Technical Skills
 
@@ -78,7 +79,7 @@ April 2021 - June 2023
 
 - Japanese (Native)
 - English (Professional working proficiency)
-- Chinese (Fluent: HSK6 level)
+- Chinese (Professional working proficiency)
 
 ## About Me
 
