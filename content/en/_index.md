@@ -7,7 +7,7 @@ draft = false
 **Email:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**Resume:** [View Resume (PDF)](/resume/resume-en.pdf)
+**Resume:** [View Resume (PDF)](/materials/resume-en.pdf)
 
 ## Professional Experience
 
@@ -46,13 +46,13 @@ April 2021 - June 2023
 - [East China Normal University](https://www.ecnu.edu.cn/)  
   - Master of Engineering in Software Engineering
   - GPA 3.1/4.0; Expected Graduation in 2026
-  - [View Transcript (PDF)](/resume/transcript-master-en.pdf)
+  - [View Transcript (PDF)](/materials/transcript-master-en.pdf)
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
   - Bachelor of Arts Graduated in 2021
   - GPA 3.4/4.0
-  - [View Transcript (PDF)](/resume/transcript-bachelor-en.pdf)
-  - [View Certificate (PDF)](/resume/certificate-bachelor.pdf)
+  - [View Transcript (PDF)](/materials/transcript-bachelor-en.pdf)
+  - [View Certificate (PDF)](/materials/certificate-bachelor.pdf)
 
 ## Professional Technical Skills
 
@@ -79,7 +79,8 @@ April 2021 - June 2023
 
 - Japanese (Native)
 - English (Professional working proficiency)
-- Chinese (Professional working proficiency)
+- Chinese (Professional working proficiency)  
+  - [View HSK6 Certificate (PDF)](/materials/hsk6_certificate.pdf)
 
 ## About Me
 
