@@ -46,11 +46,11 @@ draft = false
 
 ## 専門技術スキル
 
-- **プログラミング言語：** Golang, Python, C#, JavaScript, SQL
+- **プログラミング言語：** Golang; Python; C#; JavaScript; SQL
 - **フレームワーク：** .NET
-- **Web開発：** Gin, Django
-- **ツール：** Git, GitHub, Docker
-- **オペレーティングシステム：** Windows, Linux
+- **Web開発：** Gin; Django
+- **ツール：** Git; GitHub; Docker
+- **オペレーティングシステム：** Windows; Linux
 - **その他技術：** TCP/IP（ネットワークプログラミング、ソケットプログラミング）
 
 ## 修士号研究プロジェクト: 機械学習

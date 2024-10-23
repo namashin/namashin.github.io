@@ -7,11 +7,11 @@ draft = false
 **Email:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**Resume:** [Download My English Resume](/resume/resume-en.pdf)
+**Resume:** [View Resume (PDF)](/resume/resume-en.pdf)
 
 ## Professional Experience
 
-### Pixel Software Corporation - Software Engineer
+### Pixel Software - Software Engineer
 
 April 2021 - June 2023
 
@@ -39,30 +39,34 @@ April 2021 - June 2023
   - Created detailed technical documentation, including system architecture and API specifications.
   - Prepared reports and presentations to communicate project progress and solutions to stakeholders.
 
-**Company Website:** [Pixel Software Corporation](https://www.pixelsoft.co.jp/pc/index.html)
+**Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
 ## Education Background
 
-- [Shanghai International Studies University](https://www.shisu.edu.cn/)  
-  Bachelor of Arts Graduated in 2021; GPA 3.4/4.0
-
 - [East China Normal University](https://www.ecnu.edu.cn/)  
-  Master of Engineering in Software Engineering; GPA 3.1/4.0; Expected Graduation in 2026
+  - Master of Engineering in Software Engineering
+  - GPA 3.1/4.0; Expected Graduation in 2026
+  - [View Transcript (PDF)](/resume/transcript-master-en.pdf)
+
+- [Shanghai International Studies University](https://www.shisu.edu.cn/)  
+  - Bachelor of Arts Graduated in 2021
+  - GPA 3.4/4.0
+  - [View Transcript (PDF)](/resume/transcript-bachelor-en.pdf)
 
 ## Professional Technical Skills
 
-- **Programming Languages:** Golang, Python, C#, JavaScript, SQL
+- **Programming Languages:** Golang; Python; C#; JavaScript; SQL
 - **Frameworks:** .NET
-- **Web Development:** Gin, Django
-- **Tools:** Git, GitHub, Docker
-- **Operating Systems:** Windows, Linux
-- **Other Technologies:** TCP/IP（Network Programming, Socket Programming）
+- **Web Development:** Gin; Django
+- **Tools:** Git; GitHub; Docker
+- **Operating Systems:** Windows; Linux
+- **Other Technologies:** TCP/IP (Network Programming; Socket Programming); JQuery 
 
 ## Master's Degree Research Project: Machine Learning
 **Building a Flight Ticket Sales Forecasting Model Using Machine Learning**
 
-- Analyze the factors influencing prices based on historical airline ticket price data, and examine which factors affect airline ticket prices.
-- Compare the predictive accuracy of multiple machine learning algorithms (e.g., LightGBM, GBDT, SARIMA) to identify the optimal method.
+- Analyze the factors influencing prices based on historical airline ticket price data; and examine which factors affect airline ticket prices.
+- Compare the predictive accuracy of multiple machine learning algorithms (e.g.; LightGBM; GBDT; SARIMA) to identify the optimal method.
 - Researching a unique machine learning algorithm aimed at predicting the optimal airline ticket prices.
 
 ## Featured My Projects
