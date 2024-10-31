@@ -11,9 +11,9 @@ draft = false
 
 ## Professional Experience
 
-### Pixel Software - Software Engineer
+### Pixel Software - Software Engineer - Full Time
 
-April 2021 - June 2023
+2021.04 - 2023.06
 
 - **Industrial and Public Plant Monitoring System Development**:
   - Developed a new system using Golang and Python to replace the existing VB and C gateway
@@ -40,6 +40,16 @@ April 2021 - June 2023
   - Prepared reports and presentations to communicate project progress and solutions to stakeholders.
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
+
+### Tomorrows AI - Software Engineer - Intern
+
+2024.10 - Now
+
+  - Developed a Flask-based web application for news article search and display, implementing keyword and title search functionalities.
+
+  - Created a dynamic detail page to display article titles, images, and content from Flask data, enhancing user interactivity.
+
+**Company Website:** [Tomorrows AI](https://www.linkedin.com/company/tomorrows-ai/mycompany/)
 
 ## Education Background
 
