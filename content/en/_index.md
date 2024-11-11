@@ -9,9 +9,10 @@ draft = false
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **Resume:** [View Resume (PDF)](/materials/resume-en.pdf)
 
-## Professional Experience
+# Professional Experience
 
-### Pixel Software - Software Engineer - Full Time
+## Pixel Software 株式会社 - Full Time
+### Software Engineer - Product Solutions Division 1 Team
 
 2021.04 - 2023.06
 
@@ -41,7 +42,8 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-### Tomorrows AI - Software Engineer - Intern
+## Tomorrows AI - Intern
+### Software Engineer - USA Backend Team
 
 2024.10 - Now
 
