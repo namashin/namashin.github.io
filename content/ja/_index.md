@@ -52,7 +52,7 @@ draft = false
 
 - [華東師範大学](https://www.ecnu.edu.cn/)
   - ソフトウェア工学 修士
-  - GPA 3.1/4.0; 2026年卒業予定
+  - GPA 3.14/4.0; 2026年卒業予定
   - [成績証明書を見る (PDF)](/materials/transcript-master-en.pdf)
 
 - [上海外国語大学](https://www.shisu.edu.cn/)

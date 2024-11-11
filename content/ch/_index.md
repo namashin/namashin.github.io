@@ -54,7 +54,7 @@ draft = false
 
 - [华东师范大学](https://www.ecnu.edu.cn/)
   - 软件工程硕士
-  - GPA 3.1/4.0；预计2026年毕业
+  - GPA 3.14/4.0；预计2026年毕业
   - [查看成绩单 (PDF)](/materials/transcript-master-en.pdf)
 
 - [上海外国语大学](https://www.shisu.edu.cn/)

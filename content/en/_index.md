@@ -57,7 +57,7 @@ draft = false
 
 - [East China Normal University](https://www.ecnu.edu.cn/)  
   - Master of Engineering in Software Engineering
-  - GPA 3.1/4.0; Expected Graduation in 2026
+  - GPA 3.14/4.0; Expected Graduation in 2026
   - [View Transcript (PDF)](/materials/transcript-master-en.pdf)
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
