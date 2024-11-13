@@ -11,7 +11,7 @@ draft = false
 
 # Professional Experience
 
-## Pixel Software 株式会社 - Full Time
+## Pixel Software 株式会社 - Full Time - On Site
 ### Software Engineer - Product Solutions Division 1 Team
 
 2021.04 - 2023.06
@@ -42,7 +42,7 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - Intern
+## Tomorrows AI - Internship - Remote
 ### Software Engineer - USA Backend Team
 
 2024.10 - Now
