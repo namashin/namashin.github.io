@@ -10,7 +10,7 @@ draft = false
 
 # 職務経験
 
-## Pixel Software 株式会社 - 正社員
+## Pixel Software 株式会社（日本） - 正社員
 ### ソフトウェアエンジニア
 
 2021.04 - 2023.06
@@ -37,7 +37,7 @@ draft = false
 
 **会社のウェブサイト:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - インターン
+## Tomorrows AI（アメリカ） - インターン - フルリモート勤務
 ### ソフトウェアエンジニア - USA バックエンドチーム
 
 2024.10 - 現在

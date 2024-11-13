@@ -12,7 +12,7 @@ draft = false
 
 # 工作经历
 
-## Pixel Software 株式会社 - 全职
+## Pixel Software 株式会社（日本） - 全职
 ### 软件工程师
 
 2021.04 - 2023.06
@@ -39,7 +39,7 @@ draft = false
 
 **公司网站:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - 实习生
+## Tomorrows AI（美国） - 实习 - Remote
 ### 软件工程师 - USA Backend Team
 
 2024.10 - 至今
