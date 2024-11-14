@@ -56,13 +56,16 @@ draft = false
 ## Education Background
 
 - [East China Normal University](https://www.ecnu.edu.cn/)  
-  - Master of Engineering in Software Engineering
+  - Master Degree
+  - School & Dept: Software Engineering Institute
+  - Major: Software Engineering
   - GPA 3.14/4.0; Expected Graduation in 2026
   - [View Transcript (PDF)](/materials/transcript-master-en.pdf)
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
-  - Bachelor of Arts Graduated in 2021
-  - GPA 3.4/4.0
+  - Bachelor Degree
+  - Bachelor of Arts in Teaching Chinese to Speakers of Other Languages
+  - GPA 3.4/4.0; Graduated in 2021
   - [View Transcript (PDF)](/materials/transcript-bachelor-en.pdf)
   - [View Certificate (PDF)](/materials/certificate-bachelor.pdf)
 
