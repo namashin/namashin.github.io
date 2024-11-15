@@ -11,8 +11,9 @@ draft = false
 
 # Professional Experience
 
-## Pixel Software 株式会社 - Full Time - On Site
+## Pixel Software 株式会社 - Full Time
 ### Software Engineer - Product Solutions Division 1 Team
+#### Ehime, Japan · On Site
 
 2021.04 - 2023.06
 
@@ -42,8 +43,9 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - Internship - Remote
+## Tomorrows AI - Internship
 ### Software Engineer - USA Backend Team
+#### Washington, United States · Remote
 
 2024.10 - Now
 
