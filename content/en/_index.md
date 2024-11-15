@@ -7,7 +7,7 @@ draft = false
 **Email:** [changyuanshengzhen@icloud.com](mailto:changyuanshengzhen@icloud.com)  
 **GitHub:** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
-**Resume:** [View Resume (PDF)](/materials/resume-en.pdf)
+**Resume:** [View Resume (PDF)](/materials/NagaharaIkuma_Resume.pdf)
 
 # Professional Experience
 
