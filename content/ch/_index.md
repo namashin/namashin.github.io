@@ -48,7 +48,7 @@ draft = false
 
 - 创建了一个动态详细页面，用于展示文章标题、图片和Flask数据内容，提高了用户互动性。
 
-**公司网站:** [Tomorrows AI](https://www.linkedin.com/company/tomorrows-ai/mycompany/)
+**公司网站:** [Tomorrows AI](https://www.tomorrowsai.org/)
 
 ## 教育背景
 

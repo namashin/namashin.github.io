@@ -46,7 +46,7 @@ draft = false
 
 - 記事タイトル、画像、内容を表示する動的な詳細ページを作成し、ユーザーの対話性を向上させました。
 
-**会社のウェブサイト:** [Tomorrows AI](https://www.linkedin.com/company/tomorrows-ai/mycompany/)
+**会社のウェブサイト:** [Tomorrows AI](https://www.tomorrowsai.org/)
 
 ## 学歴
 

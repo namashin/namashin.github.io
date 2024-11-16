@@ -53,7 +53,7 @@ draft = false
 
   - Created a dynamic detail page to display article titles, images, and content from Flask data, enhancing user interactivity.
 
-**Company Website:** [Tomorrows AI](https://www.linkedin.com/company/tomorrows-ai/mycompany/)
+**Company Website:** [Tomorrows AI](https://www.tomorrowsai.org/)
 
 ## Education Background
 
