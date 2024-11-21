@@ -29,10 +29,6 @@ draft = false
   
   - Programmed control software in C# for data operation in Windows environments
 
-- **Backend Development with REST API**:
-   - Designed and maintained internal management systems using Python (Django) to support employee
-     information management and project tracking.
-
 - **Collaborative Development and Quality Assurance**:
   - Collaborated within a 7-member team to plan, design, and deliver software functional specifications.
   - Developed and executed test plans to ensure functionality, performance, and security.
@@ -48,6 +44,8 @@ draft = false
 #### Washington, United States · Remote
 
 2024.10 - Now
+
+- **Media Platform Development, Software Development and Engineering**:
 
   - Developed a Flask-based web application for news article search and display, implementing keyword and title search functionalities.
 
