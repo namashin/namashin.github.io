@@ -72,13 +72,6 @@ draft = false
 - **操作系统:** Windows; Linux
 - **其他技术:** TCP/IP（网络编程；套接字编程）；JQuery
 
-## 硕士学位研究项目：机器学习
-**使用机器学习构建机票销售预测模型**
-
-- 基于历史机票价格数据分析影响价格的因素，研究哪些因素影响机票价格。
-- 比较多种机器学习算法的预测准确性（如LightGBM、GBDT、SARIMA），以确定最佳方法。
-- 研究一种独特的机器学习算法，旨在预测最优的机票价格。
-
 ## 我的重点项目
 
 - [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - 系统托盘动物图标应用程序，可根据CPU使用情况变化，支持从托盘直接启动应用。

@@ -78,13 +78,6 @@ draft = false
 - **Operating Systems:** Windows; Linux
 - **Other Technologies:** TCP/IP (Network Programming; Socket Programming); JQuery 
 
-## Master's Degree Research Project: Machine Learning
-**Building a Flight Ticket Sales Forecasting Model Using Machine Learning**
-
-- Analyze the factors influencing prices based on historical airline ticket price data; and examine which factors affect airline ticket prices.
-- Compare the predictive accuracy of multiple machine learning algorithms (e.g.; LightGBM; GBDT; SARIMA) to identify the optimal method.
-- Researching a unique machine learning algorithm aimed at predicting the optimal airline ticket prices.
-
 ## Featured My Projects
 
 - [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - System tray animal icon application that changes based on CPU usage. Supports launching applications directly from the tray.
