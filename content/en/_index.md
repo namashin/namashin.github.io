@@ -39,7 +39,7 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - Internship
+## Tomorrows AI - Internship - 3month Contract
 ### Software Engineer - USA Backend Team
 #### Washington, United States · Remote
 
@@ -89,14 +89,3 @@ draft = false
 - English (Professional working proficiency)
 - Chinese (Professional working proficiency)  
   - [View HSK6 Certificate (PDF)](/materials/hsk6_certificate.pdf)
-
-## About Me
-
-I am currently living in Shanghai, China, pursuing a Master's degree in Software Engineering at East China Normal University, expected to graduate in 2026.
-
-I have a solid background in software development and a passion for new technology. I aim to leverage my skills to contribute to innovative projects and solutions as a software engineer specializing in Golang.
-
-**Currently, I can NOT relocate because of my Master's degree program in Shanghai, China. However, I am fully available for remote work opportunities.**
-**After graduation in 2026, I will be immediately available for relocation and on-site work.**
-
-Thank you.

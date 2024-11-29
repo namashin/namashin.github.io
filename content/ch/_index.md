@@ -13,7 +13,7 @@ draft = false
 # 工作经历
 
 ## Pixel Software 株式会社（日本） - 全职
-### 软件工程师
+### 软件开发工程师
 
 2021.04 - 2023.06
 
@@ -40,7 +40,7 @@ draft = false
 **公司网站:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
 ## Tomorrows AI（美国） - 实习 - Remote
-### 软件工程师 - USA Backend Team
+### 软件开发工程师 - USA Backend Team
 
 2024.10 - 至今
 
@@ -83,12 +83,3 @@ draft = false
 - 英语（专业工作能力）
 - 中文（专业工作能力）
   - [查看HSK6证书 (PDF)](/materials/hsk6_certificate.pdf)
-
-## 关于我
-
-我目前居住在中国上海，就读于华东师范大学的软件工程硕士课程，预计2026年毕业。
-
-我拥有扎实的软件开发背景，并对新技术充满热情。希望运用我的技能，作为专注于Golang的软件工程师，为创新项目和解决方案做出贡献。
-
-**目前，由于硕士学位课程的关系，我无法搬迁，但完全可以接受远程工作。**  
-**2026年毕业后，我具备搬迁和现场工作的能力。**
