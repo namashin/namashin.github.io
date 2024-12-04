@@ -39,7 +39,7 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - Internship - 3month Contract
+## Tomorrows AI - Internship
 ### Software Engineer - USA Backend Team
 #### Washington, United States · Remote
 
