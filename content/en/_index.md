@@ -64,7 +64,7 @@ draft = false
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
   - Bachelor Degree
-  - Bachelor of Arts in Teaching Chinese to Speakers of Other Languages
+  - School & Dept: Teaching Chinese to Speakers of Other Languages
   - GPA 3.4/4.0; Graduated in 2021
   - [View Transcript (PDF)](/materials/transcript-bachelor-en.pdf)
   - [View Certificate (PDF)](/materials/certificate-bachelor.pdf)
