@@ -8,7 +8,7 @@ draft = false
 **GitHub：** [https://github.com/namashin](https://github.com/namashin)  
 **LinkedIn：** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **微信 ID：** nama_shin  
-**简历：** [下载我的中文简历](/resume/resume-ch.pdf)
+**简历：** [下载我的简历](/materials/NagaharaIkuma_Resume.pdf)
 
 # 工作经历
 
