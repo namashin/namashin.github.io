@@ -11,8 +11,9 @@ draft = false
 
 # Professional Experience
 
-## Pixel Software 株式会社 - Full Time
-### Software Engineer - Product Solutions Division 1 Team
+## Pixel Software 株式会社
+### Software Engineer - Full Time
+#### Product Solutions Division 1 Team
 #### Ehime, Japan · On Site
 
 2021.04 - 2023.06
@@ -39,17 +40,22 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Tomorrows AI - Internship
-### Software Engineer - USA Backend Team
+## Tomorrows AI 
+### Software Engineer - Internship
+#### USA Backend Team
 #### Washington, United States · Remote
 
 2024.10 - Now
 
 - **Media Platform Development, Software Development and Engineering**:
 
-  - Developed a Flask-based web application for news article search and display, implementing keyword and title search functionalities.
+  - Developed a Flask-based web application for a media platform, enabling efficient keyword and title search functionalities to enhance user experience.
 
-  - Created a dynamic detail page to display article titles, images, and content from Flask data, enhancing user interactivity.
+  - Designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement.
+
+  - Contributed to the backend development of a scalable web application, ensuring clean code practices and performance optimization.
+
+  - Collaborated with a remote, international team to deliver high-quality software solutions.
 
 **Company Website:** [Tomorrows AI](https://www.tomorrowsai.org/)
 
