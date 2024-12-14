@@ -45,7 +45,7 @@ draft = false
 #### USA Backend Team
 #### Washington, United States · Remote
 
-2024.10 - Now
+2024.10 - 2024.12
 
 - **Media Platform Development, Software Development and Engineering**:
 
