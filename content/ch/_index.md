@@ -13,7 +13,6 @@ draft = false
 # 工作经历
 
 ## Tomorrows AI
-## Pixel Software 株式会社（日本）
 ### 软件开发工程师 - 实习
 #### 美国后端团队
 #### 美国华盛顿（Remote）
