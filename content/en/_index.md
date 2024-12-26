@@ -9,26 +9,7 @@ draft = false
 **LinkedIn:** [https://www.linkedin.com/in/namashin/](https://www.linkedin.com/in/namashin/)  
 **Resume:** [View Resume (PDF)](/materials/NagaharaIkuma_Resume.pdf)
 
-# Professional Experience
-
-## Tomorrows AI
-### Software Engineer - Internship
-#### USA Backend Team
-#### Washington, United States · Remote
-
-2024.10 - 2024.12
-
-- **Media Platform Development, Software Development and Engineering**:
-
-  - Developed a Flask-based web application for a media platform, enabling efficient keyword and title search functionalities to enhance user experience.
-
-  - Designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement.
-
-  - Contributed to the backend development of a scalable web application, ensuring clean code practices and performance optimization.
-
-  - Collaborated with a remote, international team to deliver high-quality software solutions.
-
-**Company Website:** [Tomorrows AI](https://www.tomorrowsai.org/)
+# PROFESSIONAL EMPLOYMENT EXPERIENCE
 
 ## Pixel Software 株式会社
 ### Software Engineer - Full Time
@@ -61,7 +42,28 @@ draft = false
 
 **Company Website:** [Pixel Software](https://www.pixelsoft.co.jp/pc/index.html)
 
-## Education Background
+# INTERNSHIP EMPLOYMENT EXPERIENCE
+
+## Tomorrows AI
+### Software Engineer
+#### USA Backend Team
+#### Washington, United States · Remote
+
+2024.10 - 2024.12
+
+- **Media Platform Development, Software Development and Engineering**:
+
+  - Developed a Flask-based web application for a media platform, enabling efficient keyword and title search functionalities to enhance user experience.
+
+  - Designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement.
+
+  - Contributed to the backend development of a scalable web application, ensuring clean code practices and performance optimization.
+
+  - Collaborated with a remote, international team to deliver high-quality software solutions.
+
+**Company Website:** [Tomorrows AI](https://www.tomorrowsai.org/)
+
+## EDUCATION BACKGROUND
 
 - [East China Normal University](https://www.ecnu.edu.cn/)  
   - Master Degree
@@ -78,7 +80,7 @@ draft = false
   - [View Transcript (PDF)](/materials/transcript-bachelor-en.pdf)
   - [View Certificate (PDF)](/materials/certificate-bachelor.pdf)
 
-## Professional Technical Skills
+## PROFESSIONAL TECHNICAL SKILLS
 
 - **Programming Languages:** Golang; Python; C#; JavaScript; SQL
 - **Frameworks:** .NET
@@ -87,12 +89,12 @@ draft = false
 - **Operating Systems:** Windows; Linux
 - **Other Technologies:** TCP/IP (Network Programming; Socket Programming); JQuery 
 
-## Featured My Projects
+## FEATURED MY PROJECTS
 
 - [GoCat](https://github.com/namashin/GoCat) / [PyCat](https://github.com/namashin/PyCat) - System tray animal icon application that changes based on CPU usage. Supports launching applications directly from the tray.
 - [GoDrone](https://github.com/namashin/GoDrone) - Remote control and video streaming for the DJI Tello drone through a web browser.
 
-## Languages
+## LANGUAGES
 
 - Japanese (Native)
 
