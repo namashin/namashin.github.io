@@ -71,8 +71,8 @@ draft = false
 
 - [上海外国语大学](https://www.shisu.edu.cn/)
   - 学士学位
-  - 学院与专业：汉语国际教育学院
-  - 专业：对外汉语教学
+  - 学院与专业：国际教育学院
+  - 专业：汉语国际教育
   - GPA: 3.4/4.0
   - 2021年毕业
   - [查看成绩单 (PDF)](/materials/transcript-bachelor-en.pdf)

@@ -45,7 +45,7 @@ draft = false
 # INTERNSHIP EMPLOYMENT EXPERIENCE
 
 ## Tomorrows AI
-### Software Engineer
+### Software Developer
 #### USA Backend Team
 #### Washington, United States · Remote
 
@@ -74,7 +74,7 @@ draft = false
 
 - [Shanghai International Studies University](https://www.shisu.edu.cn/)  
   - Bachelor Degree
-  - School & Dept: Chinese Studies and Exchange
+  - School & Dept: School of Education
   - Major: Teaching Chinese to Speakers of Other Languages
   - GPA 3.4/4.0; Graduated in 2021
   - [View Transcript (PDF)](/materials/transcript-bachelor-en.pdf)
