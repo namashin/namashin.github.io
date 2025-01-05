@@ -1,6 +1,51 @@
 {{ define "main" }}
-<div class="content">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-</div>
+<section id="about" class="profile">
+  <img src="/images/face.jpg" alt="Profile photo of IKUMA NAGAHARA, a Software Engineer" class="profile-photo">
+  <div class="description">
+    {{ range .Site.Params.introduce }}
+    <p>{{ .text }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <h2>EXPERIENCE</h2>
+  {{ range .Site.Params.experience }}
+  <div class="experience-row">
+    <div class="experience-left">
+      <p>{{ .date }}</p>
+    </div>
+    <div class="experience-right">
+      <h3>{{ .title }}</h3>
+      {{ range (split .description ".") }}
+      {{ if . }}
+      <p>{{ . }}.</p>
+      {{ end }}
+      {{ end }}
+      <div class="skills">
+        {{ range .skills }}<span>{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<section id="skills" class="section">
+  <h2>PROFESSIONAL TECHNICAL SKILLS</h2>
+  <div class="skills-container">
+    {{ range .Site.Params.professional_skills }}
+    <div class="skills-category">
+      <h3>{{ .category }}</h3>
+      <div class="skills-icons">
+        {{ range .skills }}
+        <div class="skill-item">
+          <img src="/icons/{{ lower (replace . " " "_" -1) }}.png" alt="{{ . }}" class="skill-icon">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
 {{ end }}

@@ -2,56 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://namashin.github.io/en/en/</loc>
+    <lastmod>2024-05-10T20:31:31+08:00</lastmod>
+  </url><url>
+    <loc>https://namashin.github.io/en/ch/</loc>
+    <lastmod>2024-05-10T20:31:31+08:00</lastmod>
+  </url><url>
     <loc>https://namashin.github.io/en/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://namashin.github.io/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ch"
-                href="https://namashin.github.io/ch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://namashin.github.io/en/"
-                />
+  </url><url>
+    <loc>https://namashin.github.io/en/ja/</loc>
+    <lastmod>2024-05-10T20:31:31+08:00</lastmod>
   </url><url>
     <loc>https://namashin.github.io/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://namashin.github.io/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ch"
-                href="https://namashin.github.io/ch/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://namashin.github.io/en/categories/"
-                />
   </url><url>
     <loc>https://namashin.github.io/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://namashin.github.io/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ch"
-                href="https://namashin.github.io/ch/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://namashin.github.io/en/tags/"
-                />
   </url>
 </urlset>

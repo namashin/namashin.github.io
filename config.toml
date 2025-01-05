@@ -1,24 +1,76 @@
 baseURL = "https://namashin.github.io/"
-languageCode = 'en-us'
-title = '@namashin'
+languageCode = "en-us"
+title = "IKUMA NAGAHARA | Portfolio"
 theme = "ananke"
 publishDir = "docs"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-[languages]
-[languages.en]
-languageName = "English"
-weight = 1
-contentDir = "content/en"
+[params]
+name = "IKUMA NAGAHARA"
+title = "Software Engineer"
+description = "I build reliable, complex, and scalable software systems."
+email = "mailto:changyuanshengzhen@icloud.com"
+github = "https://github.com/namashin"
+linkedin = "https://www.linkedin.com/in/namashin/"
+resume = "/materials/NagaharaIkuma_Resume.pdf"
 
-[languages.ja]
-languageName = "日本語"
-weight = 2
-contentDir = "content/ja"
+[[params.introduce]]
+text = """Hello! My name is NAGAHARA IKUMA, I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences.
 
-[languages.ch]
-languageName = "中文"
-weight = 3
-contentDir = "content/ch"
+I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea. These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons.
+
+In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan, where I developed industrial real-time process information management systems and factory data management software. Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development.
+
+Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you!
+"""
+
+# Experience data for dynamic rendering
+[[params.experience]]
+date = "2024.10 - 2024.12"
+title = "Software Developer Intern - Tomorrows AI"
+description = "Developed a Flask-based web application for a media platform, enhancing user experience with efficient keyword and title search functionalities. Designed and implemented dynamic detail pages to display article titles, images, and content, improving interactivity and engagement. Contributed to the backend development of a scalable web application, adhering to clean code practices and optimizing performance."
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+
+[[params.experience]]
+date = "2023.9 - Now"
+title = "Start Pursuing Master Degree"
+description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University."
+skills = ["Software Engineering"]
+
+[[params.experience]]
+date = "2021.4 - 2023.6"
+title = "Software Engineer - Pixel Software 株式会社"
+description = "Developed an industrial monitoring system using Golang and Python, replacing legacy VB and C systems to improve maintainability and scalability. Optimized Goroutines to increase data processing efficiency by over 40% and implemented a TCP/IP-based socket gateway for real-time data flow management. Created control software in C# for data operations in Windows environments. Collaborated with a 7-member team to design and plan software specifications and executed test plans to ensure functionality, performance, and security."
+skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+
+[[params.experience]]
+date = "2019.9 - 2021.6"
+title = "Graduated Bachelor Degree"
+description = "Graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education."
+skills = ["Chinese"]
+
+[[params.professional_skills]]
+category = "Programming Languages"
+skills = ["Golang", "Python", "CSharp", "JavaScript", "SQL", "HTML", "CSS"]
+
+[[params.professional_skills]]
+category = "Frameworks"
+skills = [".NET"]
+
+[[params.professional_skills]]
+category = "Web Development"
+skills = ["Gin", "Django", "Flask"]
+
+[[params.professional_skills]]
+category = "Tools"
+skills = ["Git", "GitHub", "Docker"]
+
+[[params.professional_skills]]
+category = "Operating Systems"
+skills = ["Windows", "Linux"]
+
+[[params.professional_skills]]
+category = "Other Technologies"
+skills = ["TCP IP", "jQuery"]
