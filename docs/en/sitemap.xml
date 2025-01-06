@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/en/</loc>
+    <loc>https://namashin.github.io/en/en/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/ch/</loc>
+    <loc>https://namashin.github.io/en/ch/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://namashin.github.io/en/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/ja/</loc>
+    <loc>https://namashin.github.io/en/ja/</loc>
     <lastmod>2024-05-10T20:31:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://namashin.github.io/en/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://namashin.github.io/en/tags/</loc>
   </url>
 </urlset>
