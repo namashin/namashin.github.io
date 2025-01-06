@@ -8,6 +8,18 @@ body {
     letter-spacing: 1px; /* 全体の文字間隔を少し広げる */
 }
 
+.sidebar h1,
+.sidebar p,
+.sidebar nav ul li a,
+.description p,
+.section h2,
+.experience-left,
+.experience-right h3,
+.skills span,
+.nav-link {
+    letter-spacing: 1px; /* 他のテキストにも適用 */
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -31,14 +43,14 @@ body {
     color: #4fc1e9;
     text-align: center;
     margin-bottom: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .sidebar p {
     margin: 10px 0;
     color: #c0c0c0;
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .sidebar nav ul {
@@ -57,7 +69,7 @@ body {
     color: #ffffff;
     font-size: 1.2rem;
     transition: color 0.3s, font-size 0.3s ease;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .sidebar nav ul li a:hover {
@@ -103,7 +115,7 @@ main {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     border: 3px solid #4fc1e9;
 }
 
@@ -111,7 +123,7 @@ main {
     font-size: 1rem;
     line-height: 1.5;
     color: #d0d0d0;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 /* === セクション全体のスタイル === */
@@ -123,14 +135,14 @@ main {
     font-size: 1.5rem;
     color: #4fc1e9;
     margin-bottom: 10px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 /* === EXPERIENCEセクション === */
 .experience-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     transition: background-color 0.3s ease;
 }
 
@@ -139,14 +151,14 @@ main {
     font-size: 0.9rem;
     color: #a0aec0;
     text-align: left;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .experience-right {
     flex: 1;
     font-size: 1rem;
     color: #d0d0d0;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .experience-right h3 {
