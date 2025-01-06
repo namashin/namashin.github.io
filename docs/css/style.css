@@ -1,10 +1,11 @@
 /* === 全体のスタイル === */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     margin: 0;
     padding: 0;
     color: #ffffff;
-    background-color: #1e3a56;
+    background-color: #1a3149; /* 背景色を全体統一 */
+    letter-spacing: 1px; /* 全体の文字間隔を少し広げる */
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 /* === サイドバーのスタイル === */
 .sidebar {
     flex: 3; /* 3:7の比率を維持 */
-    background-color: #102a43;
+    background-color: #1a3149; /* サイドバーの背景色を全体と統一 */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -30,12 +31,14 @@ body {
     color: #4fc1e9;
     text-align: center;
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 
 .sidebar p {
     margin: 10px 0;
     color: #c0c0c0;
     text-align: center;
+    letter-spacing: 0.5px;
 }
 
 .sidebar nav ul {
@@ -54,6 +57,7 @@ body {
     color: #ffffff;
     font-size: 1.2rem;
     transition: color 0.3s, font-size 0.3s ease;
+    letter-spacing: 0.5px;
 }
 
 .sidebar nav ul li a:hover {
@@ -84,19 +88,20 @@ main {
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+    background-color: #1a3149; /* メインコンテンツの背景色を全体と統一 */
 }
 
 /* === プロフィールセクション === */
 .profile {
     text-align: center;
-    max-width: 800px; /* プロフィールセクションの最大幅 */
-    margin: 0 auto; /* 中央寄せ */
+    margin: 0 auto;
+    max-width: 800px; /* プロフィールの最大幅を設定 */
 }
 
 .profile-photo {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     margin-bottom: 20px;
     border: 3px solid #4fc1e9;
@@ -106,6 +111,7 @@ main {
     font-size: 1rem;
     line-height: 1.5;
     color: #d0d0d0;
+    letter-spacing: 0.5px;
 }
 
 /* === セクション全体のスタイル === */
@@ -117,6 +123,7 @@ main {
     font-size: 1.5rem;
     color: #4fc1e9;
     margin-bottom: 10px;
+    letter-spacing: 0.5px;
 }
 
 /* === EXPERIENCEセクション === */
@@ -124,15 +131,7 @@ main {
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
-    background-color: #102a43; /* 通常時の背景色 */
-    border-radius: 8px;
-    padding: 20px;
-    transition: background-color 0.3s ease; /* 背景色変更のアニメーション */
-}
-
-.experience-row:hover {
-    background-color: #4fc1e9; /* カーソルを乗せた時の背景色 */
-    color: #102a43; /* 文字色を変更 */
+    transition: background-color 0.3s ease;
 }
 
 .experience-left {
@@ -140,12 +139,14 @@ main {
     font-size: 0.9rem;
     color: #a0aec0;
     text-align: left;
+    letter-spacing: 0.5px;
 }
 
 .experience-right {
     flex: 1;
     font-size: 1rem;
     color: #d0d0d0;
+    letter-spacing: 0.5px;
 }
 
 .experience-right h3 {
@@ -180,6 +181,7 @@ main {
     font-size: 1.5rem;
     color: #4fc1e9;
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 
 .skills-categories {
@@ -201,6 +203,7 @@ main {
     border-bottom: 1px solid #666;
     display: inline-block;
     padding-bottom: 5px;
+    letter-spacing: 0.5px;
 }
 
 .skills-icons {
@@ -231,6 +234,7 @@ main {
     color: #ffffff;
     font-size: 1.2rem;
     transition: font-size 0.3s ease, color 0.3s ease;
+    letter-spacing: 0.5px;
 }
 
 .nav-link.active {
@@ -240,13 +244,13 @@ main {
 }
 
 .experience-logo {
-    width: 130px; /* ロゴのサイズを少し小さく */
+    width: 100px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 }
 
-/* === 言語切り替えリンクのスタイル === */
+/* === 言語切り替えのスタイル === */
 .language-switcher {
     margin-top: 20px;
     text-align: center;
@@ -257,6 +261,8 @@ main {
     text-decoration: none;
     color: #ffffff;
     font-size: 1rem;
+    transition: color 0.3s ease;
+    letter-spacing: 0.5px;
 }
 
 .language-switcher a.active {
@@ -264,55 +270,12 @@ main {
     color: #4fc1e9;
 }
 
-/* === メインナビゲーションリンクのスタイル === */
-.nav-link {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-    transition: font-size 0.3s ease, color 0.3s ease;
-}
-
-.nav-link.active {
-    font-size: 1.6rem; /* 文字サイズをさらに大きく */
+.language-switcher a:hover {
     color: #4fc1e9;
-    font-weight: bold;
-    border-left: 4px solid #4fc1e9; /* 左側にボーダーを追加して視覚的な強調 */
-    padding-left: 10px; /* ボーダーとの間隔を調整 */
 }
 
-/* === EXPERIENCEセクション === */
-.experience-row {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    background-color: #102a43; /* 通常時の背景色 */
-    border-radius: 8px;
-    padding: 20px;
-    transition: background-color 0.3s ease; /* 背景色変更のアニメーション */
-}
-
+/* === EXPERIENCEの各項目のカーソルホバー時の背景変更 === */
 .experience-row:hover {
-    background-color: #3b6588; /* カーソルを乗せた時の少し暗い背景色 */
-    color: #102a43; /* 文字色を変更 */
-}
-
-.experience-left {
-    flex: 0 0 20%;
-    font-size: 0.9rem;
-    color: #a0aec0;
-    text-align: left;
-}
-
-.skills {
-    margin-top: 10px;
-}
-
-.skills span {
-    display: inline-block;
-    background-color: #4fc1e9;
-    color: #102a43;
-    font-size: 0.85rem;
-    padding: 5px 10px;
-    margin: 5px 5px 0 0;
-    border-radius: 3px;
+    background-color: #23425e;
+    border-radius: 5px;
 }
