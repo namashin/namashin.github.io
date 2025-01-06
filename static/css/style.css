@@ -227,3 +227,10 @@ main {
     color: #4fc1e9;
     font-weight: bold;
 }
+
+.experience-logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+}

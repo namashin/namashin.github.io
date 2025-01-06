@@ -14,6 +14,12 @@
   <div class="experience-row">
     <div class="experience-left">
       <p>{{ .date }}</p>
+      <!-- ロゴにリンクを追加 -->
+      {{ if .logo }}
+      <a href="{{ .url }}" target="_blank">
+        <img src="{{ .logo }}" alt="{{ .title }} logo" class="experience-logo">
+      </a>
+      {{ end }}
     </div>
     <div class="experience-right">
       <h3>{{ .title }}</h3>
