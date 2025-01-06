@@ -8,4 +8,16 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>https://namashin.github.io/ja/sitemap.xml</loc>
+    
+      <lastmod>2024-05-10T20:31:31+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://namashin.github.io/zh/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

@@ -9,39 +9,40 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-
 <div class="container">
-  <!-- サイドバー -->
   <div class="sidebar">
-    <h1>NAGAHARA IKUMA</h1>
-    <p>Software Engineering Student - M2</p>
+    <h1>{{ .Site.Params.name }}</h1>
+    <p>{{ .Site.Params.title }}</p>
     <nav>
       <ul>
-        <li><a href="#about" class="nav-link" data-section="about">ー　ABOUT</a></li>
-        <li><a href="#experience" class="nav-link" data-section="experience">ー　EXPERIENCE</a></li>
-        <li><a href="#skills" class="nav-link" data-section="skills">ー　SKILLS</a></li>
+        <li><a href="#about" class="nav-link">{{ i18n "about" }}</a></li>
+        <li><a href="#experience" class="nav-link">{{ i18n "experience" }}</a></li>
+        <li><a href="#skills" class="nav-link">{{ i18n "skills" }}</a></li>
       </ul>
     </nav>
     <div class="social-links">
-      <a href="mailto:changyuanshengzhen@icloud.com" target="_blank"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/namashin" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/namashin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="{{ .Site.Params.email }}" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="{{ .Site.Params.github }}" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
       {{ with .Site.Params.resume }}
       <a href="{{ . }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
       {{ end }}
     </div>
+    <!-- 言語切り替えのリンク -->
+    <div class="language-switcher">
+      {{ $count := len .Site.Languages }}
+      {{ range $index, $lang := .Site.Languages }}
+      <a href="{{ .Lang | relURL }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
+        {{ .LanguageName }}
+      </a>
+      {{ if lt (add $index 1) $count }} | {{ end }}
+      {{ end }}
+    </div>
   </div>
-
-  <!-- メインコンテンツ -->
   <main>
     {{ block "main" . }}{{ end }}
   </main>
 </div>
-
-<!-- フッターを読み込み -->
-<!--{{ partial "footer.html" . }}-->
-
-<!-- JavaScriptファイルを読み込み -->
 <script src="{{ "js/script.js" | relURL }}"></script>
 </body>
 </html>

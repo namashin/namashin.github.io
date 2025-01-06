@@ -7,8 +7,14 @@ publishDir = "docs"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-[params]
-name = "IKUMA NAGAHARA"
+[languages.en]
+languageName = "English"
+weight = 1
+contentDir = "content/en"
+languageCode = "en"
+
+[languages.en.params]
+name = "NAGAHARA IKUMA"
 title = "Software Engineer"
 description = "I build reliable, complex, and scalable software systems."
 email = "mailto:changyuanshengzhen@icloud.com"
@@ -16,69 +22,221 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
-[[params.introduce]]
+[[languages.en.params.introduce]]
 text = """Hello! My name is NAGAHARA IKUMA, I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences.
 
 I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea. These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons.
 
 In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan, where I developed industrial real-time process information management systems and factory data management software. Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development.
 
-Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you!
-"""
+Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you!"""
 
-# Experience data for dynamic rendering
-[[params.experience]]
+[[languages.en.params.experience]]
 date = "2024.10 - 2024.12"
 title = "Software Developer Intern - Tomorrows AI"
-description = "Developed a Flask-based web application for a media platform, enhancing user experience with efficient keyword and title search functionalities. Designed and implemented dynamic detail pages to display article titles, images, and content, improving interactivity and engagement. Contributed to the backend development of a scalable web application, adhering to clean code practices and optimizing performance."
+description = "Developed a Flask-based web application for a media platform, enhancing user experience with efficient keyword and title search functionalities. Designed and implemented dynamic detail pages to display article titles, images, and content, improving interactivity and engagement. Contributed to the backend development of a scalable web application, adhering to clean code practices and optimizing performance"
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
-[[params.experience]]
+[[languages.en.params.experience]]
 date = "2023.9 - Now"
-title = "Start Pursuing Master Degree"
-description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University."
-skills = ["Software Engineering"]
+title = "Start Pursuing Master Degree - East China Normal University"
+description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University"
+skills = ["Master Degree", "Software Engineering"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 
-[[params.experience]]
+[[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
-description = "Developed an industrial monitoring system using Golang and Python, replacing legacy VB and C systems to improve maintainability and scalability. Optimized Goroutines to increase data processing efficiency by over 40% and implemented a TCP/IP-based socket gateway for real-time data flow management. Created control software in C# for data operations in Windows environments. Collaborated with a 7-member team to design and plan software specifications and executed test plans to ensure functionality, performance, and security."
+description = "Developed an industrial monitoring system using Golang and Python, replacing legacy VB and C systems to improve maintainability and scalability. Optimized Goroutines to increase data processing efficiency by over 40% and implemented a TCP/IP-based socket gateway for real-time data flow management. Created control software in C# for data operations in Windows environments. Collaborated with a 7-member team to design and plan software specifications and executed test plans to ensure functionality, performance, and security"
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
 url = "http://www.pixelsoft.co.jp/pc/index.html"
 
-[[params.experience]]
+[[languages.en.params.experience]]
 date = "2019.9 - 2021.6"
-title = "Graduated Bachelor Degree"
-description = "Graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education."
-skills = ["Chinese"]
+title = "Graduated Bachelor Degree - Shanghai International Studies University"
+description = "Graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education"
+skills = ["Bachelor Degree", "Chinese"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Programming Languages"
 skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Frameworks"
 skills = ["DotNET"]
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Web Development"
 skills = ["Gin", "Django", "Flask"]
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Tools"
 skills = ["Git", "GitHub", "Docker"]
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Operating Systems"
 skills = ["Windows", "Linux"]
 
-[[params.professional_skills]]
+[[languages.en.params.professional_skills]]
 category = "Other Technologies"
-skills = ["TCP IP", "jQuery"]
+skills = ["TCPIP", "jQuery"]
+
+[languages.ja]
+languageName = "日本語"
+weight = 2
+contentDir = "content/ja"
+languageCode = "ja"
+
+[languages.ja.params]
+name = "長原生真"
+title = "ソフトウェアエンジニア"
+description = ""
+email = "mailto:changyuanshengzhen@icloud.com"
+github = "https://github.com/namashin"
+linkedin = "https://www.linkedin.com/in/namashin/"
+resume = "/materials/NagaharaIkuma_Resume.pdf"
+
+[[languages.ja.params.introduce]]
+text = """現在、上海の華東師範大学でソフトウェア工学の修士課程を履修しています。大学卒業後、日本のPixel Software株式会社で約2年間勤務し、産業用リアルタイムプロセス情報管理システムや工場データ管理ソフトウェアを開発しました。その後、アメリカの「Tomorrows AI」でリモートインターンシップを完了し、メディアプラットフォームの開発に貢献しました"""
+
+[[languages.ja.params.experience]]
+date = "2024.10 - 2024.12"
+title = "ソフトウェア開発インターン - Tomorrows AI"
+description = "メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化。記事タイトル、画像、コンテンツを表示する動的な詳細ページを設計・実装し、インタラクティビティとエンゲージメントを向上。スケーラブルなWebアプリケーションのバックエンド開発に貢献し、クリーンコードの実践とパフォーマンスの最適化を実施"
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+logo = "/icons/tomorrows_ai.jpg"
+url = "https://www.tomorrowsai.org/"
+
+[[languages.ja.params.experience]]
+date = "2023.9 - 現在"
+title = "修士課程を開始 - 華東師範大学"
+description = "日本から中国上海に移り、華東師範大学でソフトウェア工学の修士課程を履修中"
+skills = ["修士学位", "ソフトウェア工学"]
+logo = "/icons/ecnu.jpg"
+url = "https://english.ecnu.edu.cn/"
+
+[[languages.ja.params.experience]]
+date = "2021.4 - 2023.6"
+title = "ソフトウェアエンジニア - Pixel Software 株式会社"
+description = "GolangとPythonを使用して産業監視システムを開発し、従来のVBおよびCシステムを置き換え、保守性とスケーラビリティを向上。リアルタイムデータフロー管理のためにTCP/IPベースのソケットゲートウェイを実装。Windows環境でのデータ操作のためのC#制御ソフトウェアを作成。7人チームと協力してソフトウェア仕様の設計と計画を行い、機能、パフォーマンス、セキュリティを確保するためのテストプランを実行"
+skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+logo = "/icons/pixelsoft.jpg"
+url = "http://www.pixelsoft.co.jp/pc/index.html"
+
+[[languages.ja.params.experience]]
+date = "2019.9 - 2021.6"
+title = "学士号取得 - 上海外国語大学"
+description = "教育学部卒業"
+skills = ["学士学位", "中国語"]
+logo = "/icons/sisu.jpg"
+url = "https://en.shisu.edu.cn/"
+
+[[languages.ja.params.professional_skills]]
+category = "プログラミング言語"
+skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
+
+[[languages.ja.params.professional_skills]]
+category = "フレームワーク"
+skills = ["DotNET"]
+
+[[languages.ja.params.professional_skills]]
+category = "Web開発"
+skills = ["Gin", "Django", "Flask"]
+
+[[languages.ja.params.professional_skills]]
+category = "ツール"
+skills = ["Git", "GitHub", "Docker"]
+
+[[languages.ja.params.professional_skills]]
+category = "オペレーティングシステム"
+skills = ["Windows", "Linux"]
+
+[[languages.ja.params.professional_skills]]
+category = "その他の技術"
+skills = ["TCPIP", "jQuery"]
+
+[languages.zh]
+languageName = "中文"
+weight = 3
+contentDir = "content/zh"
+languageCode = "zh"
+
+[languages.zh.params]
+name = "长原生真"
+title = "软件工程师"
+description = "我构建可靠、复杂且可扩展的软件系统。"
+email = "mailto:changyuanshengzhen@icloud.com"
+github = "https://github.com/namashin"
+linkedin = "https://www.linkedin.com/in/namashin/"
+resume = "/materials/NagaharaIkuma_Resume.pdf"
+
+[[languages.zh.params.introduce]]
+text = """您好！我叫长原郁真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验。
+
+我热爱旅行，曾访问过台湾、中国、香港、迪拜、意大利和韩国等多个国家。这些经历让我能够探索多样的文化和视角，大大提升了我的跨文化理解能力，拓宽了我的视野。
+
+在我的职业生涯中，我在日本的Pixel Software株式会社工作了大约两年，开发了工业实时过程信息管理系统和工厂数据管理软件。之后，我完成了在美国“Tomorrows AI”的远程实习，参与了媒体平台的开发。
+
+利用我的多文化经验和技术技能，我希望能为国际项目做出贡献，作为一名专业工程师创造创新价值。感谢您的时间，期待与您联系！"""
+
+[[languages.zh.params.experience]]
+date = "2024.10 - 2024.12"
+title = "软件开发实习生 - Tomorrows AI"
+description = "开发了一个基于Flask的媒体平台Web应用程序，优化了用户体验和关键字搜索功能。设计并实现了动态详细页面，以显示文章标题、图片和内容，提高了互动性和参与度。参与了可扩展Web应用程序的后端开发，遵循清晰的代码实践并优化性能"
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+logo = "/icons/tomorrows_ai.jpg"
+url = "https://www.tomorrowsai.org/"
+
+[[languages.zh.params.experience]]
+date = "2023.9 - 现在"
+title = "开始攻读硕士学位 - 华东师范大学"
+description = "从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位"
+skills = ["硕士学位", "软件工程"]
+logo = "/icons/ecnu.jpg"
+url = "https://english.ecnu.edu.cn/"
+
+[[languages.zh.params.experience]]
+date = "2021.4 - 2023.6"
+title = "软件工程师 - Pixel Software 株式会社"
+description = "使用Golang和Python开发工业监控系统，替换旧的VB和C系统，改善维护性和可扩展性。优化Goroutines以提高数据处理效率超过40%，并实现基于TCP/IP的套接字网关以进行实时数据流管理。在Windows环境中创建了用于数据操作的C#控制软件。与7人团队合作设计和规划软件规格，并执行测试计划以确保功能、性能和安全性"
+skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+logo = "/icons/pixelsoft.jpg"
+url = "http://www.pixelsoft.co.jp/pc/index.html"
+
+[[languages.zh.params.experience]]
+date = "2019.9 - 2021.6"
+title = "获得学士学位 - 上海外国语大学"
+description = "汉语国际教育毕业"
+skills = ["学士学位", "汉语", "教育"]
+logo = "/icons/sisu.jpg"
+url = "https://en.shisu.edu.cn/"
+
+[[languages.zh.params.professional_skills]]
+category = "编程语言"
+skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
+
+[[languages.zh.params.professional_skills]]
+category = "框架"
+skills = ["DotNET"]
+
+[[languages.zh.params.professional_skills]]
+category = "Web开发"
+skills = ["Gin", "Django", "Flask"]
+
+[[languages.zh.params.professional_skills]]
+category = "工具"
+skills = ["Git", "GitHub", "Docker"]
+
+[[languages.zh.params.professional_skills]]
+category = "操作系统"
+skills = ["Windows", "Linux"]
+
+[[languages.zh.params.professional_skills]]
+category = "其他技术"
+skills = ["TCPIP", "jQuery"]
