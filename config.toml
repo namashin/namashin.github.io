@@ -53,11 +53,11 @@ skills = ["Chinese"]
 
 [[params.professional_skills]]
 category = "Programming Languages"
-skills = ["Golang", "Python", "csharp", "JavaScript", "SQL", "HTML", "CSS"]
+skills = ["Golang", "Python", "Csharp", "JavaScript", "SQL", "HTML", "CSS"]
 
 [[params.professional_skills]]
 category = "Frameworks"
-skills = [".NET"]
+skills = ["Dotnet"]
 
 [[params.professional_skills]]
 category = "Web Development"
