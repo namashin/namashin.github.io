@@ -61,11 +61,11 @@ url = "https://en.shisu.edu.cn/"
 
 [[params.professional_skills]]
 category = "Programming Languages"
-skills = ["Golang", "Python", "csharp", "JavaScript", "SQL", "HTML", "CSS"]
+skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
 
 [[params.professional_skills]]
 category = "Frameworks"
-skills = [".NET"]
+skills = ["DotNET"]
 
 [[params.professional_skills]]
 category = "Web Development"
