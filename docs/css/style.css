@@ -84,15 +84,13 @@ main {
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-    /* max-width: 800px; 既に設定している場合は削除 */
-    /* margin: 0 auto; 既に設定している場合は削除 */
 }
 
 /* === プロフィールセクション === */
 .profile {
     text-align: center;
-    max-width: 600px; /* 必要に応じて調整 */
-    margin: 0 auto; /* セクションを中央に配置 */
+    max-width: 800px; /* プロフィールセクションの最大幅 */
+    margin: 0 auto; /* 中央寄せ */
 }
 
 .profile-photo {
@@ -106,11 +104,8 @@ main {
 
 .description p {
     font-size: 1rem;
-    line-height: 1.6; /* 行間を広げて読みやすく */
+    line-height: 1.5;
     color: #d0d0d0;
-    max-width: 600px; /* プロフィールセクションと一致させる */
-    margin: 0 auto; /* テキストを中央に配置 */
-    text-align: left; /* テキストを左揃えに */
 }
 
 /* === セクション全体のスタイル === */
@@ -129,6 +124,15 @@ main {
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
+    background-color: #102a43; /* 通常時の背景色 */
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* 背景色変更のアニメーション */
+}
+
+.experience-row:hover {
+    background-color: #4fc1e9; /* カーソルを乗せた時の背景色 */
+    color: #102a43; /* 文字色を変更 */
 }
 
 .experience-left {
@@ -142,24 +146,7 @@ main {
     flex: 1;
     font-size: 1rem;
     color: #d0d0d0;
-    overflow-wrap: break-word; /* 長い単語の折り返し */
-    max-width: 600px; /* 必要に応じて調整 */
-    margin: 0 auto; /* コンテンツを中央に配置 */
 }
-
-.experience-logo {
-    width: 120px;
-    height: auto;
-    margin-top: 10px;
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .experience-logo {
-        width: 60px;
-    }
-}
-
 
 .experience-right h3 {
     font-size: 1.2rem;
@@ -239,17 +226,50 @@ main {
 }
 
 /* === ナビゲーションリンクのスタイル === */
-.nav-link,
-.language-switcher a {
+.nav-link {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
     transition: font-size 0.3s ease, color 0.3s ease;
 }
 
-.nav-link:hover,
-.language-switcher a:hover {
+.nav-link.active {
+    font-size: 1.5rem;
     color: #4fc1e9;
+    font-weight: bold;
+}
+
+.experience-logo {
+    width: 130px; /* ロゴのサイズを少し小さく */
+    height: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+/* === 言語切り替えリンクのスタイル === */
+.language-switcher {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.language-switcher a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.language-switcher a.active {
+    font-weight: bold;
+    color: #4fc1e9;
+}
+
+/* === メインナビゲーションリンクのスタイル === */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease, color 0.3s ease;
 }
 
 .nav-link.active {
@@ -260,12 +280,39 @@ main {
     padding-left: 10px; /* ボーダーとの間隔を調整 */
 }
 
-.language-switcher {
-    margin-top: 20px;
-    text-align: center;
+/* === EXPERIENCEセクション === */
+.experience-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #102a43; /* 通常時の背景色 */
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* 背景色変更のアニメーション */
 }
 
-.language-switcher a.active {
-    font-weight: bold;
-    color: #4fc1e9;
+.experience-row:hover {
+    background-color: #3b6588; /* カーソルを乗せた時の少し暗い背景色 */
+    color: #102a43; /* 文字色を変更 */
+}
+
+.experience-left {
+    flex: 0 0 20%;
+    font-size: 0.9rem;
+    color: #a0aec0;
+    text-align: left;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #4fc1e9;
+    color: #102a43;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 3px;
 }
