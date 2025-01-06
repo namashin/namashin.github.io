@@ -84,11 +84,15 @@ main {
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+    /* max-width: 800px; 既に設定している場合は削除 */
+    /* margin: 0 auto; 既に設定している場合は削除 */
 }
 
 /* === プロフィールセクション === */
 .profile {
     text-align: center;
+    max-width: 600px; /* 必要に応じて調整 */
+    margin: 0 auto; /* セクションを中央に配置 */
 }
 
 .profile-photo {
@@ -102,8 +106,11 @@ main {
 
 .description p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6; /* 行間を広げて読みやすく */
     color: #d0d0d0;
+    max-width: 600px; /* プロフィールセクションと一致させる */
+    margin: 0 auto; /* テキストを中央に配置 */
+    text-align: left; /* テキストを左揃えに */
 }
 
 /* === セクション全体のスタイル === */
@@ -135,7 +142,24 @@ main {
     flex: 1;
     font-size: 1rem;
     color: #d0d0d0;
+    overflow-wrap: break-word; /* 長い単語の折り返し */
+    max-width: 600px; /* 必要に応じて調整 */
+    margin: 0 auto; /* コンテンツを中央に配置 */
 }
+
+.experience-logo {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .experience-logo {
+        width: 60px;
+    }
+}
+
 
 .experience-right h3 {
     font-size: 1.2rem;
@@ -215,76 +239,17 @@ main {
 }
 
 /* === ナビゲーションリンクのスタイル === */
-.nav-link {
+.nav-link,
+.language-switcher a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
     transition: font-size 0.3s ease, color 0.3s ease;
 }
 
-.nav-link.active {
-    font-size: 1.5rem;
-    color: #4fc1e9;
-    font-weight: bold;
-}
-
-.experience-logo {
-    width: 100px;
-    height: auto;
-    margin-top: 10px;
-    display: block;
-}
-
-.language-switcher {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.language-switcher a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-}
-
-.language-switcher a.active {
-    font-weight: bold;
-    color: #4fc1e9;
-}
-
-.language-switcher {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.language-switcher a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-}
-
-.language-switcher a.active {
-    font-weight: bold;
-    color: #4fc1e9;
-}
-
+.nav-link:hover,
 .language-switcher a:hover {
     color: #4fc1e9;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-    transition: font-size 0.3s ease, color 0.3s ease;
-}
-
-.nav-link.active {
-    font-size: 1.5rem;
-    color: #4fc1e9;
-    font-weight: bold;
 }
 
 .nav-link.active {
@@ -293,4 +258,14 @@ main {
     font-weight: bold;
     border-left: 4px solid #4fc1e9; /* 左側にボーダーを追加して視覚的な強調 */
     padding-left: 10px; /* ボーダーとの間隔を調整 */
+}
+
+.language-switcher {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.language-switcher a.active {
+    font-weight: bold;
+    color: #4fc1e9;
 }
