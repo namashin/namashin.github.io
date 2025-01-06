@@ -57,7 +57,7 @@ skills = ["Golang", "Python", "csharp", "JavaScript", "SQL", "HTML", "CSS"]
 
 [[params.professional_skills]]
 category = "Frameworks"
-skills = ["DotNet"]
+skills = [".NET"]
 
 [[params.professional_skills]]
 category = "Web Development"
