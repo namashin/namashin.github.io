@@ -43,7 +43,7 @@ skills = ["Software Engineering"]
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
 description = "Developed an industrial monitoring system using Golang and Python, replacing legacy VB and C systems to improve maintainability and scalability. Optimized Goroutines to increase data processing efficiency by over 40% and implemented a TCP/IP-based socket gateway for real-time data flow management. Created control software in C# for data operations in Windows environments. Collaborated with a 7-member team to design and plan software specifications and executed test plans to ensure functionality, performance, and security."
-skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+skills = ["Golang", "Python", "C#", "DotNet", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 
 [[params.experience]]
 date = "2019.9 - 2021.6"
@@ -53,7 +53,7 @@ skills = ["Chinese"]
 
 [[params.professional_skills]]
 category = "Programming Languages"
-skills = ["Golang", "Python", "csharp", "JavaScript", "SQL", "HTML", "CSS"]
+skills = ["Golang", "Python", "Csharp", "JavaScript", "SQL", "HTML", "CSS"]
 
 [[params.professional_skills]]
 category = "Frameworks"
