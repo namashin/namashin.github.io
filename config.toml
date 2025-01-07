@@ -35,7 +35,7 @@ Leveraging my multicultural experiences and technical skills, I aspire to contri
 date = "2024.10 - 2024.12"
 title = "Software Developer Intern - Tomorrows AI"
 description = "Developed a Flask-based web application for a media platform, enhancing user experience with efficient keyword and title search functionalities. Designed and implemented dynamic detail pages to display article titles, images, and content, improving interactivity and engagement. Contributed to the backend development of a scalable web application, adhering to clean code practices and optimizing performance"
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -43,9 +43,12 @@ url = "https://www.tomorrowsai.org/"
 date = "2023.9 - Now"
 title = "Start Pursuing Master Degree - East China Normal University"
 description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University"
-skills = ["Master Degree", "Software Engineering"]
+skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
+department = "Software Engineering Institute"
+major = "Software Engineering"
+gpa = "3.14/4.0"
 
 [[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
@@ -62,6 +65,9 @@ description = "Graduated with a Bachelor's degree in Teaching Chinese to Speaker
 skills = ["Bachelor Degree", "Chinese"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
+department = "School of Education"
+major = "Teaching Chinese to Speakers of Other Languages"
+gpa = "3.4/4.0"
 
 [[languages.en.params.professional_skills]]
 category = "Programming Languages"
@@ -109,7 +115,7 @@ text = """現在、上海の華東師範大学でソフトウェア工学の修�
 date = "2024.10 - 2024.12"
 title = "ソフトウェア開発インターン - Tomorrows AI"
 description = "メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化。記事タイトル、画像、コンテンツを表示する動的な詳細ページを設計・実装し、インタラクティビティとエンゲージメントを向上。スケーラブルなWebアプリケーションのバックエンド開発に貢献し、クリーンコードの実践とパフォーマンスの最適化を実施"
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -120,6 +126,9 @@ description = "日本から中国上海に移り、華東師範大学でソフ�
 skills = ["修士学位", "ソフトウェア工学"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
+department = "ソフトウェア工学"
+major = "ソフトウェア工学"
+gpa = "3.14/4.0"
 
 [[languages.ja.params.experience]]
 date = "2021.4 - 2023.6"
@@ -136,6 +145,9 @@ description = "教育学部卒業"
 skills = ["学士学位", "中国語"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
+department = "Education"
+major = "Teaching Chinese to Speakers of Other Languages"
+gpa = "3.4/4.0"
 
 [[languages.ja.params.professional_skills]]
 category = "プログラミング言語"
@@ -177,7 +189,7 @@ linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 [[languages.zh.params.introduce]]
-text = """您好！我叫长原郁真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验。
+text = """您好！我叫长原生真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验。
 
 我热爱旅行，曾访问过台湾、中国、香港、迪拜、意大利和韩国等多个国家。这些经历让我能够探索多样的文化和视角，大大提升了我的跨文化理解能力，拓宽了我的视野。
 
@@ -189,7 +201,7 @@ text = """您好！我叫长原郁真，目前正在中国上海的华东师范�
 date = "2024.10 - 2024.12"
 title = "软件开发实习生 - Tomorrows AI"
 description = "开发了一个基于Flask的媒体平台Web应用程序，优化了用户体验和关键字搜索功能。设计并实现了动态详细页面，以显示文章标题、图片和内容，提高了互动性和参与度。参与了可扩展Web应用程序的后端开发，遵循清晰的代码实践并优化性能"
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -197,9 +209,12 @@ url = "https://www.tomorrowsai.org/"
 date = "2023.9 - 现在"
 title = "开始攻读硕士学位 - 华东师范大学"
 description = "从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位"
-skills = ["硕士学位", "软件工程"]
+skills = ["硕士学位", "软件工程", "中国政府奖学金生"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
+department = "软件工程"
+major = "软件工程"
+gpa = "3.14/4.0"
 
 [[languages.zh.params.experience]]
 date = "2021.4 - 2023.6"
@@ -216,6 +231,9 @@ description = "汉语国际教育毕业"
 skills = ["学士学位", "汉语", "教育"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
+department = "国际教育学院"
+major = "汉语国际教育"
+gpa = "3.4/4.0"
 
 [[languages.zh.params.professional_skills]]
 category = "编程语言"

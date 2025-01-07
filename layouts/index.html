@@ -20,6 +20,7 @@
       </a>
       {{ end }}
     </div>
+
     <div class="experience-right">
       <h3>{{ .title }}</h3>
       {{ range (split .description ".") }}
@@ -27,6 +28,21 @@
       <p>{{ . }}.</p>
       {{ end }}
       {{ end }}
+
+      {{ if or .department .major .gpa }}
+      <div class="scores">
+        {{ if .department }}
+        <p><strong>Department:</strong> {{ .department }}</p>
+        {{ end }}
+        {{ if .major }}
+        <p><strong>Major:</strong> {{ .major }}</p>
+        {{ end }}
+        {{ if .gpa }}
+        <p><strong>GPA:</strong> {{ .gpa }}</p>
+        {{ end }}
+      </div>
+      {{ end }}
+
       <div class="skills">
         {{ range .skills }}<span>{{ . }}</span>{{ end }}
       </div>
