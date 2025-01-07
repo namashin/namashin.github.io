@@ -311,3 +311,42 @@ main {
 .scores p strong {
     color: #4fc1e9; /* 強調部分の色 */
 }
+
+/* === PROJECTSセクションのレイアウト === */
+
+/* 全体をflexで左右に分ける */
+.project-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px; /* セクション間の余白 */
+    transition: background-color 0.3s ease;
+}
+
+/* 左側を固定幅 (例: 20%) にする */
+.project-left {
+    flex: 0 0 20%;
+    font-size: 0.9rem;
+    color: #a0aec0; /* テキスト色はEXPERIENCEに合わせる場合 */
+    text-align: left;
+    padding-right: 10px; /* 右側との余白 */
+}
+
+/* 右側を広くとる (例: 残り80%) */
+.project-right {
+    flex: 1;
+    font-size: 1rem;
+    color: #d0d0d0; /* EXPERIENCEと合わせる場合 */
+}
+
+/* 右側のタイトルなどの調整例 */
+.project-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* もしホバー時に背景色を付けたいなら、EXPERIENCEと同様に: */
+.project-row:hover {
+    background-color: #23425e; /* 例: 少し明るい青系 */
+    border-radius: 5px;
+}

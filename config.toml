@@ -7,6 +7,9 @@ publishDir = "docs"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
+###############################################################################
+# English
+###############################################################################
 [languages.en]
 languageName = "English"
 weight = 1
@@ -22,6 +25,7 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
+# == Introduce ==
 [[languages.en.params.introduce]]
 text = """Hello! My name is NAGAHARA IKUMA, I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences.
 
@@ -31,6 +35,7 @@ In my professional career, I worked for approximately two years at Pixel Softwar
 
 Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you!"""
 
+# == Experience ==
 [[languages.en.params.experience]]
 date = "2024.10 - 2024.12"
 title = "Software Developer Intern - Tomorrows AI"
@@ -40,7 +45,7 @@ logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.en.params.experience]]
-date = "2023.9 - Now"
+date = "2023.9 - Present"
 title = "Start Pursuing Master Degree - East China Normal University"
 description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University"
 skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
@@ -69,6 +74,7 @@ department = "School of Education"
 major = "Teaching Chinese to Speakers of Other Languages"
 gpa = "3.4/4.0"
 
+# == Professional Skills ==
 [[languages.en.params.professional_skills]]
 category = "Programming Languages"
 skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
@@ -93,6 +99,36 @@ skills = ["Windows", "Linux"]
 category = "Other Technologies"
 skills = ["TCPIP", "jQuery"]
 
+# == Projects (English) ==
+[[languages.en.params.projects]]
+title = "China Eastern Airlines Dispatch Optimization"
+period = "2024.9 - Present"
+overview = """
+Participated in a dispatch optimization project at China Eastern Airlines to enhance task assignment and scheduling efficiency.
+Utilized Deep Reinforcement Learning (CVNet) and swarm intelligence algorithms (ABC, FA) to develop a dispatch model adaptable to dynamic real-time environments.
+"""
+roles = """
+[Model Design]
+- Modeled task assignment as a Semi-Markov Decision Process (SMDP), factoring in task priority, travel cost, and skill compatibility.
+- Addressed combination constraints based on employee skills (A, B, C).
+
+[Algorithm Implementation]
+- Employed CVNet to learn the value function for tasks and optimize dynamic task assignment.
+- Leveraged swarm intelligence algorithms (ABC, FA) to reduce travel costs while improving scheduling efficiency.
+
+[Proposal of Results]
+- Proposed research outcomes to China Eastern Airlines, including algorithm implementation details, performance evaluation, and practical applicability.
+"""
+results = """
+[Outcome]
+- Proposed a new dispatch model that contributes to improved operational efficiency at China Eastern Airlines.
+- Developed algorithms capable of real-time dynamic task adjustment.
+- The proposal is designed with actual on-site application in mind.
+"""
+
+###############################################################################
+# Japanese
+###############################################################################
 [languages.ja]
 languageName = "日本語"
 weight = 2
@@ -108,9 +144,11 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
+# == Introduce ==
 [[languages.ja.params.introduce]]
 text = """現在、上海の華東師範大学でソフトウェア工学の修士課程を履修しています。大学卒業後、日本のPixel Software株式会社で約2年間勤務し、産業用リアルタイムプロセス情報管理システムや工場データ管理ソフトウェアを開発しました。その後、アメリカの「Tomorrows AI」でリモートインターンシップを完了し、メディアプラットフォームの開発に貢献しました"""
 
+# == Experience ==
 [[languages.ja.params.experience]]
 date = "2024.10 - 2024.12"
 title = "ソフトウェア開発インターン - Tomorrows AI"
@@ -149,6 +187,7 @@ department = "Education"
 major = "Teaching Chinese to Speakers of Other Languages"
 gpa = "3.4/4.0"
 
+# == Professional Skills ==
 [[languages.ja.params.professional_skills]]
 category = "プログラミング言語"
 skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
@@ -173,6 +212,36 @@ skills = ["Windows", "Linux"]
 category = "その他の技術"
 skills = ["TCPIP", "jQuery"]
 
+# == Projects (Japanese) ==
+[[languages.ja.params.projects]]
+title = "东方航空 派工最適化プロジェクト"
+period = "2024.9 - 現在"
+overview = """
+东方航空のタスク割り当てとスケジューリング効率を向上させるための派工最適化プロジェクトに参画。
+深層強化学習（CVNet）と群知能アルゴリズム（ABC、FA）を活用し、リアルタイムで動的な環境に適応可能な派工モデルを開発。
+"""
+roles = """
+【モデル設計】
+・タスク割り当てを半マルコフ決定プロセス（SMDP）としてモデリングし、タスクの優先度、移動コスト、スキル適合性を考慮。
+・従業員のスキル（A、B、C）に基づく組み合わせ制約を解決。
+
+【アルゴリズム実装】
+・CVNetを用いてタスクの価値関数を学習し、動的なタスク割り当てを最適化。
+・群知能アルゴリズム（ABC、FA）を活用して移動コストを削減しつつスケジュール効率を向上。
+
+【成果提案】
+・プロジェクトを通じて得られた研究成果を东方航空に提案。アルゴリズムの実装方法、パフォーマンス評価、および実運用での適用可能性を含む。
+"""
+results = """
+【成果】
+・东方航空の運用効率向上に寄与する新しい派工モデルを提案。
+・リアルタイムのタスク動的調整が可能なアルゴリズムを開発。
+・提案内容は航空運用現場での実用化を前提に設計。
+"""
+
+###############################################################################
+# Chinese
+###############################################################################
 [languages.zh]
 languageName = "中文"
 weight = 3
@@ -188,6 +257,7 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
+# == Introduce ==
 [[languages.zh.params.introduce]]
 text = """您好！我叫长原生真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验。
 
@@ -197,6 +267,7 @@ text = """您好！我叫长原生真，目前正在中国上海的华东师范�
 
 利用我的多文化经验和技术技能，我希望能为国际项目做出贡献，作为一名专业工程师创造创新价值。感谢您的时间，期待与您联系！"""
 
+# == Experience ==
 [[languages.zh.params.experience]]
 date = "2024.10 - 2024.12"
 title = "软件开发实习生 - Tomorrows AI"
@@ -235,6 +306,7 @@ department = "国际教育学院"
 major = "汉语国际教育"
 gpa = "3.4/4.0"
 
+# == Professional Skills ==
 [[languages.zh.params.professional_skills]]
 category = "编程语言"
 skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
@@ -258,3 +330,30 @@ skills = ["Windows", "Linux"]
 [[languages.zh.params.professional_skills]]
 category = "其他技术"
 skills = ["TCPIP", "jQuery"]
+
+# == Projects (Chinese) ==
+[[languages.zh.params.projects]]
+title = "东方航空 派工优化项目"
+period = "2024.9 - 至今"
+overview = """
+参与东方航空的派工优化项目，以提高任务分配和调度效率。
+使用深度强化学习（CVNet）和群智能算法（ABC、FA），开发可适应实时动态环境的派工模型。
+"""
+roles = """
+【模型设计】
+- 将任务分配建模为半马尔可夫决策过程（SMDP），考虑任务优先级、移动成本和技能适配性。
+- 基于员工技能（A、B、C）解决组合约束。
+
+【算法实现】
+- 采用CVNet学习任务价值函数，优化动态任务分配。
+- 利用群智能算法（ABC、FA）在降低移动成本的同时提升调度效率。
+
+【成果提案】
+- 向东方航空提出项目研究成果，包括算法实现细节、性能评估及实际运用的可行性。
+"""
+results = """
+【成果】
+- 提出新的派工模型，为东方航空的运营效率提高做出贡献。
+- 开发可实现实时动态任务调整的算法。
+- 设计方案充分考虑航空运营一线的实际应用需求。
+"""

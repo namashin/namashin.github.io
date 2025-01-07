@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+<!-- ABOUTセクション -->
 <section id="about" class="profile">
   <img src="/images/face.jpg" alt="Profile photo of {{ .Site.Params.name }}, {{ .Site.Params.title }}" class="profile-photo">
   <div class="description">
@@ -8,6 +10,7 @@
   </div>
 </section>
 
+<!-- EXPERIENCEセクション -->
 <section id="experience" class="section">
   <h2>{{ i18n "experience" }}</h2>
   {{ range .Site.Params.experience }}
@@ -23,12 +26,15 @@
 
     <div class="experience-right">
       <h3>{{ .title }}</h3>
+
+      <!-- descriptionをピリオドで分割表示 -->
       {{ range (split .description ".") }}
       {{ if . }}
       <p>{{ . }}.</p>
       {{ end }}
       {{ end }}
 
+      <!-- department, major, gpa が存在する場合のみ表示 -->
       {{ if or .department .major .gpa }}
       <div class="scores">
         {{ if .department }}
@@ -43,6 +49,7 @@
       </div>
       {{ end }}
 
+      <!-- skills表示 -->
       <div class="skills">
         {{ range .skills }}<span>{{ . }}</span>{{ end }}
       </div>
@@ -51,6 +58,7 @@
   {{ end }}
 </section>
 
+<!-- SKILLSセクション -->
 <section id="skills" class="section">
   <h2>{{ i18n "skills" }}</h2>
   <div class="skills-container">
@@ -68,4 +76,42 @@
     {{ end }}
   </div>
 </section>
+
+<!-- PROJECTSセクション -->
+<section id="projects" class="section">
+  <h2>{{ i18n "projects" }}</h2>
+  {{ range .Site.Params.projects }}
+  <div class="project-row">
+
+    <!-- 左側: Periodなどを表示 -->
+    <div class="project-left">
+      {{ with .period }}
+      <p><strong>Period:</strong> {{ . }}</p>
+      {{ end }}
+    </div>
+
+    <!-- 右側: タイトル、概要、役割、成果など -->
+    <div class="project-right">
+      <h3>{{ .title }}</h3>
+
+      {{ with .overview }}
+      <h4>Overview</h4>
+      <p>{{ . }}</p>
+      {{ end }}
+
+      {{ with .roles }}
+      <h4>Roles</h4>
+      <p>{{ . }}</p>
+      {{ end }}
+
+      {{ with .results }}
+      <h4>Results</h4>
+      <p>{{ . }}</p>
+      {{ end }}
+    </div>
+
+  </div> <!-- end .project-row -->
+  {{ end }}
+</section>
+
 {{ end }}
