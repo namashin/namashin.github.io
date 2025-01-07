@@ -107,7 +107,8 @@ main {
 .profile {
     text-align: center;
     margin: 0 auto;
-    max-width: 800px; /* プロフィールの最大幅を設定 */
+    max-width: 800px;
+    padding-top: 50px;
 }
 
 .profile-photo {
