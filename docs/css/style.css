@@ -313,8 +313,6 @@ main {
 }
 
 /* === PROJECTSセクションのレイアウト === */
-
-/* 全体をflexで左右に分ける */
 .project-row {
     display: flex;
     align-items: flex-start;
@@ -322,31 +320,103 @@ main {
     transition: background-color 0.3s ease;
 }
 
-/* 左側を固定幅 (例: 20%) にする */
 .project-left {
     flex: 0 0 20%;
     font-size: 0.9rem;
-    color: #a0aec0; /* テキスト色はEXPERIENCEに合わせる場合 */
+    color: #a0aec0;
     text-align: left;
-    padding-right: 10px; /* 右側との余白 */
+    padding-right: 10px;
 }
 
-/* 右側を広くとる (例: 残り80%) */
 .project-right {
     flex: 1;
     font-size: 1rem;
-    color: #d0d0d0; /* EXPERIENCEと合わせる場合 */
+    color: #d0d0d0;
 }
 
-/* 右側のタイトルなどの調整例 */
 .project-right h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #ffffff;
 }
 
-/* もしホバー時に背景色を付けたいなら、EXPERIENCEと同様に: */
+/* プロジェクトでもホバー時に背景色を付けたい */
 .project-row:hover {
-    background-color: #23425e; /* 例: 少し明るい青系 */
+    background-color: #23425e;
     border-radius: 5px;
+}
+
+/* === ここからレスポンシブ対応 === */
+@media (max-width: 768px) {
+    /* コンテナを縦並びに */
+    .container {
+        flex-direction: column;
+        height: auto; /* 高さを自動に */
+    }
+
+    /* サイドバーを横幅100%に */
+    .sidebar {
+        width: 100%;
+        flex: 0 0 auto;
+        padding-top: 20px; /* 上部余白調整 */
+        margin-bottom: 20px; /* 下部に余白 */
+    }
+
+    /* メインコンテンツも横幅100%に */
+    main {
+        width: 100%;
+    }
+
+    /* EXPERIENCEセクション: 左右カラムを縦並びに */
+    .experience-row {
+        flex-direction: column;
+        margin-bottom: 50px; /* モバイルでの下余白 */
+    }
+
+    .experience-left {
+        flex: none;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center; /* 必要に応じて変更 */
+    }
+
+    .experience-right {
+        flex: none;
+        width: 100%;
+    }
+
+    /* PROJECTSセクション: 左右カラムを縦並びに */
+    .project-row {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .project-left {
+        flex: none;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center; /* 必要に応じて変更 */
+    }
+
+    .project-right {
+        flex: none;
+        width: 100%;
+    }
+
+    /* プロフィール写真のサイズ調整（必要なら） */
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 50px;
+    }
+
+    /* skillsセクションのレイアウト調整 */
+    .skills-categories {
+        flex-direction: column; /* 縦並びに */
+        align-items: center;
+    }
+
+    .skills-icons {
+        justify-content: center;
+    }
 }
