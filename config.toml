@@ -7,9 +7,9 @@ publishDir = "docs"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-###############################################################################
+################################################################################
 # English
-###############################################################################
+################################################################################
 [languages.en]
 languageName = "English"
 weight = 1
@@ -25,21 +25,31 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
-# == Introduce ==
+# == Introduce (EN) with four fields ==
 [[languages.en.params.introduce]]
-text = """Hello! My name is NAGAHARA IKUMA, I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences.
+Introduction = """
+Hello! My name is NAGAHARA IKUMA. I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences
+"""
 
-I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea. These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons.
+Development = """
+I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea. These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons
+"""
 
-In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan, where I developed industrial real-time process information management systems and factory data management software. Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development.
+Turn = """
+In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan, where I developed industrial real-time process information management systems and factory data management software. Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development
+"""
 
-Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you!"""
+Conclusion = """
+Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you
+"""
 
 # == Experience ==
 [[languages.en.params.experience]]
 date = "2024.10 - 2024.12"
 title = "Software Developer Intern - Tomorrows AI"
-description = "Developed a Flask-based web application for a media platform, enhancing user experience with efficient keyword and title search functionalities. Designed and implemented dynamic detail pages to display article titles, images, and content, improving interactivity and engagement. Contributed to the backend development of a scalable web application, adhering to clean code practices and optimizing performance"
+description = """
+I contributed to the development of a media platform by building a Flask-based web application, which enabled efficient keyword and title searches to enhance user experience. I also designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement. Working in a remote, international environment, I focused on clean code practices and performance optimization, ultimately helping to deliver a high-quality, scalable web solution
+"""
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
@@ -47,7 +57,9 @@ url = "https://www.tomorrowsai.org/"
 [[languages.en.params.experience]]
 date = "2023.9 - Present"
 title = "Start Pursuing Master Degree - East China Normal University"
-description = "Relocated to Shanghai, China from Japan to pursue a Master's degree in Software Engineering at East China Normal University"
+description = """
+I relocated from Japan to Shanghai, China, to pursue a Master's degree in Software Engineering at East China Normal University. This program has allowed me to delve into advanced software development and system architecture, while also fostering an international perspective through collaboration with peers from diverse backgrounds
+"""
 skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
@@ -58,7 +70,9 @@ gpa = "3.14/4.0"
 [[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
-description = "Developed an industrial monitoring system using Golang and Python, replacing legacy VB and C systems to improve maintainability and scalability. Optimized Goroutines to increase data processing efficiency by over 40% and implemented a TCP/IP-based socket gateway for real-time data flow management. Created control software in C# for data operations in Windows environments. Collaborated with a 7-member team to design and plan software specifications and executed test plans to ensure functionality, performance, and security"
+description = """
+I developed an industrial gateway system using Golang and Python to replace legacy VB and C systems, significantly improving maintainability and scalability. By optimizing Golang’s concurrency features, I successfully handled thousands of sensor tags, boosting data throughput by over 40% and reducing processing time. I also programmed control software in C#, enabling system operators to monitor real-time industrial data. In collaboration with a seven-member team, I participated in software specification design, test plan execution, and quality assurance. Furthermore, I created detailed technical documentation, reported project progress, and provided solutions to stakeholders
+"""
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
 url = "http://www.pixelsoft.co.jp/pc/index.html"
@@ -66,7 +80,9 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 [[languages.en.params.experience]]
 date = "2019.9 - 2021.6"
 title = "Graduated Bachelor Degree - Shanghai International Studies University"
-description = "Graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education"
+description = """
+I graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education at Shanghai International Studies University. This academic background fostered a deep understanding of language learning and intercultural communication, which has proven invaluable in international academic and professional environments
+"""
 skills = ["Bachelor Degree", "Chinese"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
@@ -103,12 +119,9 @@ skills = ["TCPIP", "jQuery"]
 [[languages.en.params.projects]]
 title = "China Eastern Airlines Dispatch Optimization"
 period = "2024.9 - Present"
-overview = """
-Participated in a dispatch optimization project at China Eastern Airlines to enhance task assignment and scheduling efficiency.
-Utilized Deep Reinforcement Learning (CVNet) and swarm intelligence algorithms (ABC, FA) to develop a dispatch model adaptable to dynamic real-time environments.
-"""
-roles = """
-[Model Design]
+overview = """Participated in a dispatch optimization project at China Eastern Airlines to enhance task assignment and scheduling efficiency.
+Utilized Deep Reinforcement Learning (CVNet) and swarm intelligence algorithms (ABC, FA) to develop a dispatch model adaptable to dynamic real-time environments"""
+roles = """[Model Design]
 - Modeled task assignment as a Semi-Markov Decision Process (SMDP), factoring in task priority, travel cost, and skill compatibility.
 - Addressed combination constraints based on employee skills (A, B, C).
 
@@ -117,18 +130,15 @@ roles = """
 - Leveraged swarm intelligence algorithms (ABC, FA) to reduce travel costs while improving scheduling efficiency.
 
 [Proposal of Results]
-- Proposed research outcomes to China Eastern Airlines, including algorithm implementation details, performance evaluation, and practical applicability.
-"""
-results = """
-[Outcome]
+- Proposed research outcomes to China Eastern Airlines, including algorithm implementation details, performance evaluation, and practical applicability"""
+results = """[Outcome]
 - Proposed a new dispatch model that contributes to improved operational efficiency at China Eastern Airlines.
 - Developed algorithms capable of real-time dynamic task adjustment.
-- The proposal is designed with actual on-site application in mind.
-"""
+- The proposal is designed with actual on-site application in mind"""
 
-###############################################################################
+################################################################################
 # Japanese
-###############################################################################
+################################################################################
 [languages.ja]
 languageName = "日本語"
 weight = 2
@@ -144,15 +154,31 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
-# == Introduce ==
+# == Introduce (JA) with four fields ==
 [[languages.ja.params.introduce]]
-text = """現在、上海の華東師範大学でソフトウェア工学の修士課程を履修しています。大学卒業後、日本のPixel Software株式会社で約2年間勤務し、産業用リアルタイムプロセス情報管理システムや工場データ管理ソフトウェアを開発しました。その後、アメリカの「Tomorrows AI」でリモートインターンシップを完了し、メディアプラットフォームの開発に貢献しました"""
+Introduction = """
+現在、上海の華東師範大学でソフトウェア工学の修士課程を履修しています。大学卒業後、日本のPixel Software株式会社で約2年間勤務し、産業用リアルタイムプロセス情報管理システムや工場データ管理ソフトウェアを開発しました
+"""
+
+Development = """
+その後、アメリカの「Tomorrows AI」でリモートインターンシップを完了し、メディアプラットフォームの開発に貢献しました。さまざまな文化や視点に触れることで、技術スキルだけでなく多角的な思考力も培うことができました
+"""
+
+Turn = """
+台湾、中国本土、香港、ドバイ、イタリア、韓国など多くの国を旅し、各地域の価値観に触れることで、異なる文化の中でのコミュニケーションや問題解決能力を深めています
+"""
+
+Conclusion = """
+こうした多文化体験と技術的専門性を活かし、国際的なプロジェクトに参加してイノベーションを創出したいと考えています。私の経歴を知っていただき、ありがとうございます。今後のご縁を楽しみにしております
+"""
 
 # == Experience ==
 [[languages.ja.params.experience]]
 date = "2024.10 - 2024.12"
 title = "ソフトウェア開発インターン - Tomorrows AI"
-description = "メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化。記事タイトル、画像、コンテンツを表示する動的な詳細ページを設計・実装し、インタラクティビティとエンゲージメントを向上。スケーラブルなWebアプリケーションのバックエンド開発に貢献し、クリーンコードの実践とパフォーマンスの最適化を実施"
+description = """
+メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化してユーザー体験を向上させました。Flaskから取得した記事タイトルや画像、コンテンツを動的に表示する詳細ページを設計・実装し、インタラクティブなユーザーエンゲージメントを促進しました。リモートの国際チームで連携し、パフォーマンス最適化とクリーンコードを重視した開発に取り組みました
+"""
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
@@ -160,7 +186,9 @@ url = "https://www.tomorrowsai.org/"
 [[languages.ja.params.experience]]
 date = "2023.9 - 現在"
 title = "修士課程を開始 - 華東師範大学"
-description = "日本から中国上海に移り、華東師範大学でソフトウェア工学の修士課程を履修中"
+description = """
+日本から中国上海に移り、華東師範大学でソフトウェア工学の修士課程を履修しています。先端的なソフトウェア設計やシステム構築を学びながら、多国籍な環境で国際的視野を養い、技術力とコミュニケーション能力の両面を伸ばしています
+"""
 skills = ["修士学位", "ソフトウェア工学"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
@@ -171,7 +199,9 @@ gpa = "3.14/4.0"
 [[languages.ja.params.experience]]
 date = "2021.4 - 2023.6"
 title = "ソフトウェアエンジニア - Pixel Software 株式会社"
-description = "GolangとPythonを使用して産業監視システムを開発し、従来のVBおよびCシステムを置き換え、保守性とスケーラビリティを向上。リアルタイムデータフロー管理のためにTCP/IPベースのソケットゲートウェイを実装。Windows環境でのデータ操作のためのC#制御ソフトウェアを作成。7人チームと協力してソフトウェア仕様の設計と計画を行い、機能、パフォーマンス、セキュリティを確保するためのテストプランを実行"
+description = """
+GolangとPythonを使用した産業監視システムを開発し、従来のVBおよびCシステムを置き換えて保守性と拡張性を大幅に向上させました。Goroutineの最適化により、大量のセンサーデータを効率的に処理し、処理速度を向上させています。また、C#による制御ソフトウェアの開発を通じて、操作員がリアルタイムで産業データを監視できる仕組みを提供しました。7人チームの一員として、設計からテストまで一連の開発工程に携わり、高品質なソフトウェアの納品に貢献しました
+"""
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
 url = "http://www.pixelsoft.co.jp/pc/index.html"
@@ -179,7 +209,9 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 [[languages.ja.params.experience]]
 date = "2019.9 - 2021.6"
 title = "学士号取得 - 上海外国語大学"
-description = "教育学部卒業"
+description = """
+上海外国語大学の教育学部を卒業し、中国語国際教育の学士号を取得しました。多文化間コミュニケーションや言語教育の知見を身につけ、異なる文化圏での学習や業務でも柔軟に対応できる基礎を築きました
+"""
 skills = ["学士学位", "中国語"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
@@ -216,32 +248,27 @@ skills = ["TCPIP", "jQuery"]
 [[languages.ja.params.projects]]
 title = "东方航空 派工最適化プロジェクト"
 period = "2024.9 - 現在"
-overview = """
-东方航空のタスク割り当てとスケジューリング効率を向上させるための派工最適化プロジェクトに参画。
-深層強化学習（CVNet）と群知能アルゴリズム（ABC、FA）を活用し、リアルタイムで動的な環境に適応可能な派工モデルを開発。
-"""
-roles = """
-【モデル設計】
-・タスク割り当てを半マルコフ決定プロセス（SMDP）としてモデリングし、タスクの優先度、移動コスト、スキル適合性を考慮。
-・従業員のスキル（A、B、C）に基づく組み合わせ制約を解決。
+overview = """东方航空のタスク割り当てとスケジューリング効率を向上させるための派工最適化プロジェクトに参画。深層強化学習（CVNet）と群知能アルゴリズム（ABC、FA）を活用し、リアルタイムで動的な環境に適応可能な派工モデルを開発"""
+roles = """【モデル設計】
+・タスク割り当てを半マルコフ決定プロセス（SMDP）としてモデリングし、タスクの優先度、移動コスト、スキル適合性を考慮
+・従業員のスキル（A、B、C）に基づく組み合わせ制約を解決
 
 【アルゴリズム実装】
-・CVNetを用いてタスクの価値関数を学習し、動的なタスク割り当てを最適化。
-・群知能アルゴリズム（ABC、FA）を活用して移動コストを削減しつつスケジュール効率を向上。
+・CVNetを用いてタスクの価値関数を学習し、動的なタスク割り当てを最適化
+・群知能アルゴリズム（ABC、FA）を活用して移動コストを削減しつつスケジュール効率を向上
 
 【成果提案】
-・プロジェクトを通じて得られた研究成果を东方航空に提案。アルゴリズムの実装方法、パフォーマンス評価、および実運用での適用可能性を含む。
+・プロジェクトを通じて得られた研究成果を东方航空に提案。アルゴリズムの実装方法、パフォーマンス評価、および実運用での適用可能性を含む
 """
-results = """
-【成果】
-・东方航空の運用効率向上に寄与する新しい派工モデルを提案。
-・リアルタイムのタスク動的調整が可能なアルゴリズムを開発。
-・提案内容は航空運用現場での実用化を前提に設計。
+results = """【成果】
+・东方航空の運用効率向上に寄与する新しい派工モデルを提案
+・リアルタイムのタスク動的調整が可能なアルゴリズムを開発
+・提案内容は航空運用現場での実用化を前提に設計
 """
 
-###############################################################################
+################################################################################
 # Chinese
-###############################################################################
+################################################################################
 [languages.zh]
 languageName = "中文"
 weight = 3
@@ -257,21 +284,31 @@ github = "https://github.com/namashin"
 linkedin = "https://www.linkedin.com/in/namashin/"
 resume = "/materials/NagaharaIkuma_Resume.pdf"
 
-# == Introduce ==
+# == Introduce (ZH) with four fields ==
 [[languages.zh.params.introduce]]
-text = """您好！我叫长原生真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验。
+Introduction = """
+您好！我叫长原生真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验
+"""
 
-我热爱旅行，曾访问过台湾、中国、香港、迪拜、意大利和韩国等多个国家。这些经历让我能够探索多样的文化和视角，大大提升了我的跨文化理解能力，拓宽了我的视野。
+Development = """
+我热爱旅行，曾访问过台湾、中国、香港、迪拜、意大利和韩国等多个国家。这些经历让我能够探索多样的文化和视角，大大提升了我的跨文化理解能力，拓宽了我的视野
+"""
 
-在我的职业生涯中，我在日本的Pixel Software株式会社工作了大约两年，开发了工业实时过程信息管理系统和工厂数据管理软件。之后，我完成了在美国“Tomorrows AI”的远程实习，参与了媒体平台的开发。
+Turn = """
+在我的职业生涯中，我在日本的Pixel Software株式会社工作了大约两年，开发了工业实时过程信息管理系统和工厂数据管理软件。之后，我完成了在美国“Tomorrows AI”的远程实习，参与了媒体平台的开发
+"""
 
-利用我的多文化经验和技术技能，我希望能为国际项目做出贡献，作为一名专业工程师创造创新价值。感谢您的时间，期待与您联系！"""
+Conclusion = """
+利用我的多文化经验和技术技能，我希望能为国际项目做出贡献，作为一名专业工程师创造创新价值。感谢您的时间，期待与您联系
+"""
 
 # == Experience ==
 [[languages.zh.params.experience]]
 date = "2024.10 - 2024.12"
 title = "软件开发实习生 - Tomorrows AI"
-description = "开发了一个基于Flask的媒体平台Web应用程序，优化了用户体验和关键字搜索功能。设计并实现了动态详细页面，以显示文章标题、图片和内容，提高了互动性和参与度。参与了可扩展Web应用程序的后端开发，遵循清晰的代码实践并优化性能"
+description = """
+在远程团队环境中，基于Flask开发了媒体平台的Web应用程序，优化了用户体验和关键字搜索功能。还设计并实现了动态详细页面以展示文章标题、图片和内容，从而提升了交互性和用户参与度。注重代码质量和性能优化，与国际化团队合作，高效完成了平台的核心功能
+"""
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
@@ -279,7 +316,9 @@ url = "https://www.tomorrowsai.org/"
 [[languages.zh.params.experience]]
 date = "2023.9 - 现在"
 title = "开始攻读硕士学位 - 华东师范大学"
-description = "从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位"
+description = """
+从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位。深入学习软件开发、系统设计及前沿技术，并在国际化环境中拓展多元化的学术和实践经验，为未来从事跨国项目奠定了扎实的基础
+"""
 skills = ["硕士学位", "软件工程", "中国政府奖学金生"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
@@ -290,7 +329,9 @@ gpa = "3.14/4.0"
 [[languages.zh.params.experience]]
 date = "2021.4 - 2023.6"
 title = "软件工程师 - Pixel Software 株式会社"
-description = "使用Golang和Python开发工业监控系统，替换旧的VB和C系统，改善维护性和可扩展性。优化Goroutines以提高数据处理效率超过40%，并实现基于TCP/IP的套接字网关以进行实时数据流管理。在Windows环境中创建了用于数据操作的C#控制软件。与7人团队合作设计和规划软件规格，并执行测试计划以确保功能、性能和安全性"
+description = """
+在日本的Pixel Software就职期间，使用Golang和Python开发工业监控系统，替换旧的VB和C系统，大幅提高了可维护性和可扩展性。通过优化Golang并行处理，成功应对数千个传感器数据，并提升了40%以上的数据吞吐量。此外，还利用C#编写控制软件，为操作员提供了实时监控工业数据的功能。与团队成员协同作业，负责软件需求设计、测试计划执行以及质量保证，并编写了详尽的技术文档，向利益相关方汇报项目进度与解决方案
+"""
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
 url = "http://www.pixelsoft.co.jp/pc/index.html"
@@ -298,7 +339,9 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 [[languages.zh.params.experience]]
 date = "2019.9 - 2021.6"
 title = "获得学士学位 - 上海外国语大学"
-description = "汉语国际教育毕业"
+description = """
+在上海外国语大学国际教育学院获得汉语国际教育学士学位，系统学习了语言教学与跨文化交流的理论与实践，为在多元文化环境中从事开发与沟通工作奠定了坚实的语言与文化基础
+"""
 skills = ["学士学位", "汉语", "教育"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
@@ -335,25 +378,21 @@ skills = ["TCPIP", "jQuery"]
 [[languages.zh.params.projects]]
 title = "东方航空 派工优化项目"
 period = "2024.9 - 至今"
-overview = """
-参与东方航空的派工优化项目，以提高任务分配和调度效率。
-使用深度强化学习（CVNet）和群智能算法（ABC、FA），开发可适应实时动态环境的派工模型。
-"""
-roles = """
-【模型设计】
-- 将任务分配建模为半马尔可夫决策过程（SMDP），考虑任务优先级、移动成本和技能适配性。
-- 基于员工技能（A、B、C）解决组合约束。
+overview = """参与东方航空的派工优化项目，以提高任务分配和调度效率。
+使用深度强化学习（CVNet）和群智能算法（ABC、FA），开发可适应实时动态环境的派工模型"""
+roles = """【模型设计】
+- 将任务分配建模为半马尔可夫决策过程（SMDP），考虑任务优先级、移动成本和技能适配性
+- 基于员工技能（A、B、C）解决组合约束
 
 【算法实现】
-- 采用CVNet学习任务价值函数，优化动态任务分配。
-- 利用群智能算法（ABC、FA）在降低移动成本的同时提升调度效率。
+- 采用CVNet学习任务价值函数，优化动态任务分配
+- 利用群智能算法（ABC、FA）在降低移动成本的同时提升调度效率
 
 【成果提案】
-- 向东方航空提出项目研究成果，包括算法实现细节、性能评估及实际运用的可行性。
+- 向东方航空提出项目研究成果，包括算法实现细节、性能评估及实际运用的可行性
 """
-results = """
-【成果】
-- 提出新的派工模型，为东方航空的运营效率提高做出贡献。
-- 开发可实现实时动态任务调整的算法。
-- 设计方案充分考虑航空运营一线的实际应用需求。
+results = """【成果】
+- 提出新的派工模型，为东方航空的运营效率提高做出贡献
+- 开发可实现实时动态任务调整的算法
+- 设计方案充分考虑航空运营一线的实际应用需求
 """

@@ -3,10 +3,15 @@
 <!-- ABOUTセクション -->
 <section id="about" class="profile">
   <img src="/images/face.jpg" alt="Profile photo of {{ .Site.Params.name }}, {{ .Site.Params.title }}" class="profile-photo">
+
   <div class="description">
     {{ range .Site.Params.introduce }}
-    <p>{{ .text }}</p>
+    <p>{{ .Introduction }}</p>
+    <p>{{ .Development }}</p>
+    <p>{{ .Turn }}</p>
+    <p>{{ .Conclusion }}</p>
     {{ end }}
+
   </div>
 </section>
 
