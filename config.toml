@@ -50,7 +50,7 @@ title = "Software Developer Intern - Tomorrows AI"
 description = """
 I contributed to the development of a media platform by building a Flask-based web application, which enabled efficient keyword and title searches to enhance user experience. I also designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement. Working in a remote, international environment, I focused on clean code practices and performance optimization, ultimately helping to deliver a high-quality, scalable web solution
 """
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -105,7 +105,7 @@ skills = ["Gin", "Django", "Flask"]
 
 [[languages.en.params.professional_skills]]
 category = "Tools"
-skills = ["Git", "GitHub", "Docker"]
+skills = ["Git", "GitHub", "Docker", "AWS"]
 
 [[languages.en.params.professional_skills]]
 category = "Operating Systems"
@@ -179,7 +179,7 @@ title = "ソフトウェア開発インターン - Tomorrows AI"
 description = """
 メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化してユーザー体験を向上させました。Flaskから取得した記事タイトルや画像、コンテンツを動的に表示する詳細ページを設計・実装し、インタラクティブなユーザーエンゲージメントを促進しました。リモートの国際チームで連携し、パフォーマンス最適化とクリーンコードを重視した開発に取り組みました
 """
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -234,7 +234,7 @@ skills = ["Gin", "Django", "Flask"]
 
 [[languages.ja.params.professional_skills]]
 category = "ツール"
-skills = ["Git", "GitHub", "Docker"]
+skills = ["Git", "GitHub", "Docker", "AWS"]
 
 [[languages.ja.params.professional_skills]]
 category = "オペレーティングシステム"
@@ -309,7 +309,7 @@ title = "软件开发实习生 - Tomorrows AI"
 description = """
 在远程团队环境中，基于Flask开发了媒体平台的Web应用程序，优化了用户体验和关键字搜索功能。还设计并实现了动态详细页面以展示文章标题、图片和内容，从而提升了交互性和用户参与度。注重代码质量和性能优化，与国际化团队合作，高效完成了平台的核心功能
 """
-skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API"]
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
 logo = "/icons/tomorrows_ai.jpg"
 url = "https://www.tomorrowsai.org/"
 
@@ -364,7 +364,7 @@ skills = ["Gin", "Django", "Flask"]
 
 [[languages.zh.params.professional_skills]]
 category = "工具"
-skills = ["Git", "GitHub", "Docker"]
+skills = ["Git", "GitHub", "Docker", "AWS"]
 
 [[languages.zh.params.professional_skills]]
 category = "操作系统"
