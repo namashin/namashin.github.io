@@ -28,19 +28,26 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (EN) with four fields ==
 [[languages.en.params.introduce]]
 Introduction = """
-Hello! My name is NAGAHARA IKUMA. I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China. I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences
+Hello! My name is NAGAHARA IKUMA.
+I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China.
+I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences
 """
 
 Development = """
-I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea. These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons
+I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea.
+These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons
 """
 
 Turn = """
-In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan, where I developed industrial real-time process information management systems and factory data management software. Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development
+In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan,
+where I developed industrial real-time process information management systems and factory data management software.
+Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development
 """
 
 Conclusion = """
-Leveraging my multicultural experiences and technical skills, I aspire to contribute to international projects and create innovative value as a professional engineer. Thank you for your time, and I look forward to connecting with you
+Leveraging my multicultural experiences and technical skills,
+I aspire to contribute to international projects and create innovative value as a professional engineer.
+Thank you for your time, and I look forward to connecting with you.
 """
 
 # == Experience ==
@@ -48,7 +55,11 @@ Leveraging my multicultural experiences and technical skills, I aspire to contri
 date = "2024.10 - 2024.12"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
-I contributed to the development of a media platform by building a Flask-based web application, which enabled efficient keyword and title searches to enhance user experience. I also designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data, improving interactivity and user engagement. Working in a remote, international environment, I focused on clean code practices and performance optimization, ultimately helping to deliver a high-quality, scalable web solution
+I contributed to the development of a media platform by building a Flask-based web application,
+which enabled efficient keyword and title searches to enhance user experience.
+
+I also designed and implemented a dynamic detail page to display article titles, images, and content retrieved from Flask data,
+improving interactivity and user engagement. Working in a remote, international environment, I focused on clean code practices and performance optimization, ultimately helping to deliver a high-quality, scalable web solution
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
 logo = "/icons/tomorrows_ai.jpg"
@@ -58,7 +69,8 @@ url = "https://www.tomorrowsai.org/"
 date = "2023.9 - Present"
 title = "Start Pursuing Master Degree - East China Normal University"
 description = """
-I relocated from Japan to Shanghai, China, to pursue a Master's degree in Software Engineering at East China Normal University. This program has allowed me to delve into advanced software development and system architecture, while also fostering an international perspective through collaboration with peers from diverse backgrounds
+I relocated from Japan to Shanghai, China, to pursue a Master's degree in Software Engineering at East China Normal University.
+This program has allowed me to delve into advanced software development and system architecture, while also fostering an international perspective through collaboration with peers from diverse backgrounds
 """
 skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
 logo = "/icons/ecnu.jpg"
@@ -71,7 +83,9 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
 description = """
-I developed an industrial gateway system using Golang and Python to replace legacy VB and C systems, significantly improving maintainability and scalability. By optimizing Golang’s concurrency features, I successfully handled thousands of sensor tags, boosting data throughput by over 40% and reducing processing time. I also programmed control software in C#, enabling system operators to monitor real-time industrial data. In collaboration with a seven-member team, I participated in software specification design, test plan execution, and quality assurance. Furthermore, I created detailed technical documentation, reported project progress, and provided solutions to stakeholders
+I developed an industrial gateway system using Golang and Python to replace legacy VB and C systems, significantly improving maintainability and scalability.
+By optimizing Golang’s concurrency features, I successfully handled thousands of sensor tags, boosting data throughput by over 40% and reducing processing time.
+I also programmed control software in C#, enabling system operators to monitor real-time industrial data. In collaboration with a seven-member team, I participated in software specification design, test plan execution, and quality assurance. Furthermore, I created detailed technical documentation, reported project progress, and provided solutions to stakeholders
 """
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
@@ -81,7 +95,8 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 date = "2019.9 - 2021.6"
 title = "Graduated Bachelor Degree - Shanghai International Studies University"
 description = """
-I graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education at Shanghai International Studies University. This academic background fostered a deep understanding of language learning and intercultural communication, which has proven invaluable in international academic and professional environments
+I graduated with a Bachelor's degree in Teaching Chinese to Speakers of Other Languages from the School of Education at Shanghai International Studies University.
+This academic background fostered a deep understanding of language learning and intercultural communication, which has proven invaluable in international academic and professional environments
 """
 skills = ["Bachelor Degree", "Chinese"]
 logo = "/icons/sisu.jpg"
@@ -307,7 +322,8 @@ Conclusion = """
 date = "2024.10 - 2024.12"
 title = "软件开发实习生 - Tomorrows AI"
 description = """
-在远程团队环境中，基于Flask开发了媒体平台的Web应用程序，优化了用户体验和关键字搜索功能。还设计并实现了动态详细页面以展示文章标题、图片和内容，从而提升了交互性和用户参与度。注重代码质量和性能优化，与国际化团队合作，高效完成了平台的核心功能
+在远程团队环境中，基于Flask开发了媒体平台的Web应用程序，优化了用户体验和关键字搜索功能.
+还设计并实现了动态详细页面以展示文章标题、图片和内容，从而提升了交互性和用户参与度。注重代码质量和性能优化，与国际化团队合作，高效完成了平台的核心功能.
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
 logo = "/icons/tomorrows_ai.jpg"
@@ -330,7 +346,12 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "软件工程师 - Pixel Software 株式会社"
 description = """
-在日本的Pixel Software就职期间，使用Golang和Python开发工业监控系统，替换旧的VB和C系统，大幅提高了可维护性和可扩展性。通过优化Golang并行处理，成功应对数千个传感器数据，并提升了40%以上的数据吞吐量。此外，还利用C#编写控制软件，为操作员提供了实时监控工业数据的功能。与团队成员协同作业，负责软件需求设计、测试计划执行以及质量保证，并编写了详尽的技术文档，向利益相关方汇报项目进度与解决方案
+我使用Golang开发了一套从工厂内的传感器实时收集数据并将其传递到前端的网关系统.
+在这个系统中，通过使用TCP/IP协议从传感器获取数据，并利用Golang的并发处理功能（goroutines和channels）高效处理大量数据.
+通过这一技术优化，从原本基于VB和C语言的遗留系统成功迁移，不仅将数据吞吐量提升了40%，还显著缩短了处理时间.
+
+此外，我设计了RESTful API，实现了与前端的顺畅对接。该API不仅确保了数据获取的实时性，还撰写了详细的API规范文档，并在开发团队内进行了共享和讨论.
+API的端点设计灵活，可以根据传感器ID和数据类型进行过滤，方便前端团队轻松获取所需数据
 """
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
