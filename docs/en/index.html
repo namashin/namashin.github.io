@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.127.0">
+	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 
   <meta charset="UTF-8">
@@ -193,16 +193,73 @@ This program has allowed me to delve into advanced software development and syst
       
       
       
-      <p>I developed an industrial gateway system using Golang and Python to replace legacy VB and C systems, significantly improving maintainability and scalability.</p>
+      <p>I developed a system to collect real-time data from factory sensors and deliver it to the frontend.</p>
       
       
       
       <p>
-By optimizing Golang’s concurrency features, I successfully handled thousands of sensor tags, boosting data throughput by over 40% and reducing processing time.</p>
+This project utilized the TCP/IP protocol to receive data from sensors, enabling efficient and reliable processing.</p>
       
       
       
       <p>
+
+Why TCP/IP was chosen ?.</p>
+      
+      
+      
+      <p>
+The data sent by the sensors was critical and could not tolerate any loss or disorder.</p>
+      
+      
+      
+      <p>
+Therefore, we prioritized the reliability of data transmission and adopted the TCP protocol to ensure the data was delivered securely.</p>
+      
+      
+      
+      <p> TCP provides retransmission features in case of data loss and maintains the order of transmission, making it the optimal choice for achieving both real-time performance and stability.</p>
+      
+      
+      
+      <p>
+
+In this system, the sensors transmitted data using TCP, and the server-side received it in real-time through TCP sockets.</p>
+      
+      
+      
+      <p> The received data packets were parsed to extract necessary information, such as sensor IDs and measurement values.</p>
+      
+      
+      
+      <p> Additionally, we leveraged Golang’s concurrency features (goroutines and channels) to efficiently handle a large number of connections, ensuring scalability.</p>
+      
+      
+      
+      <p>
+
+Key outcomes are that Achieved a 40% increase in data throughput.</p>
+      
+      
+      
+      <p>
+Significantly reduced processing time, ensuring real-time performance.</p>
+      
+      
+      
+      <p>
+Enabled a smooth migration from the legacy system built with VB and C languages through reliable data communication.</p>
+      
+      
+      
+      <p>
+
+Through this project, I successfully combined the reliable communication capabilities of the TCP/IP protocol with the high-efficiency concurrency of Golang, resulting in a substantial improvement in overall system performance and stability.</p>
+      
+      
+      
+      <p>
+
 I also programmed control software in C#, enabling system operators to monitor real-time industrial data.</p>
       
       

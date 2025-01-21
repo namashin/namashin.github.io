@@ -83,10 +83,24 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
 description = """
-I developed an industrial gateway system using Golang and Python to replace legacy VB and C systems, significantly improving maintainability and scalability.
-By optimizing Golang’s concurrency features, I successfully handled thousands of sensor tags, boosting data throughput by over 40% and reducing processing time.
+I developed a system to collect real-time data from factory sensors and deliver it to the frontend.
+This project utilized the TCP/IP protocol to receive data from sensors, enabling efficient and reliable processing.
+
+Why TCP/IP was chosen ?.
+The data sent by the sensors was critical and could not tolerate any loss or disorder.
+Therefore, we prioritized the reliability of data transmission and adopted the TCP protocol to ensure the data was delivered securely. TCP provides retransmission features in case of data loss and maintains the order of transmission, making it the optimal choice for achieving both real-time performance and stability.
+
+In this system, the sensors transmitted data using TCP, and the server-side received it in real-time through TCP sockets. The received data packets were parsed to extract necessary information, such as sensor IDs and measurement values. Additionally, we leveraged Golang’s concurrency features (goroutines and channels) to efficiently handle a large number of connections, ensuring scalability.
+
+Key outcomes are that Achieved a 40% increase in data throughput.
+Significantly reduced processing time, ensuring real-time performance.
+Enabled a smooth migration from the legacy system built with VB and C languages through reliable data communication.
+
+Through this project, I successfully combined the reliable communication capabilities of the TCP/IP protocol with the high-efficiency concurrency of Golang, resulting in a substantial improvement in overall system performance and stability.
+
 I also programmed control software in C#, enabling system operators to monitor real-time industrial data. In collaboration with a seven-member team, I participated in software specification design, test plan execution, and quality assurance. Furthermore, I created detailed technical documentation, reported project progress, and provided solutions to stakeholders
 """
+
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
 url = "http://www.pixelsoft.co.jp/pc/index.html"
@@ -215,7 +229,20 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "ソフトウェアエンジニア - Pixel Software 株式会社"
 description = """
-GolangとPythonを使用した産業監視システムを開発し、従来のVBおよびCシステムを置き換えて保守性と拡張性を大幅に向上させました。Goroutineの最適化により、大量のセンサーデータを効率的に処理し、処理速度を向上させています。また、C#による制御ソフトウェアの開発を通じて、操作員がリアルタイムで産業データを監視できる仕組みを提供しました。7人チームの一員として、設計からテストまで一連の開発工程に携わり、高品質なソフトウェアの納品に貢献しました
+工場内のセンサーからリアルタイムでデータを収集し、それをフロントエンドに渡すシステムを開発しました.
+このプロジェクトでは、TCP/IPプロトコルを使用してセンサーからデータを受信し、効率的かつ信頼性の高い処理を実現しました.
+なぜTCP/IPを選んだかというと、センサーから送信されるデータは、欠落や順序の乱れが許されない重要な情報でした.
+そのため、データ通信の信頼性を重視し、データの確実な送信を保証するTCPプロトコルを採用しました.
+
+TCPは、通信中にデータの損失が発生した場合の再送機能や、送信順序の保持が可能であり、リアルタイム性と安定性の両立を実現するための最適な選択でした.
+
+具体的な実装としては、センサーはTCPを介してデータを送信し、サーバーサイドでTCPソケットを使用してリアルタイムでデータを受信しました. 受信したデータパケットを解析し、センサーIDや測定値など必要な情報を抽出しました. また、Golangの並行処理機能（goroutinesとchannels）を活用して大量の接続を効率的に処理し、スケーラビリティを確保しました.
+主な成果としては、データスループットを40%向上, 処理時間を大幅に短縮し、リアルタイム性を実現, 信頼性の高いデータ通信により、旧システム（VBやC言語で構築）からのスムーズな移行を達成.
+
+このプロジェクトを通じて、TCP/IPプロトコルを活用した信頼性の高い通信と、Golangによる高効率な並行処理を組み合わせ、システム全体のパフォーマンスと安定性を大幅に向上させることができました.
+
+また、C#による制御ソフトウェアの開発を通じて、操作員がリアルタイムで産業データを監視できる仕組みを提供しました.
+7人チームの一員として、設計からテストまで一連の開発工程に携わり、高品質なソフトウェアの納品に貢献しました
 """
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
@@ -225,7 +252,8 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 date = "2019.9 - 2021.6"
 title = "学士号取得 - 上海外国語大学"
 description = """
-上海外国語大学の教育学部を卒業し、中国語国際教育の学士号を取得しました。多文化間コミュニケーションや言語教育の知見を身につけ、異なる文化圏での学習や業務でも柔軟に対応できる基礎を築きました
+上海外国語大学の教育学部を卒業し、中国語国際教育の学士号を取得しました.
+多文化間コミュニケーションや言語教育の知見を身につけ、異なる文化圏での学習や業務でも柔軟に対応できる基礎を築きました
 """
 skills = ["学士学位", "中国語"]
 logo = "/icons/sisu.jpg"
@@ -346,12 +374,22 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "软件工程师 - Pixel Software 株式会社"
 description = """
-我使用Golang开发了一套从工厂内的传感器实时收集数据并将其传递到前端的网关系统.
-在这个系统中，通过使用TCP/IP协议从传感器获取数据，并利用Golang的并发处理功能（goroutines和channels）高效处理大量数据.
-通过这一技术优化，从原本基于VB和C语言的遗留系统成功迁移，不仅将数据吞吐量提升了40%，还显著缩短了处理时间.
+我开发了一套从工厂内的传感器实时收集数据并将其传递到前端的系统.
+在这个项目中，通过使用TCP/IP协议从传感器接收数据，实现了高效且可靠的数据处理.
 
-此外，我设计了RESTful API，实现了与前端的顺畅对接。该API不仅确保了数据获取的实时性，还撰写了详细的API规范文档，并在开发团队内进行了共享和讨论.
-API的端点设计灵活，可以根据传感器ID和数据类型进行过滤，方便前端团队轻松获取所需数据
+选择TCP/IP的原因是，传感器发送的数据是不能容忍丢失或顺序混乱的重要信息.
+因此，我们优先考虑数据通信的可靠性，并选择TCP协议来确保数据能够被可靠传输.
+TCP支持在通信中出现数据丢失时的重传功能，并能保持发送数据的顺序，是在实现实时性与稳定性之间最佳的选择。
+
+具体来说，传感器通过TCP发送数据，服务器端使用TCP套接字实时接收数据.
+接收的数据包会被解析，提取出传感器ID、测量值等必要的信息.
+
+此外，我们利用Golang的并发处理功能（goroutines和channels），高效地处理了大量的连接，从而确保了系统的可扩展性。
+
+主要成果是数据吞吐量提升了40% (BenchMark), 显著缩短了处理时间，实现了实时性.
+通过高可靠的数据通信，实现了从旧系统（基于VB和C语言构建）的平稳迁移.
+
+通过这个项目，我们成功结合了TCP/IP协议的高可靠通信与Golang的高效并发处理，显著提升了系统整体的性能与稳定性
 """
 skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
 logo = "/icons/pixelsoft.jpg"
@@ -361,7 +399,8 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 date = "2019.9 - 2021.6"
 title = "获得学士学位 - 上海外国语大学"
 description = """
-在上海外国语大学国际教育学院获得汉语国际教育学士学位，系统学习了语言教学与跨文化交流的理论与实践，为在多元文化环境中从事开发与沟通工作奠定了坚实的语言与文化基础
+在上海外国语大学国际教育学院获得汉语国际教育学士学位，学习了语言教学与跨文化交流的理论与实践.
+为在多元文化环境中从事开发与沟通工作奠定了坚实的语言与文化基础
 """
 skills = ["学士学位", "汉语", "教育"]
 logo = "/icons/sisu.jpg"
