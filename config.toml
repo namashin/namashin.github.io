@@ -83,7 +83,8 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "Software Engineer - Pixel Software 株式会社"
 description = """
-I developed a system to collect real-time data from factory sensors and deliver it to the frontend.
+I Programmed Industrial Real-Time Process Information Management System (known as PLANETMEISTER) and its Gateway Software. Bug fix included
+
 This project utilized the TCP/IP protocol to receive data from sensors, enabling efficient and reliable processing.
 
 Why TCP/IP was chosen ?.
@@ -229,7 +230,7 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "ソフトウェアエンジニア - Pixel Software 株式会社"
 description = """
-工場内のセンサーからリアルタイムでデータを収集し、それをフロントエンドに渡すシステムを開発しました.
+工業用リアルタイムプロセス情報管理システム（PLANETMEISTER）およびそのゲートウェイソフトウェア開発、バグ修正を担当しました.
 このプロジェクトでは、TCP/IPプロトコルを使用してセンサーからデータを受信し、効率的かつ信頼性の高い処理を実現しました.
 なぜTCP/IPを選んだかというと、センサーから送信されるデータは、欠落や順序の乱れが許されない重要な情報でした.
 そのため、データ通信の信頼性を重視し、データの確実な送信を保証するTCPプロトコルを採用しました.
@@ -374,7 +375,8 @@ gpa = "3.14/4.0"
 date = "2021.4 - 2023.6"
 title = "软件工程师 - Pixel Software 株式会社"
 description = """
-我开发了一套从工厂内的传感器实时收集数据并将其传递到前端的系统.
+我编程工业实时过程信息管理系统（称为PLANETMEISTER）及其网关软件。包含错误修复.
+
 在这个项目中，通过使用TCP/IP协议从传感器接收数据，实现了高效且可靠的数据处理.
 
 选择TCP/IP的原因是，传感器发送的数据是不能容忍丢失或顺序混乱的重要信息.
