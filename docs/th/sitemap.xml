@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://namashin.github.io/zh/categories/</loc>
+    <loc>https://namashin.github.io/th/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,6 +15,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://namashin.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fil"
                 href="https://namashin.github.io/fil/categories/"
                 />
@@ -23,13 +28,8 @@
                 hreflang="th"
                 href="https://namashin.github.io/th/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://namashin.github.io/zh/categories/"
-                />
   </url><url>
-    <loc>https://namashin.github.io/zh/</loc>
+    <loc>https://namashin.github.io/th/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,6 +42,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://namashin.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fil"
                 href="https://namashin.github.io/fil/"
                 />
@@ -50,13 +55,8 @@
                 hreflang="th"
                 href="https://namashin.github.io/th/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://namashin.github.io/zh/"
-                />
   </url><url>
-    <loc>https://namashin.github.io/zh/tags/</loc>
+    <loc>https://namashin.github.io/th/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -69,6 +69,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://namashin.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fil"
                 href="https://namashin.github.io/fil/tags/"
                 />
@@ -76,11 +81,6 @@
                 rel="alternate"
                 hreflang="th"
                 href="https://namashin.github.io/th/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://namashin.github.io/zh/tags/"
                 />
   </url>
 </urlset>

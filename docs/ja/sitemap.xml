@@ -16,6 +16,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fil"
+                href="https://namashin.github.io/fil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="th"
+                href="https://namashin.github.io/th/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja"
                 href="https://namashin.github.io/ja/"
                 />
@@ -33,6 +43,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fil"
+                href="https://namashin.github.io/fil/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="th"
+                href="https://namashin.github.io/th/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ja"
                 href="https://namashin.github.io/ja/categories/"
                 />
@@ -47,6 +67,16 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://namashin.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fil"
+                href="https://namashin.github.io/fil/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="th"
+                href="https://namashin.github.io/th/tags/"
                 />
     <xhtml:link
                 rel="alternate"

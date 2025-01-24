@@ -458,3 +458,351 @@ results = """【成果】
 - 开发可实现实时动态任务调整的算法
 - 设计方案充分考虑航空运营一线的实际应用需求
 """
+
+###############################################################################
+# Filipino (Tagalog)
+###############################################################################
+[languages.fil]
+languageName = "Filipino"
+weight = 4
+contentDir = "content/fil"
+languageCode = "fil"
+
+[languages.fil.params]
+name = "NAGAHARA IKUMA"
+title = "Software Engineer"
+description = "Nagtatayo ako ng maaasahan, sopistikado, at nasusukat na mga sistema ng software."
+email = "mailto:changyuanshengzhen@icloud.com"
+github = "https://github.com/namashin"
+linkedin = "https://www.linkedin.com/in/namashin/"
+resume = "/materials/NagaharaIkuma_Resume.pdf"
+
+# == Introduce (FIL) with four fields ==
+[[languages.fil.params.introduce]]
+Introduction = """
+Kumusta! Ako si NAGAHARA IKUMA.
+Kasalukuyan akong kumukuha ng Master’s degree sa Software Engineering sa East China Normal University sa Shanghai, Tsina.
+Tuwang-tuwa akong mag-aral sa isang internasyonal na kapaligiran kasama ang aking mga kaklase na Tsino, na nagbibigay sa akin ng mas malawak na pananaw sa akademya at kultura.
+"""
+
+Development = """
+Mahilig akong maglakbay at nakapunta na ako sa iba’t ibang bansa gaya ng Taiwan, Tsina, Hong Kong, Dubai, Italya, at South Korea.
+Malaki ang naitulong ng mga paglalakbay na ito upang maunawaan ko ang iba’t ibang kultura at pag-iisip, at lubos na napalawak ang aking pang-unawa.
+"""
+
+Turn = """
+Sa aking propesyonal na karera, halos dalawang taon akong nagtrabaho sa Pixel Software Corporation sa Japan,
+kung saan ako ay nakibahagi sa pag-develop ng pang-industriyang real-time process information management systems at factory data management software.
+Pagkatapos noon, nakatapos ako ng remote internship sa “Tomorrows AI” sa Estados Unidos, kung saan tumulong ako sa pagbuo ng isang media platform.
+"""
+
+Conclusion = """
+Gamit ang aking mga karanasan sa iba’t ibang kultura at kasanayan sa teknolohiya,
+nananabik akong mag-ambag sa mga internasyonal na proyekto at lumikha ng inobatibong halaga bilang isang propesyonal na inhinyero.
+Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makipag-ugnayan sa inyo.
+"""
+
+# == Experience (FIL) ==
+[[languages.fil.params.experience]]
+date = "2024.10 - 2024.12"
+title = "Software Developer Intern - Tomorrows AI"
+description = """
+Nakibahagi ako sa pagbuo ng isang Flask-based web application para sa isang media platform,
+na nagbigay-daan sa mas mahusay na keyword at title search upang mapabuti ang karanasan ng gumagamit.
+
+Idinisenyo at ipinatupad ko rin ang isang dynamic na detail page upang ipakita ang mga pamagat, larawan, at nilalaman ng artikulo mula sa data ng Flask,
+na nagpaunlad ng interactivity at user engagement. Sa isang remote at internasyonal na kapaligiran, nakatuon ako sa malinis na code at performance optimization,
+na nagresulta sa isang high-quality at nasusukat na solusyon.
+"""
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
+logo = "/icons/tomorrows_ai.jpg"
+url = "https://www.tomorrowsai.org/"
+
+[[languages.fil.params.experience]]
+date = "2023.9 - Kasalukuyan"
+title = "Pagsisimula ng Master’s Degree - East China Normal University"
+description = """
+Lumipat ako mula Japan patungong Shanghai, China, upang kumuha ng Master’s degree sa Software Engineering sa East China Normal University.
+Sa programang ito, mas malalim kong pinag-aaralan ang advanced software development at system architecture,
+habang nakikipagtulungan sa mga kaklase mula sa iba’t ibang bansa na lalong nagpapayaman sa aking internasyonal na pananaw.
+"""
+skills = ["Master’s Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
+logo = "/icons/ecnu.jpg"
+url = "https://english.ecnu.edu.cn/"
+department = "Software Engineering Institute"
+major = "Software Engineering"
+gpa = "3.14/4.0"
+
+[[languages.fil.params.experience]]
+date = "2021.4 - 2023.6"
+title = "Software Engineer - Pixel Software 株式会社"
+description = """
+Ako ay bumuo ng Industrial Real-Time Process Information Management System (PLANETMEISTER) at ang Gateway Software nito, kabilang ang pag-aayos ng mga bug.
+
+Ginamit namin ang TCP/IP protocol upang tumanggap ng data mula sa mga sensor, na nagpapahintulot ng mahusay at maaasahang pagproseso.
+Pinili namin ang TCP/IP dahil mahalagang hindi mawala o ma-distort ang data mula sa mga sensor.
+Mayroon itong retransmission at order-maintaining na mga katangian, na kritikal para sa real-time na pagiging maaasahan.
+
+Sa implementasyon, ang mga sensor ay nagpapadala ng data via TCP, at ang server ay tumatanggap nito nang real-time sa pamamagitan ng TCP sockets.
+Kinukuha ang kinakailangang impormasyon (sensor ID, measurement values, at iba pa) mula sa natanggap na data packets.
+Bukod pa rito, sinamantala namin ang concurrency features ng Golang (goroutines at channels) upang mas epektibong mapangasiwaan ang maraming koneksyon,
+na pinahuhusay ang scalability.
+
+Pangunahing resulta:
+- 40% na pagtaas sa data throughput
+- Napababa nang malaki ang processing time, na nagsu-suporta sa real-time na performance
+- Naging posible ang maayos na paglipat mula sa lumang sistema (VB at C) patungo sa bago, dahil sa maaasahang data communication
+
+Sa kabuuan, matagumpay naming napagsama ang maaasahang komunikasyon ng TCP/IP at ang mataas na concurrency ng Golang upang makamit ang mas mahusay na performance at katatagan ng buong sistema.
+
+Bukod dito, gumawa rin ako ng control software sa C#, na nagbibigay-kakayahan sa mga operator na imonitor ang real-time industrial data.
+Nakipagtulungan ako sa isang pitong-kataong team sa pagbuo, pagsusuri, at kalidad ng software, kabilang ang paggawa ng dokumentasyon at pagbibigay ng mga ulat sa stakeholders.
+"""
+skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+logo = "/icons/pixelsoft.jpg"
+url = "http://www.pixelsoft.co.jp/pc/index.html"
+
+[[languages.fil.params.experience]]
+date = "2019.9 - 2021.6"
+title = "Nagtapos sa Bachelor’s Degree - Shanghai International Studies University"
+description = """
+Nagtapos ako ng Bachelor’s degree sa Pagtuturo ng Wikang Tsino sa mga Dayuhan (Teaching Chinese to Speakers of Other Languages)
+mula sa School of Education ng Shanghai International Studies University.
+Ang akademikong background na ito ay nagbigay sa akin ng malalim na pag-unawa sa pagkatuto ng wika at cross-cultural communication,
+na lubos na nakatulong sa akin sa mga internasyonal na proyekto at kapaligiran.
+"""
+skills = ["Bachelor’s Degree", "Chinese"]
+logo = "/icons/sisu.jpg"
+url = "https://en.shisu.edu.cn/"
+department = "School of Education"
+major = "Teaching Chinese to Speakers of Other Languages"
+gpa = "3.4/4.0"
+
+# == Professional Skills (FIL) ==
+[[languages.fil.params.professional_skills]]
+category = "Programming Languages"
+skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
+
+[[languages.fil.params.professional_skills]]
+category = "Frameworks"
+skills = ["DotNET"]
+
+[[languages.fil.params.professional_skills]]
+category = "Web Development"
+skills = ["Gin", "Django", "Flask"]
+
+[[languages.fil.params.professional_skills]]
+category = "Tools"
+skills = ["Git", "GitHub", "Docker", "AWS"]
+
+[[languages.fil.params.professional_skills]]
+category = "Operating Systems"
+skills = ["Windows", "Linux"]
+
+[[languages.fil.params.professional_skills]]
+category = "Other Technologies"
+skills = ["TCPIP", "jQuery"]
+
+# == Projects (Filipino) ==
+[[languages.fil.params.projects]]
+title = "China Eastern Airlines Dispatch Optimization"
+period = "2024.9 - Kasalukuyan"
+overview = """Nakibahagi sa isang dispatch optimization project ng China Eastern Airlines upang mapabuti ang task assignment at scheduling efficiency.
+Gumamit ng Deep Reinforcement Learning (CVNet) at mga swarm intelligence algorithms (ABC, FA) upang bumuo ng isang dispatch model na maaaring umangkop sa real-time dynamic environment."""
+roles = """[Disenyo ng Modelo]
+- Imodelo ang task assignment bilang isang Semi-Markov Decision Process (SMDP), kasama ang task priority, travel cost, at skill compatibility.
+- Tinalakay ang mga kombinasyong constraint batay sa kakayahan ng mga empleyado (A, B, C).
+
+[Implementasyon ng Algorithm]
+- Ginamit ang CVNet para matutunan ang value function ng mga gawain at ma-optimize ang dynamic task assignment.
+- Inapply ang mga swarm intelligence algorithms (ABC, FA) upang mapababa ang travel cost habang pinabubuti ang scheduling efficiency.
+
+[Paglalatag ng Resulta]
+- Iminungkahi sa China Eastern Airlines ang mga resulta ng pag-aaral, kasama ang detalye ng implementasyon, performance evaluation, at praktikal na aplikasyon.
+"""
+results = """[Kinalabasan]
+- Nakapagmungkahi ng bagong dispatch model na nakatutulong sa pagpapahusay ng operasyon sa China Eastern Airlines.
+- Nakabuo ng mga algorithm na may kakayahang mag-adjust nang real-time sa mga pabago-bagong gawain.
+- Ang panukala ay idinisenyo nang isinasaalang-alang ang aktwal na sitwasyon sa field.
+"""
+
+###############################################################################
+# Thai
+###############################################################################
+[languages.th]
+languageName = "ไทย"
+weight = 5
+contentDir = "content/th"
+languageCode = "th"
+
+[languages.th.params]
+name = "NAGAHARA IKUMA"
+title = "วิศวกรซอฟต์แวร์"
+description = "ผมสร้างระบบซอฟต์แวร์ที่เชื่อถือได้ มีความซับซ้อน และขยายขนาดได้"
+email = "mailto:changyuanshengzhen@icloud.com"
+github = "https://github.com/namashin"
+linkedin = "https://www.linkedin.com/in/namashin/"
+resume = "/materials/NagaharaIkuma_Resume.pdf"
+
+# == Introduce (TH) with four fields ==
+[[languages.th.params.introduce]]
+Introduction = """
+สวัสดีครับ ผมชื่อ นากาฮาระ อิคุมะ
+ปัจจุบันกำลังศึกษาระดับปริญญาโทสาขาวิศวกรรมซอฟต์แวร์ที่มหาวิทยาลัยครูหัวตง (East China Normal University) ณ นครเซี่ยงไฮ้ ประเทศจีน
+ผมรู้สึกสนุกที่ได้เรียนรู้ในสภาพแวดล้อมนานาชาติร่วมกับเพื่อนชาวจีน ซึ่งช่วยเปิดโลกทัศน์ทางวิชาการและวัฒนธรรมเป็นอย่างมาก
+"""
+
+Development = """
+ผมชื่นชอบการท่องเที่ยวและได้เดินทางไปหลากหลายประเทศ ไม่ว่าจะเป็น ไต้หวัน จีน ฮ่องกง ดูไบ อิตาลี และเกาหลีใต้
+ประสบการณ์เหล่านี้ทำให้ผมได้สัมผัสกับวัฒนธรรมและมุมมองที่หลากหลาย และช่วยเสริมสร้างความเข้าใจข้ามวัฒนธรรมอย่างลึกซึ้ง
+"""
+
+Turn = """
+ในเส้นทางอาชีพของผม ผมเคยทำงานที่ Pixel Software Corporation ในประเทศญี่ปุ่นประมาณสองปี
+มีส่วนร่วมในการพัฒนา Industrial Real-Time Process Information Management Systems และซอฟต์แวร์บริหารจัดการข้อมูลโรงงาน
+จากนั้นผมได้ฝึกงานทางไกลที่ “Tomorrows AI” ในสหรัฐอเมริกา โดยได้มีส่วนร่วมในการพัฒนาระบบแพลตฟอร์มสื่อ
+"""
+
+Conclusion = """
+ด้วยประสบการณ์หลากหลายด้านวัฒนธรรมและทักษะด้านเทคโนโลยี
+ผมหวังว่าจะได้ร่วมงานในโครงการระดับนานาชาติ และสร้างคุณค่าเชิงนวัตกรรมในฐานะวิศวกรมืออาชีพ
+ขอขอบคุณที่สละเวลาอ่าน และหวังว่าจะได้มีโอกาสติดต่อพูดคุยกับคุณครับ
+"""
+
+# == Experience (TH) ==
+[[languages.th.params.experience]]
+date = "2024.10 - 2024.12"
+title = "Software Developer Intern - Tomorrows AI"
+description = """
+ผมได้มีส่วนร่วมในการพัฒนาเว็บแอปพลิเคชันโดยใช้ Flask สำหรับแพลตฟอร์มสื่อ
+เพื่อปรับปรุงประสิทธิภาพในการค้นหาด้วยคีย์เวิร์ดและชื่อบทความ และยกระดับประสบการณ์ของผู้ใช้
+
+นอกจากนี้ ยังได้ออกแบบและพัฒนาหน้าเพจรายละเอียดแบบไดนามิก เพื่อแสดงชื่อบทความ รูปภาพ และเนื้อหาที่ดึงมาจาก Flask
+ช่วยเพิ่มความสามารถในการโต้ตอบ (interactivity) และการมีส่วนร่วม (user engagement) ของผู้ใช้
+การทำงานร่วมกับทีมต่างชาติแบบทางไกล ผมได้ให้ความสำคัญกับโค้ดที่มีคุณภาพและการปรับปรุงประสิทธิภาพ
+จนสามารถส่งมอบโซลูชันที่มีคุณภาพและขยายขนาดได้
+"""
+skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
+logo = "/icons/tomorrows_ai.jpg"
+url = "https://www.tomorrowsai.org/"
+
+[[languages.th.params.experience]]
+date = "2023.9 - ปัจจุบัน"
+title = "เริ่มศึกษาระดับปริญญาโท - มหาวิทยาลัยครูหัวตง (East China Normal University)"
+description = """
+ผมได้ย้ายจากญี่ปุ่นมายังเซี่ยงไฮ้ ประเทศจีน เพื่อศึกษาปริญญาโทสาขาวิศวกรรมซอฟต์แวร์
+ที่มหาวิทยาลัยครูหัวตง (East China Normal University)
+หลักสูตรนี้ช่วยให้ผมได้ศึกษาเชิงลึกเกี่ยวกับการพัฒนาซอฟต์แวร์ขั้นสูง และสถาปัตยกรรมระบบ
+พร้อมทั้งได้รับมุมมองระดับนานาชาติจากการทำงานร่วมกับเพื่อนร่วมชั้นจากหลากหลายชาติ
+"""
+skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
+logo = "/icons/ecnu.jpg"
+url = "https://english.ecnu.edu.cn/"
+department = "Software Engineering Institute"
+major = "Software Engineering"
+gpa = "3.14/4.0"
+
+[[languages.th.params.experience]]
+date = "2021.4 - 2023.6"
+title = "Software Engineer - Pixel Software 株式会社"
+description = """
+ผมได้เขียนโปรแกรมสำหรับระบบ Industrial Real-Time Process Information Management (เรียกว่า PLANETMEISTER)
+และซอฟต์แวร์ Gateway รวมถึงการแก้ไขบั๊กต่าง ๆ
+
+ในโปรเจกต์นี้มีการใช้ TCP/IP protocol ในการรับข้อมูลจากเซ็นเซอร์ เพื่อประมวลผลได้อย่างมีประสิทธิภาพและน่าเชื่อถือ
+
+เหตุผลที่เลือกใช้ TCP/IP นั้นเพราะข้อมูลจากเซ็นเซอร์มีความสำคัญ ไม่สามารถให้เกิดการสูญหายหรือเรียงลำดับผิดได้
+ดังนั้นจึงต้องให้ความสำคัญกับความน่าเชื่อถือของการรับ-ส่งข้อมูลเป็นอันดับแรก
+และ TCP protocol มีฟังก์ชันรองรับการส่งซ้ำหากข้อมูลสูญหาย รวมถึงคงลำดับการส่งได้ จึงเหมาะสมอย่างยิ่งสำหรับทั้งความเรียลไทม์และความเสถียร
+
+เซ็นเซอร์จะส่งข้อมูลผ่าน TCP และฝั่งเซิร์ฟเวอร์จะรับข้อมูลแบบเรียลไทม์ผ่าน TCP socket
+จากนั้นจะมีการ解析แพ็กเก็ตเพื่อดึงข้อมูลที่ต้องการ เช่น sensor ID และค่าการวัดต่าง ๆ
+
+นอกจากนี้ ผมยังได้ใช้ฟังก์ชัน concurrency ของ Golang (goroutines และ channels)
+เพื่อจัดการการเชื่อมต่อจำนวนมากได้อย่างมีประสิทธิภาพ ทำให้ระบบสามารถขยายตัวได้ (scalable)
+
+ผลลัพธ์สำคัญ:
+- เพิ่ม throughput ของข้อมูลได้ถึง 40%
+- ลดเวลาในการประมวลผลอย่างมีนัยสำคัญ รองรับความต้องการแบบเรียลไทม์
+- ย้ายจากระบบเก่า (พัฒนาใน VB และ C) มาเป็นระบบใหม่ได้อย่างราบรื่น ด้วยการสื่อสารข้อมูลที่มีความน่าเชื่อถือ
+
+โปรเจกต์นี้แสดงให้เห็นถึงการผสานกันระหว่างการสื่อสารข้อมูลที่น่าเชื่อถือของ TCP/IP และ concurrency ประสิทธิภาพสูงของ Golang
+นำไปสู่การปรับปรุงประสิทธิภาพและความเสถียรของระบบโดยรวมได้อย่างมาก
+
+นอกจากนี้ ผมได้พัฒนา software ควบคุมด้วย C# เพื่อให้ผู้ปฏิบัติงานสามารถมอนิเตอร์ข้อมูลอุตสาหกรรมแบบเรียลไทม์
+และร่วมทำงานกับทีม 7 คน ตั้งแต่การออกแบบสเปกซอฟต์แวร์ วางแผนทดสอบ และประกันคุณภาพ
+รวมถึงเขียนเอกสารเชิงเทคนิคและรายงานความคืบหน้าแก่ผู้มีส่วนได้ส่วนเสีย
+"""
+skills = ["Golang", "Python", "C#", ".NET", "SQL", "MySQL", "Microsoft Access", "TCP/IP"]
+logo = "/icons/pixelsoft.jpg"
+url = "http://www.pixelsoft.co.jp/pc/index.html"
+
+[[languages.th.params.experience]]
+date = "2019.9 - 2021.6"
+title = "สำเร็จการศึกษาระดับปริญญาตรี - Shanghai International Studies University"
+description = """
+ผมสำเร็จการศึกษาระดับปริญญาตรีด้านการสอนภาษาจีนสำหรับชาวต่างชาติ
+จาก School of Education ของ Shanghai International Studies University
+หลักสูตรนี้ทำให้ผมเข้าใจอย่างลึกซึ้งเกี่ยวกับการเรียนการสอนภาษา
+และการสื่อสารข้ามวัฒนธรรม ซึ่งเป็นพื้นฐานสำคัญในการทำงานในสภาพแวดล้อมนานาชาติ
+"""
+skills = ["Bachelor Degree", "Chinese"]
+logo = "/icons/sisu.jpg"
+url = "https://en.shisu.edu.cn/"
+department = "School of Education"
+major = "Teaching Chinese to Speakers of Other Languages"
+gpa = "3.4/4.0"
+
+# == Professional Skills (TH) ==
+[[languages.th.params.professional_skills]]
+category = "Programming Languages"
+skills = ["Golang", "Python", "c-sharp", "JavaScript", "SQL", "HTML", "CSS"]
+
+[[languages.th.params.professional_skills]]
+category = "Frameworks"
+skills = ["DotNET"]
+
+[[languages.th.params.professional_skills]]
+category = "Web Development"
+skills = ["Gin", "Django", "Flask"]
+
+[[languages.th.params.professional_skills]]
+category = "Tools"
+skills = ["Git", "GitHub", "Docker", "AWS"]
+
+[[languages.th.params.professional_skills]]
+category = "Operating Systems"
+skills = ["Windows", "Linux"]
+
+[[languages.th.params.professional_skills]]
+category = "Other Technologies"
+skills = ["TCPIP", "jQuery"]
+
+# == Projects (Thai) ==
+[[languages.th.params.projects]]
+title = "โครงการปรับปรุงการจัดสรรงาน (Dispatch Optimization) ของ China Eastern Airlines"
+period = "2024.9 - ปัจจุบัน"
+overview = """เข้าร่วมโครงการปรับปรุงกระบวนการจัดสรรงานของสายการบิน China Eastern Airlines
+เพื่อเพิ่มประสิทธิภาพการมอบหมายงานและการจัดตารางเวลา
+โดยใช้เทคนิค Deep Reinforcement Learning (CVNet) และอัลกอริทึม Swarm Intelligence (ABC, FA)
+เพื่อพัฒนารูปแบบการจัดสรรงาน (dispatch model) ที่สามารถปรับเปลี่ยนตามสภาพแวดล้อมแบบเรียลไทม์ได้
+"""
+roles = """[การออกแบบโมเดล]
+- สร้างโมเดลการจัดสรรงานในรูปแบบ Semi-Markov Decision Process (SMDP) โดยคำนึงถึงลำดับความสำคัญของงาน (task priority),
+  ค่าใช้จ่ายในการเดินทาง (travel cost) และความสอดคล้องของทักษะ (skill compatibility)
+- จัดการข้อจำกัดด้านการผสมผสานตามระดับทักษะ (A, B, C) ของพนักงาน
+
+[การพัฒนาอัลกอริทึม]
+- ใช้ CVNet ในการเรียนรู้ value function ของงาน เพื่อให้การจัดสรรงานแบบไดนามิกมีประสิทธิภาพสูงสุด
+- ประยุกต์ใช้อัลกอริทึม Swarm Intelligence (ABC, FA) ในการลดต้นทุนด้านการเดินทาง
+  และเพิ่มประสิทธิภาพการจัดตารางเวลา
+
+[การนำเสนอผลลัพธ์]
+- นำเสนอผลงานวิจัยให้กับ China Eastern Airlines ซึ่งรวมถึงรายละเอียดการพัฒนาอัลกอริทึม
+  การประเมินประสิทธิภาพ และความเป็นไปได้ในการใช้งานจริง
+"""
+results = """[ผลลัพธ์]
+- เสนอโมเดลการจัดสรรงานรูปแบบใหม่ ที่ช่วยเพิ่มประสิทธิภาพในการดำเนินงานของ China Eastern Airlines
+- พัฒนาอัลกอริทึมที่สามารถปรับตัวต่อการเปลี่ยนแปลงแบบเรียลไทม์ได้
+- ออกแบบโซลูชันให้เหมาะสมกับการใช้งานในสถานการณ์จริงภาคสนาม
+"""
