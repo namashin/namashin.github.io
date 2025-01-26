@@ -119,4 +119,21 @@
   {{ end }}
 </section>
 
+<!-- LANGUAGESセクション -->
+<section id="languages" class="section">
+  <h2>{{ i18n "languages" }}</h2>
+
+  {{ range .Site.Params.spoken_languages }}
+  <div class="experience-row">
+    <div class="experience-left">
+      <p>{{ .name }}</p>
+    </div>
+
+    <div class="experience-right">
+      <p>{{ .level }}</p>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
 {{ end }}

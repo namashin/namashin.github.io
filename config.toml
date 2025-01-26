@@ -166,6 +166,18 @@ results = """[Outcome]
 - Developed algorithms capable of real-time dynamic task adjustment.
 - The proposal is designed with actual on-site application in mind"""
 
+[[languages.en.params.spoken_languages]]
+name = "Japanese"
+level = "Native or bilingual proficiency"
+
+[[languages.en.params.spoken_languages]]
+name = "English"
+level = "Professional working proficiency"
+
+[[languages.en.params.spoken_languages]]
+name = "Chinese"
+level = "Professional working proficiency"
+
 ################################################################################
 # Japanese
 ################################################################################
@@ -309,6 +321,18 @@ results = """【成果】
 ・リアルタイムのタスク動的調整が可能なアルゴリズムを開発
 ・提案内容は航空運用現場での実用化を前提に設計
 """
+
+[[languages.ja.params.spoken_languages]]
+name = "日本語"
+level = "ネイティブ"
+
+[[languages.ja.params.spoken_languages]]
+name = "英語"
+level = "ビジネスレベル"
+
+[[languages.ja.params.spoken_languages]]
+name = "中国語"
+level = "ビジネスレベル"
 
 ################################################################################
 # Chinese
@@ -458,6 +482,18 @@ results = """【成果】
 - 开发可实现实时动态任务调整的算法
 - 设计方案充分考虑航空运营一线的实际应用需求
 """
+
+[[languages.zh.params.spoken_languages]]
+name = "日语"
+level = "母语水平"
+
+[[languages.zh.params.spoken_languages]]
+name = "英语"
+level = "流利"
+
+[[languages.zh.params.spoken_languages]]
+name = "中文"
+level = "流利 (HSK6级（汉语水平考试）)"
 
 ###############################################################################
 # Filipino (Tagalog)
@@ -625,6 +661,18 @@ results = """[Kinalabasan]
 - Nakabuo ng mga algorithm na may kakayahang mag-adjust nang real-time sa mga pabago-bagong gawain.
 - Ang panukala ay idinisenyo nang isinasaalang-alang ang aktwal na sitwasyon sa field.
 """
+
+[[languages.fil.params.spoken_languages]]
+name = "Hapones (Japanese)"
+level = "Katutubong Antas"
+
+[[languages.fil.params.spoken_languages]]
+name = "Ingles (English)"
+level = "Mataas na Kahusayan"
+
+[[languages.fil.params.spoken_languages]]
+name = "Tsino (Chinese)"
+level = "Mataas na Kahusayan (HSK6 220/300)"
 
 ###############################################################################
 # Thai
@@ -806,3 +854,15 @@ results = """[ผลลัพธ์]
 - พัฒนาอัลกอริทึมที่สามารถปรับตัวต่อการเปลี่ยนแปลงแบบเรียลไทม์ได้
 - ออกแบบโซลูชันให้เหมาะสมกับการใช้งานในสถานการณ์จริงภาคสนาม
 """
+
+[[languages.th.params.spoken_languages]]
+name = "ภาษาญี่ปุ่น"
+level = "เจ้าของภาษา"
+
+[[languages.th.params.spoken_languages]]
+name = "ภาษาอังกฤษ"
+level = "คล่องแคล่ว"
+
+[[languages.th.params.spoken_languages]]
+name = "ภาษาจีน"
+level = "คล่องแคล่ว (HSK6 220/300)"
