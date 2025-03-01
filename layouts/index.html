@@ -32,14 +32,12 @@
     <div class="experience-right">
       <h3>{{ .title }}</h3>
 
-      <!-- descriptionをピリオドで分割表示 -->
       {{ range (split .description ".") }}
       {{ if . }}
       <p>{{ . }}.</p>
       {{ end }}
       {{ end }}
 
-      <!-- department, major, gpa が存在する場合のみ表示 -->
       {{ if or .department .major .gpa }}
       <div class="scores">
         {{ if .department }}
@@ -73,7 +71,7 @@
       <div class="skills-icons">
         {{ range .skills }}
         <div class="skill-item">
-          <img src="/icons/{{ lower (replace . " " "_" -1) }}.png" alt="{{ . }}" class="skill-icon">
+          <img src="/icons/{{ lower (replace . " " "_" -1) }}.png" alt="{{ . }}" class="skill-icon" title="{{ . }}">
         </div>
         {{ end }}
       </div>
@@ -88,14 +86,12 @@
   {{ range .Site.Params.projects }}
   <div class="project-row">
 
-    <!-- 左側: Periodなどを表示 -->
     <div class="project-left">
       {{ with .period }}
       <p><strong>{{ . }}</strong></p>
       {{ end }}
     </div>
 
-    <!-- 右側: タイトル、概要、役割、成果など -->
     <div class="project-right">
       <h3>{{ .title }}</h3>
 
@@ -114,8 +110,7 @@
       <p>{{ . }}</p>
       {{ end }}
     </div>
-
-  </div> <!-- end .project-row -->
+  </div>
   {{ end }}
 </section>
 
