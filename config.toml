@@ -52,7 +52,7 @@ Thank you for your time, and I look forward to connecting with you.
 
 # == Experience ==
 [[languages.en.params.experience]]
-date = "2024.10 - 2024.12"
+date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
 I contributed to the development of a media platform by building a Flask-based web application,
@@ -216,7 +216,7 @@ Conclusion = """
 
 # == Experience ==
 [[languages.ja.params.experience]]
-date = "2024.10 - 2024.12"
+date = "2024.10 - 2025.03"
 title = "ソフトウェア開発インターン - Tomorrows AI"
 description = """
 メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化してユーザー体験を向上させました。Flaskから取得した記事タイトルや画像、コンテンツを動的に表示する詳細ページを設計・実装し、インタラクティブなユーザーエンゲージメントを促進しました。リモートの国際チームで連携し、パフォーマンス最適化とクリーンコードを重視した開発に取り組みました
@@ -372,7 +372,7 @@ Conclusion = """
 
 # == Experience ==
 [[languages.zh.params.experience]]
-date = "2024.10 - 2024.12"
+date = "2024.10 - 2025.03"
 title = "软件开发实习生 - Tomorrows AI"
 description = """
 在远程团队环境中，基于Flask开发了媒体平台的Web应用程序，优化了用户体验和关键字搜索功能.
@@ -540,7 +540,7 @@ Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makip
 
 # == Experience (FIL) ==
 [[languages.fil.params.experience]]
-date = "2024.10 - 2024.12"
+date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
 Nakibahagi ako sa pagbuo ng isang Flask-based web application para sa isang media platform,
@@ -719,7 +719,7 @@ Conclusion = """
 
 # == Experience (TH) ==
 [[languages.th.params.experience]]
-date = "2024.10 - 2024.12"
+date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
 ผมได้มีส่วนร่วมในการพัฒนาเว็บแอปพลิเคชันโดยใช้ Flask สำหรับแพลตฟอร์มสื่อ
