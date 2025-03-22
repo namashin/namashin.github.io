@@ -489,11 +489,11 @@ level = "母语水平"
 
 [[languages.zh.params.spoken_languages]]
 name = "英语"
-level = "流利"
+level = "商务会话"
 
 [[languages.zh.params.spoken_languages]]
 name = "中文"
-level = "流利 (HSK6级（汉语水平考试）)"
+level = "商务会话 (HSK6级（汉语水平考试）)"
 
 ###############################################################################
 # Filipino (Tagalog)
