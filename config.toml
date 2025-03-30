@@ -53,7 +53,7 @@ Thank you for your time, and I look forward to connecting with you.
 # == Experience ==
 [[languages.en.params.experience]]
 date = "2025.07 - 2025.08"
-title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+title = "Fab Operation Platform Department - Taiwan Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
 description = """Summer Internship Program"""
 skills = []
 logo = "/icons/tsmc.png"
@@ -225,7 +225,7 @@ Conclusion = """
 # == Experience ==
 [[languages.ja.params.experience]]
 date = "2025.07 - 2025.08"
-title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+title = "Fab Operation Platform Department - Taiwan Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
 description = """Summer Internship Program"""
 skills = []
 logo = "/icons/tsmc.png"
@@ -389,7 +389,7 @@ Conclusion = """
 # == Experience ==
 [[languages.zh.params.experience]]
 date = "2025.07 - 2025.08"
-title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“台湾积体电路制造股份有限公司”),"
+title = "Fab Operation Platform Department - Taiwan Semiconductor Manufacturing Company, Ltd. (“台湾积体电路制造股份有限公司”),"
 description = """Summer Internship Program"""
 skills = []
 logo = "/icons/tsmc.png"
@@ -565,7 +565,7 @@ Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makip
 # == Experience (FIL) ==
 [[languages.fil.params.experience]]
 date = "2025.07 - 2025.08"
-title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+title = "Fab Operation Platform Department - Taiwan Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
 description = """Summer Internship Program"""
 skills = []
 logo = "/icons/tsmc.png"
@@ -752,7 +752,7 @@ Conclusion = """
 # == Experience (TH) ==
 [[languages.th.params.experience]]
 date = "2025.07 - 2025.08"
-title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+title = "Fab Operation Platform Department - Taiwan Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
 description = """Summer Internship Program"""
 skills = []
 logo = "/icons/tsmc.png"
