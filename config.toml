@@ -231,7 +231,7 @@ skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
-[[languages.en.params.experience]]
+[[languages.ja.params.experience]]
 date = "2024.10 - 2025.03"
 title = "ソフトウェア開発インターン - Tomorrows AI"
 description = """
@@ -395,7 +395,7 @@ skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
-[[languages.en.params.experience]]
+[[languages.zh.params.experience]]
 date = "2024.10 - 2025.03"
 title = "软件开发实习生 - Tomorrows AI"
 description = """
@@ -571,7 +571,7 @@ skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
-[[languages.en.params.experience]]
+[[languages.fil.params.experience]]
 date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
@@ -758,7 +758,7 @@ skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
-[[languages.en.params.experience]]
+[[languages.th.params.experience]]
 date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
