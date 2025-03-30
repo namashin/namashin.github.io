@@ -52,6 +52,14 @@ Thank you for your time, and I look forward to connecting with you.
 
 # == Experience ==
 [[languages.en.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+description = """Summer Internship Program"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
@@ -216,6 +224,14 @@ Conclusion = """
 
 # == Experience ==
 [[languages.ja.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+description = """Summer Internship Program"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
 title = "ソフトウェア開発インターン - Tomorrows AI"
 description = """
@@ -372,6 +388,14 @@ Conclusion = """
 
 # == Experience ==
 [[languages.zh.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“台湾积体电路制造股份有限公司”),"
+description = """Summer Internship Program"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
 title = "软件开发实习生 - Tomorrows AI"
 description = """
@@ -540,6 +564,14 @@ Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makip
 
 # == Experience (FIL) ==
 [[languages.fil.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+description = """Summer Internship Program"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
@@ -719,6 +751,14 @@ Conclusion = """
 
 # == Experience (TH) ==
 [[languages.th.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Fab Operation Platform Department - Semiconductor Manufacturing Company, Ltd. (“TSMC”),"
+description = """Summer Internship Program"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
 title = "Software Developer Intern - Tomorrows AI"
 description = """
