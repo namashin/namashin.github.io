@@ -54,7 +54,7 @@ Thank you for your time, and I look forward to connecting with you.
 [[languages.en.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """Summer Internship Program"""
+description = """"""
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
@@ -226,7 +226,7 @@ Conclusion = """
 [[languages.ja.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """Summer Internship Program"""
+description = """"""
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
@@ -390,7 +390,7 @@ Conclusion = """
 [[languages.zh.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - 台湾积体电路制造股份有限公司"
-description = """Summer Internship Program"""
+description = """"""
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
@@ -566,7 +566,7 @@ Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makip
 [[languages.fil.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """Summer Internship Program"""
+description = """"""
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
@@ -753,7 +753,7 @@ Conclusion = """
 [[languages.th.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """Summer Internship Program"""
+description = """"""
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
