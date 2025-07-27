@@ -70,7 +70,7 @@ I also designed and implemented a dynamic detail page to display article titles,
 improving interactivity and user engagement. Working in a remote, international environment, I focused on clean code practices and performance optimization, ultimately helping to deliver a high-quality, scalable web solution
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
-logo = "/icons/tomorrows_ai.jpg"
+logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.en.params.experience]]
@@ -238,7 +238,7 @@ description = """
 メディアプラットフォーム向けのFlaskベースのWebアプリケーションを開発し、キーワード検索機能を効率化してユーザー体験を向上させました。Flaskから取得した記事タイトルや画像、コンテンツを動的に表示する詳細ページを設計・実装し、インタラクティブなユーザーエンゲージメントを促進しました。リモートの国際チームで連携し、パフォーマンス最適化とクリーンコードを重視した開発に取り組みました
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
-logo = "/icons/tomorrows_ai.jpg"
+logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.ja.params.experience]]
@@ -403,7 +403,7 @@ description = """
 还设计并实现了动态详细页面以展示文章标题、图片和内容，从而提升了交互性和用户参与度。注重代码质量和性能优化，与国际化团队合作，高效完成了平台的核心功能.
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
-logo = "/icons/tomorrows_ai.jpg"
+logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.zh.params.experience]]
@@ -583,7 +583,7 @@ na nagpaunlad ng interactivity at user engagement. Sa isang remote at internasyo
 na nagresulta sa isang high-quality at nasusukat na solusyon.
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
-logo = "/icons/tomorrows_ai.jpg"
+logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.fil.params.experience]]
@@ -771,7 +771,7 @@ description = """
 จนสามารถส่งมอบโซลูชันที่มีคุณภาพและขยายขนาดได้
 """
 skills = ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "OpenAI API", "AWS"]
-logo = "/icons/tomorrows_ai.jpg"
+logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.th.params.experience]]
