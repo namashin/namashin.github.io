@@ -85,7 +85,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.25/4.0"
+gpa = "3.3/4.0"
 
 [[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
@@ -252,7 +252,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "ソフトウェア工学"
 major = "ソフトウェア工学"
-gpa = "3.25/4.0"
+gpa = "3.3/4.0"
 
 [[languages.ja.params.experience]]
 date = "2021.4 - 2023.6"
@@ -417,7 +417,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "软件工程学院"
 major = "软件工程"
-gpa = "3.25/4.0"
+gpa = "3.3/4.0"
 
 [[languages.zh.params.experience]]
 date = "2021.4 - 2023.6"
@@ -599,7 +599,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.25/4.0"
+gpa = "3.3/4.0"
 
 [[languages.fil.params.experience]]
 date = "2021.4 - 2023.6"
@@ -788,7 +788,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.25/4.0"
+gpa = "3.3/4.0"
 
 [[languages.th.params.experience]]
 date = "2021.4 - 2023.6"
