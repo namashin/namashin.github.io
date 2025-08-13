@@ -54,8 +54,14 @@ Thank you for your time, and I look forward to connecting with you.
 [[languages.en.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
-skills = []
+description = """
+Developed efficient test automation solutions using Python and BDD (Behavior Driven Development) to
+enhance software quality. Focused on GUI and API testing, designed test cases, optimized workflows, and accelerated backend development processes
+
+Worked on site with a cross-functional Taiwanese development team under a Scrum-based
+agile methodology in Chinese language
+"""
+skills = ["Python", "Behave", "SQL", "Oracle", "Behavior-Driven Development (BDD)", "Test Engineering", "Scrum"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -226,8 +232,12 @@ Conclusion = """
 [[languages.ja.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
-skills = []
+description = """
+PythonとBDD（振る舞い駆動開発）を用いた効率的なテスト自動化ソリューションを開発し、ソフトウェア品質を向上。GUIおよびAPIテストに注力し、テストケースの設計、ワークフローの最適化、バックエンド開発プロセスの加速を実現。
+
+中国語を用い、Scrumベースのアジャイル手法のもとで、台湾のクロスファンクショナル開発チームと現地で協働。
+"""
+skills = ["Python", "Behave", "SQL", "Oracle", "Behavior-Driven Development (BDD)", "Test Engineering", "Scrum"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -390,8 +400,12 @@ Conclusion = """
 [[languages.zh.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - 台湾积体电路制造股份有限公司"
-description = """"""
-skills = []
+description = """
+使用 Python 和 BDD（行为驱动开发）开发高效的测试自动化解决方案，提高软件质量。专注于 GUI 和 API 测试，设计测试用例，优化工作流程，加速后端开发流程。
+
+使用中文，在基于 Scrum 的敏捷方法下，与台湾的跨职能开发团队现场协作
+"""
+skills = ["Python", "Behave", "SQL", "Oracle", "行为驱动开发（BDD）", "测试工程", "Scrum"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
