@@ -41,7 +41,7 @@ These experiences have allowed me to explore diverse cultures and perspectives, 
 Turn = """
 In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan,
 where I developed industrial real-time process information management systems and factory data management software.
-Following that, I completed a remote internship at “Tomorrows AI” in the United States, where I contributed to media platform development
+Following that, I completed a remote work at “Tomorrows AI” in the United States, where I contributed to media platform development
 """
 
 Conclusion = """
@@ -54,14 +54,21 @@ Thank you for your time, and I look forward to connecting with you.
 [[languages.en.params.experience]]
 date = "2025.07 - 2025.08"
 title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
+description = """
+IT Department
+
+- Developed efficient test automation solutions using Python and BDD (Behavior Driven Development) to
+enhance software quality. Focused on GUI and API testing, designed test cases, optimized workflows, and accelerated backend development processes
+
+- Worked on site with a cross-functional Taiwanese development team under a Scrum-based
+agile methodology in Chinese language """
 skills = []
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
 [[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
-title = "Software Developer Internship - Tomorrows AI"
+title = "Software Developer - Tomorrows AI"
 description = """
 I contributed to the development of a media platform by building a Flask-based web application,
 which enabled efficient keyword and title searches to enhance user experience.
@@ -553,7 +560,7 @@ Malaki ang naitulong ng mga paglalakbay na ito upang maunawaan ko ang iba’t ib
 Turn = """
 Sa aking propesyonal na karera, halos dalawang taon akong nagtrabaho sa Pixel Software Corporation sa Japan,
 kung saan ako ay nakibahagi sa pag-develop ng pang-industriyang real-time process information management systems at factory data management software.
-Pagkatapos noon, nakatapos ako ng remote internship sa “Tomorrows AI” sa Estados Unidos, kung saan tumulong ako sa pagbuo ng isang media platform.
+Pagkatapos noon, nakatapos ako ng remote work sa “Tomorrows AI” sa Estados Unidos, kung saan tumulong ako sa pagbuo ng isang media platform.
 """
 
 Conclusion = """
@@ -573,7 +580,7 @@ url = "https://www.tsmc.com/english"
 
 [[languages.fil.params.experience]]
 date = "2024.10 - 2025.03"
-title = "Software Developer Internship - Tomorrows AI"
+title = "Software Developer - Tomorrows AI"
 description = """
 Nakibahagi ako sa pagbuo ng isang Flask-based web application para sa isang media platform,
 na nagbigay-daan sa mas mahusay na keyword at title search upang mapabuti ang karanasan ng gumagamit.
@@ -760,7 +767,7 @@ url = "https://www.tsmc.com/english"
 
 [[languages.th.params.experience]]
 date = "2024.10 - 2025.03"
-title = "Software Developer Internship - Tomorrows AI"
+title = "Software Developer - Tomorrows AI"
 description = """
 ผมได้มีส่วนร่วมในการพัฒนาเว็บแอปพลิเคชันโดยใช้ Flask สำหรับแพลตฟอร์มสื่อ
 เพื่อปรับปรุงประสิทธิภาพในการค้นหาด้วยคีย์เวิร์ดและชื่อบทความ และยกระดับประสบการณ์ของผู้ใช้
