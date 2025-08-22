@@ -428,7 +428,7 @@ gpa = "3.3/4.0"
 
 [[languages.zh.params.experience]]
 date = "2021.4 - 2023.6"
-title = "软件工程师 - Pixel Software 株式会社"
+title = "软件开发工程师 - Pixel Software 株式会社"
 description = """
 我编程工业实时过程信息管理系统（称为PLANETMEISTER）及其网关软件。包含错误修复.
 
