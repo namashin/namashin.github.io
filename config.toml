@@ -62,7 +62,7 @@ enhance software quality. Focused on GUI and API testing, designed test cases, o
 
 - Worked on site with a cross-functional Taiwanese development team under a Scrum-based
 agile methodology in Chinese language """
-skills = []
+skills = ["Python", "BDD (Behavior Driven Development)", "Test Automation", "GUI Testing", "API Testing", "Test Case Design", "Workflow Optimization", "Scrum", "Cross-functional Team Collaboration"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
