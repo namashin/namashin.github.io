@@ -52,8 +52,16 @@ Thank you for your time, and I look forward to connecting with you.
 
 # == Experience ==
 [[languages.en.params.experience]]
+date = "2026.9"
+title = "Software Engineer - Full Time, TSMC"
+description = """IT Department"""
+skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.en.params.experience]]
 date = "2025.07 - 2025.08"
-title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
+title = "Software Engineer - Internship, TSMC"
 description = """
 IT Department
 
@@ -68,7 +76,7 @@ url = "https://www.tsmc.com/english"
 
 [[languages.en.params.experience]]
 date = "2024.10 - 2025.03"
-title = "Software Developer - Tomorrows AI"
+title = "Software Developer - Internship, Tomorrows AI"
 description = """
 I contributed to the development of a media platform by building a Flask-based web application,
 which enabled efficient keyword and title searches to enhance user experience.
@@ -96,7 +104,7 @@ gpa = "3.3/4.0"
 
 [[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
-title = "Software Engineer - Pixel Software 株式会社"
+title = "Software Engineer - Full Time, Pixel Software 株式会社"
 description = """
 I Programmed Industrial Real-Time Process Information Management System (known as PLANETMEISTER) and its Gateway Software. Bug fix included
 
