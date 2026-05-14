@@ -89,7 +89,7 @@ logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.en.params.experience]]
-date = "2023.9 - Present"
+date = "2023.9 - 2026.6"
 title = "Start Pursuing Master Degree - East China Normal University"
 description = """
 I relocated from Japan to Shanghai, China, to pursue a Master's degree in Software Engineering at East China Normal University.
@@ -171,7 +171,7 @@ skills = ["TCPIP", "jQuery"]
 # == Projects (English) ==
 [[languages.en.params.projects]]
 title = "China Eastern Airlines Dispatch Optimization"
-period = "2024.9 - Present"
+period = "2024.9 - 2026.6"
 overview = """Participated in a dispatch optimization project at China Eastern Airlines to enhance task assignment and scheduling efficiency.
 Utilized Deep Reinforcement Learning (CVNet) and swarm intelligence algorithms (ABC, FA) to develop a dispatch model adaptable to dynamic real-time environments"""
 roles = """[Model Design]
@@ -257,7 +257,7 @@ logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.ja.params.experience]]
-date = "2023.9 - 現在"
+date = "2023.9 - 2026.6"
 title = "修士課程を開始 - 華東師範大学"
 description = """
 日本から中国上海に移り、華東師範大学でソフトウェア工学の修士課程を履修しています。先端的なソフトウェア設計やシステム構築を学びながら、多国籍な環境で国際的視野を養い、技術力とコミュニケーション能力の両面を伸ばしています
@@ -334,7 +334,7 @@ skills = ["TCPIP", "jQuery"]
 # == Projects (Japanese) ==
 [[languages.ja.params.projects]]
 title = "东方航空 派工最適化プロジェクト"
-period = "2024.9 - 現在"
+period = "2024.9 - 2026.6"
 overview = """东方航空のタスク割り当てとスケジューリング効率を向上させるための派工最適化プロジェクトに参画。深層強化学習（CVNet）と群知能アルゴリズム（ABC、FA）を活用し、リアルタイムで動的な環境に適応可能な派工モデルを開発"""
 roles = """【モデル設計】
 ・タスク割り当てを半マルコフ決定プロセス（SMDP）としてモデリングし、タスクの優先度、移動コスト、スキル適合性を考慮
@@ -422,7 +422,7 @@ logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.zh.params.experience]]
-date = "2023.9 - 现在"
+date = "2023.9 - 2026.6"
 title = "开始攻读硕士学位 - 华东师范大学"
 description = """
 从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位。深入学习软件开发、系统设计及前沿技术，并在国际化环境中拓展多元化的学术和实践经验，为未来从事跨国项目奠定了扎实的基础
@@ -602,7 +602,7 @@ logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.fil.params.experience]]
-date = "2023.9 - Kasalukuyan"
+date = "2023.9 - 2026.6"
 title = "Pagsisimula ng Master’s Degree - East China Normal University"
 description = """
 Lumipat ako mula Japan patungong Shanghai, China, upang kumuha ng Master’s degree sa Software Engineering sa East China Normal University.
@@ -689,7 +689,7 @@ skills = ["TCPIP", "jQuery"]
 # == Projects (Filipino) ==
 [[languages.fil.params.projects]]
 title = "China Eastern Airlines Dispatch Optimization"
-period = "2024.9 - Kasalukuyan"
+period = "2024.9 - 2026.6"
 overview = """Nakibahagi sa isang dispatch optimization project ng China Eastern Airlines upang mapabuti ang task assignment at scheduling efficiency.
 Gumamit ng Deep Reinforcement Learning (CVNet) at mga swarm intelligence algorithms (ABC, FA) upang bumuo ng isang dispatch model na maaaring umangkop sa real-time dynamic environment."""
 roles = """[Disenyo ng Modelo]
@@ -790,7 +790,7 @@ logo = "/icons/tomorrows_ai_logo.jpeg"
 url = "https://www.tomorrowsai.org/"
 
 [[languages.th.params.experience]]
-date = "2023.9 - ปัจจุบัน"
+date = "2023.9 - 2026.6"
 title = "เริ่มศึกษาระดับปริญญาโท - มหาวิทยาลัยครูหัวตง (East China Normal University)"
 description = """
 ผมได้ย้ายจากญี่ปุ่นมายังเซี่ยงไฮ้ ประเทศจีน เพื่อศึกษาปริญญาโทสาขาวิศวกรรมซอฟต์แวร์
@@ -884,7 +884,7 @@ skills = ["TCPIP", "jQuery"]
 # == Projects (Thai) ==
 [[languages.th.params.projects]]
 title = "โครงการปรับปรุงการจัดสรรงาน (Dispatch Optimization) ของ China Eastern Airlines"
-period = "2024.9 - ปัจจุบัน"
+period = "2024.9 - 2026.6"
 overview = """เข้าร่วมโครงการปรับปรุงกระบวนการจัดสรรงานของสายการบิน China Eastern Airlines
 เพื่อเพิ่มประสิทธิภาพการมอบหมายงานและการจัดตารางเวลา
 โดยใช้เทคนิค Deep Reinforcement Learning (CVNet) และอัลกอริทึม Swarm Intelligence (ABC, FA)
