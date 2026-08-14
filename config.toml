@@ -28,31 +28,24 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (EN) with four fields ==
 [[languages.en.params.introduce]]
 Introduction = """
-Hello! My name is NAGAHARA IKUMA.
-I am currently pursuing a Master’s degree in Software Engineering at East China Normal University in Shanghai, China.
-I enjoy studying in an international environment alongside my Chinese classmates, which enriches my academic and cultural experiences
+Hello! I'm Ikuma Nagahara. I graduated with a Master's degree from East China Normal University in China in 2026. To brag a little, I was a Chinese Government Scholarship (full scholarship) student for all three years, which covered my tuition and dorm fees, plus a monthly stipend of 3,000 RMB. I've always had good luck! (lol). Let me share a bit of my "human side." I've always been a night owl and absolutely hate waking up early. I played baseball from 3rd grade until junior high, but I never really liked it much. Now, I'm just a "festival fan" who only gets excited during the WBC and the FIFA World Cup.
 """
 
 Development = """
-I have a passion for traveling and have visited several countries, including Taiwan, China, Hong Kong, Dubai, Italy, and South Korea.
-These experiences have allowed me to explore diverse cultures and perspectives, which have greatly enhanced my intercultural understanding and broadened my horizons
+Despite moving at my own pace, when I do something, I go all in. During grad school, my roommate and I started a car sales and rental business in Thailand. When we had no inventory, we shrewdly acted as brokers, referring customers to competitors, and made enough profit to live luxuriously in Thailand during long holidays. At the same time, I took my studies seriously, dedicating myself to researching and improving reinforcement learning algorithms in collaboration with a major Chinese airline. As a Japanese student, I wrote my entire master's thesis and defended it in simplified Chinese. Earning a score of 90/100 from a Tsinghua University professor in the blind review is a secret pride of mine.
 """
 
 Turn = """
-In my professional career, I worked for approximately two years at Pixel Software Corporation in Japan,
-where I developed industrial real-time process information management systems and factory data management software.
-Following that, I completed a remote work at “Tomorrows AI” in the United States, where I contributed to media platform development
+I've since handed the Thai business over to my roommate and am now working full-time as a Software Engineer at TSMC Headquarters in Taiwan. My tough research experiences in China definitely shape my current work style at a Taiwanese company. My professional goal right now is simply to "reliably complete assigned tasks and ensure proper reporting and sharing." Rather than being flashy, I want to earn my team's trust through steady, daily execution.
 """
 
 Conclusion = """
-Leveraging my multicultural experiences and technical skills,
-I aspire to contribute to international projects and create innovative value as a professional engineer.
-Thank you for your time, and I look forward to connecting with you.
+I am currently working at TSMC HQ, which ranks 6th in global market capitalization as of 2026, and I am very satisfied with this environment. My colleagues are incredibly smart and have wonderful personalities; I learn so much from them every day. On a personal note, meeting my Taiwanese wife drastically changed my outlook on life. When I was younger, I was all about "career and results!" Now, I believe a rich life means eating delicious food, sleeping a lot, traveling abroad occasionally, and enjoying a fulfilling private life. I want to continue this balanced lifestyle—fulfilling my responsibilities in a blessed work environment while fully enjoying my family time. Thank you for reading, and I hope you find my profile interesting!
 """
 
 # == Experience ==
 [[languages.en.params.experience]]
-date = "2026.9"
+date = "2026.12 - Present"
 title = "Software Engineer - Full Time, TSMC"
 description = """IT Department"""
 skills = []
@@ -90,9 +83,9 @@ url = "https://www.tomorrowsai.org/"
 
 [[languages.en.params.experience]]
 date = "2023.9 - 2026.6"
-title = "Start Pursuing Master Degree - East China Normal University"
+title = "Graduated Master Degree - East China Normal University"
 description = """
-I relocated from Japan to Shanghai, China, to pursue a Master's degree in Software Engineering at East China Normal University.
+I graduated with a Master's degree in Software Engineering at East China Normal University in Shanghai.
 This program has allowed me to delve into advanced software development and system architecture, while also fostering an international perspective through collaboration with peers from diverse backgrounds
 """
 skills = ["Master Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
@@ -100,7 +93,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.3/4.0"
+gpa = "3.31/4.0"
 
 [[languages.en.params.experience]]
 date = "2021.4 - 2023.6"
@@ -170,24 +163,16 @@ skills = ["TCPIP", "jQuery"]
 
 # == Projects (English) ==
 [[languages.en.params.projects]]
-title = "China Eastern Airlines Dispatch Optimization"
+title = "China Eastern Airlines Ground Service Multi-Skilled Personnel Dispatch Optimization Project"
 period = "2024.9 - 2026.6"
-overview = """Participated in a dispatch optimization project at China Eastern Airlines to enhance task assignment and scheduling efficiency.
-Utilized Deep Reinforcement Learning (CVNet) and swarm intelligence algorithms (ABC, FA) to develop a dispatch model adaptable to dynamic real-time environments"""
-roles = """[Model Design]
-- Modeled task assignment as a Semi-Markov Decision Process (SMDP), factoring in task priority, travel cost, and skill compatibility.
-- Addressed combination constraints based on employee skills (A, B, C).
-
-[Algorithm Implementation]
-- Employed CVNet to learn the value function for tasks and optimize dynamic task assignment.
-- Leveraged swarm intelligence algorithms (ABC, FA) to reduce travel costs while improving scheduling efficiency.
-
-[Proposal of Results]
-- Proposed research outcomes to China Eastern Airlines, including algorithm implementation details, performance evaluation, and practical applicability"""
-results = """[Outcome]
-- Proposed a new dispatch model that contributes to improved operational efficiency at China Eastern Airlines.
-- Developed algorithms capable of real-time dynamic task adjustment.
-- The proposal is designed with actual on-site application in mind"""
+overview = """Developed an interpretable scheduling system for multi-skilled personnel in aviation ground services, utilizing a collaborative framework based on a Deep Value Network (DVN) and a Large Language Model (LLM)."""
+roles = """[Role]
+- Algorithm Researcher / Software Engineer"""
+results = """[Achievements]
+- DVN-LLM Collaborative Model Development: Leveraged DVN to efficiently evaluate values and filter candidate solutions based on continuous operational state features such as flight status, personnel distribution, and task time windows. Combined with the LLM's semantic reasoning capabilities, achieved automated scheduling that balances optimization efficiency with strict rule compliance.
+- Explainable AI via RAG and CoT: Integrated Chinese Civil Aviation Regulations (CCAR), Standard Operating Procedures (SOP), and historical scheduling cases to build a long-and-short-term dual-layer memory retrieval system (RAG). Introduced a hierarchical Chain-of-Thought (CoT) reasoning process, breaking the black-box limitations of traditional reinforcement learning. Simultaneously generated standardized dispatch results alongside natural language explanatory texts detailing regulatory bases and reasoning for personnel selection.
+- Strict Application of Business Rules and Constraints: Utilized the LLM's text parsing capabilities to integrate complex rigid constraints—such as continuous working hour limits, mutually exclusive skill matching, and downward-compatible substitution relationships across different role hierarchies—into the system. This method effectively avoided non-compliant dispatching and enhanced safety margins.
+- Dynamic Adaptation and Simulation Validation: Addressed abnormal scenarios such as flight delays, temporary gate changes, and sudden personnel shortages through closed-loop simulation testing using authentic historical data. This validated the system's robustness and highly efficient real-time response capabilities during global task reconfiguration."""
 
 [[languages.en.params.spoken_languages]]
 name = "Japanese"
@@ -199,7 +184,8 @@ level = "Professional working proficiency"
 
 [[languages.en.params.spoken_languages]]
 name = "Chinese"
-level = "Professional working proficiency. HSK6 220/300"
+level = "Professional working proficiency (HSK6 220/300)"
+
 
 ################################################################################
 # Japanese
@@ -222,27 +208,42 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (JA) with four fields ==
 [[languages.ja.params.introduce]]
 Introduction = """
-現在、上海の華東師範大学でソフトウェア工学の修士課程を履修しています。大学卒業後、日本のPixel Software株式会社で約2年間勤務し、産業用リアルタイムプロセス情報管理システムや工場データ管理ソフトウェアを開発しました
+はじめまして！長原生真です。2026年に中国の華東師範大学で修士課程を修了しました。少し自慢になりますが、修士の3年間は中国政府奨学生（全額奨学金）として学費・寮費が無料で、毎月3000元の生活費まで頂いていました。昔から運だけは良いんです（笑）。少し私の「人間味」をご紹介させてください。実は昔から「遅寝遅起き」で早起きが大の苦手。小3から中学卒業まで野球をしていましたがそこまで好きではなく、今はWBCやサッカーW杯の時だけ熱狂する「お祭り観戦タイプ」です。
 """
 
 Development = """
-その後、アメリカの「Tomorrows AI」でリモートインターンシップを完了し、メディアプラットフォームの開発に貢献しました。さまざまな文化や視点に触れることで、技術スキルだけでなく多角的な思考力も培うことができました
+そんなマイペースな私ですが、やるときはトコトンやります。大学院時代は、当時のルームメイトとタイで車の売買やレンタルビジネスを立ち上げました。在庫がない時は他社へお客様を流す仲介業もこなし、長期休みにタイで贅沢できるくらい稼ぐしたたかさもありました。一方で学業も手を抜かず、中国の大手航空会社と共同で強化学習アルゴリズムの改良研究に没頭しました。日本人でありながら修士論文をすべて簡体字で執筆して答弁に臨み、審査では清華大学の教授から100点満点中90点を頂けたのは密かな誇りです。
 """
 
 Turn = """
-台湾、中国本土、香港、ドバイ、イタリア、韓国など多くの国を旅し、各地域の価値観に触れることで、異なる文化の中でのコミュニケーションや問題解決能力を深めています
+現在はタイのビジネスをルームメイトに任せ、台湾のTSMC本社でソフトウェアエンジニアとしてフルタイムで働いています。大学院時代の中国でのタフな研究経験が、現在の台湾企業での仕事の流儀にも繋がっていると感じます。仕事での目標は、「まずは与えられた任務を確実にこなし、しっかりと報告・共有する」という基本を徹底すること。派手さよりも、日々の着実なタスク遂行を通じてチームから信頼される存在でありたいと思っています。
 """
 
 Conclusion = """
-こうした多文化体験と技術的専門性を活かし、国際的なプロジェクトに参加してイノベーションを創出したいと考えています。私の経歴を知っていただき、ありがとうございます。今後のご縁を楽しみにしております
+現在、2026年時点で世界時価総額ランキング6位となるTSMC台湾本社で働かせてもらい、この環境にとても満足しています。同僚はみんな頭が良く、性格も素晴らしいチームメイトばかりで、日々多くのことを学ばせてもらっています。一方で、プライベートでは今の台湾人の妻と出会い、人生観が大きく変わりました。若い頃は「キャリアや結果が全て！」と肩肘を張っていましたが、今は「美味しいものを食べ、たくさん寝て、時々海外旅行をする。そんなプライベートの充実こそが豊かな人生ではないか」と思うようになりました。恵まれた環境でしっかり仕事の責任を果たしつつ、家族との時間も存分に楽しむ。そんな等身大の歩み方をこれからも続けていきたいです。こんな私ですが、少しでも興味を持っていただけたら嬉しいです！
+※内容は事実ですが、文章はAI作成です...
 """
 
 # == Experience ==
 [[languages.ja.params.experience]]
-date = "2025.07 - 2025.08"
-title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
+date = "2026.12 - 現在"
+title = "ソフトウェアエンジニア (フルタイム) - TSMC"
+description = """IT部門"""
 skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.ja.params.experience]]
+date = "2025.07 - 2025.08"
+title = "ソフトウェアエンジニア (インターン) - TSMC"
+description = """
+IT部門
+
+- PythonとBDD（ビヘイビア駆動開発）を用いた効率的なテスト自動化ソリューションを開発し、ソフトウェアの品質を向上させました。GUIおよびAPIテストに注力し、テストケースの設計、ワークフローの最適化、バックエンド開発プロセスの加速を実現しました。
+
+- 台湾のクロスファンクショナルな開発チームと共に、中国語を用いたスクラムベースのアジャイル手法でオンサイト開発を行いました。
+"""
+skills = ["Python", "BDD (ビヘイビア駆動開発)", "テスト自動化", "GUIテスト", "APIテスト", "テストケース設計", "ワークフロー最適化", "スクラム", "クロスファンクショナルチームとの連携"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -258,16 +259,16 @@ url = "https://www.tomorrowsai.org/"
 
 [[languages.ja.params.experience]]
 date = "2023.9 - 2026.6"
-title = "修士課程を開始 - 華東師範大学"
+title = "修士課程修了 - 華東師範大学"
 description = """
-日本から中国上海に移り、華東師範大学でソフトウェア工学の修士課程を履修しています。先端的なソフトウェア設計やシステム構築を学びながら、多国籍な環境で国際的視野を養い、技術力とコミュニケーション能力の両面を伸ばしています
+中国上海の華東師範大学でソフトウェア工学の修士課程を修了しました。先端的なソフトウェア設計やシステム構築を学びながら、多国籍な環境で国際的視野を養い、技術力とコミュニケーション能力の両面を伸ばしました。
 """
-skills = ["修士学位", "ソフトウェア工学"]
+skills = ["修士学位", "ソフトウェア工学", "中国政府奨学生"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "ソフトウェア工学"
 major = "ソフトウェア工学"
-gpa = "3.3/4.0"
+gpa = "3.31/4.0"
 
 [[languages.ja.params.experience]]
 date = "2021.4 - 2023.6"
@@ -333,25 +334,16 @@ skills = ["TCPIP", "jQuery"]
 
 # == Projects (Japanese) ==
 [[languages.ja.params.projects]]
-title = "东方航空 派工最適化プロジェクト"
+title = "中国東方航空 地上サービス・マルチスキル人員派工（スケジューリング）最適化プロジェクト"
 period = "2024.9 - 2026.6"
-overview = """东方航空のタスク割り当てとスケジューリング効率を向上させるための派工最適化プロジェクトに参画。深層強化学習（CVNet）と群知能アルゴリズム（ABC、FA）を活用し、リアルタイムで動的な環境に適応可能な派工モデルを開発"""
-roles = """【モデル設計】
-・タスク割り当てを半マルコフ決定プロセス（SMDP）としてモデリングし、タスクの優先度、移動コスト、スキル適合性を考慮
-・従業員のスキル（A、B、C）に基づく組み合わせ制約を解決
-
-【アルゴリズム実装】
-・CVNetを用いてタスクの価値関数を学習し、動的なタスク割り当てを最適化
-・群知能アルゴリズム（ABC、FA）を活用して移動コストを削減しつつスケジュール効率を向上
-
-【成果提案】
-・プロジェクトを通じて得られた研究成果を东方航空に提案。アルゴリズムの実装方法、パフォーマンス評価、および実運用での適用可能性を含む
-"""
-results = """【成果】
-・东方航空の運用効率向上に寄与する新しい派工モデルを提案
-・リアルタイムのタスク動的調整が可能なアルゴリズムを開発
-・提案内容は航空運用現場での実用化を前提に設計
-"""
+overview = """複雑な航空地上サービスにおいて、深度価値ネットワーク（DVN）と大規模言語モデル（LLM）を協調させたマルチスキル人員の最適化スケジューリングシステムを構築しました。"""
+roles = """【役割】
+・アルゴリズム研究開発 / ソフトウェアエンジニア"""
+results = """【実績・成果】
+・DVN-LLM協調モデルの開発：DVNを用いてフライト状況、人員の分布、タスクの時間枠などの連続的な状態特徴を高効率に価値評価し、候補を絞り込みました。これとLLMの意味推論能力を組み合わせることで、最適化の効率とルールの遵守を両立した自動スケジューリングを実現しました。
+・RAGとCoTを活用した説明可能なAI：中国民用航空規章（CCAR）、標準作業手順書（SOP）、過去のスケジュール履歴を統合し、長期・短期の双層記憶検索システム（RAG）を構築しました。階層的な思考連鎖（CoT）推論プロセスを導入し、従来の強化学習におけるブラックボックスの限界を打破しました。標準化された派工（タスク割り当て）結果を出力すると同時に、ルール根拠や人員選択の理由を含む自然言語の説明テキストを生成する仕組みを実装しました。
+・業務ルールと制約の厳密な適用：LLMのテキスト解析能力を通じて、従業員の連続作業時間の制限、スキル資格の排他マッチング、異なる役割階層の互換（下位代替）関係などの複雑で厳格な制約をシステムに組み込みました。この手法により、コンプライアンス違反による割り当てを効果的に回避し、安全性のマージンを向上させました。
+・動的環境への適応とシミュレーション検証：航空機の遅延、搭乗ゲートの急な変更、突発的な人員不足といった異常シナリオに対して、実際の履歴データを用いた閉ループシミュレーションテストを実施し、グローバルなタスク再構築におけるシステムの堅牢性と高効率なリアルタイム応答能力を検証しました。"""
 
 [[languages.ja.params.spoken_languages]]
 name = "日本語"
@@ -363,7 +355,8 @@ level = "ビジネスレベル"
 
 [[languages.ja.params.spoken_languages]]
 name = "中国語"
-level = "ビジネスレベル"
+level = "ビジネスレベル (HSK6 220/300)"
+
 
 ################################################################################
 # Chinese
@@ -386,27 +379,41 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (ZH) with four fields ==
 [[languages.zh.params.introduce]]
 Introduction = """
-您好！我叫长原生真，目前正在中国上海的华东师范大学攻读软件工程硕士学位。我喜欢在国际化的环境中与我的中国同学一起学习，这丰富了我的学术和文化体验
+大家好！我是长原生真。我于2026年从中国华东师范大学硕士毕业。稍微自夸一下，在读研的三年里，我作为中国政府奖学金（全额奖学金）获得者，不仅免除了学费和住宿费，每月还能拿到3000元人民币的生活费。我从小运气就特别好（笑）。让我介绍一下我比较“接地气”的一面吧。其实我一直是个“晚睡晚起”的人，最怕早起。虽然从小学三年级到初中毕业都在打棒球，但我其实没那么喜欢，现在也只是个“凑热闹型”球迷，只有在WBC（世界棒球经典赛）和男足世界杯时才会狂热一下。
 """
 
 Development = """
-我热爱旅行，曾访问过台湾、中国、香港、迪拜、意大利和韩国等多个国家。这些经历让我能够探索多样的文化和视角，大大提升了我的跨文化理解能力，拓宽了我的视野
+虽然我平时比较随性，但一旦决定做某件事就会全力以赴。读研期间，我和当时的室友在泰国做起了汽车买卖和租赁生意。当没有库存时，我们会机智地作为中介将客户介绍给竞争对手，赚到的利润足够我们在长假期间在泰国过上相当奢侈的生活。与此同时，我也没落下学业，全身心投入到与中国一家大型航空公司合作的强化学习算法改进研究中。作为一个日本人，我用简体中文完成了所有的硕士论文撰写及答辩，在盲审中获得了清华大学教授给出的90分（满分100分）的高分，这也是我暗自骄傲的一点。
 """
 
 Turn = """
-在我的职业生涯中，我在日本的Pixel Software株式会社工作了大约两年，开发了工业实时过程信息管理系统和工厂数据管理软件。之后，我完成了在美国“Tomorrows AI”的远程实习，参与了媒体平台的开发
+目前，我把泰国的生意交给了室友，自己在台湾的台积电（TSMC）总部全职担任软件工程师。在中国的硬核研究经历，也深深影响了我现在在台湾企业的工作作风。目前我工作上的目标非常纯粹：“首先确保完成交付的任务，并做好汇报和沟通”。比起追求表面上的光鲜亮丽，我更希望能通过每天踏实的工作来赢得团队的信任。
 """
 
 Conclusion = """
-利用我的多文化经验和技术技能，我希望能为国际项目做出贡献，作为一名专业工程师创造创新价值。感谢您的时间，期待与您联系
+截至2026年，台积电的全球市值排名第六，能在这里的总部工作，我对现在的环境非常满意。身边的同事都很聪明，性格也非常好，我每天都能从这些优秀的团队伙伴身上学到很多。在生活方面，遇到我现在的台湾妻子后，我的人生观发生了很大的变化。年轻时我总觉得“事业和结果就是一切！”，但现在我认为，“吃好吃的，睡饱觉，偶尔去海外旅行，拥有充实的个人生活，这才是丰富的人生”。我希望在优越的环境中尽好工作的责任，同时也尽情享受家庭时光，继续踏实地走好自己的人生路。这就是我，如果能引起您的一点兴趣，我将不胜荣幸！
 """
 
 # == Experience ==
 [[languages.zh.params.experience]]
-date = "2025.07 - 2025.08"
-title = "TSMC - 台湾积体电路制造股份有限公司"
-description = """"""
+date = "2026.12 - 至今"
+title = "软件工程师 (全职) - TSMC 台湾积体电路制造股份有限公司"
+description = """IT部门 (IT Department)"""
 skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.zh.params.experience]]
+date = "2025.07 - 2025.08"
+title = "软件工程师 (实习) - TSMC"
+description = """
+IT部门
+
+- 使用Python和BDD（行为驱动开发）开发了高效的测试自动化解决方案，以提升软件质量。专注于GUI和API测试，设计了测试用例，优化了工作流，并加速了后端开发流程。
+
+- 在跨职能的台湾开发团队中进行现场办公，采用基于Scrum的敏捷开发方法，并全程使用中文沟通。
+"""
+skills = ["Python", "BDD (行为驱动开发)", "测试自动化", "GUI测试", "API测试", "测试用例设计", "工作流优化", "Scrum", "跨职能团队协作"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -423,16 +430,16 @@ url = "https://www.tomorrowsai.org/"
 
 [[languages.zh.params.experience]]
 date = "2023.9 - 2026.6"
-title = "开始攻读硕士学位 - 华东师范大学"
+title = "获得硕士学位 - 华东师范大学"
 description = """
-从日本搬到中国上海，在华东师范大学攻读软件工程硕士学位。深入学习软件开发、系统设计及前沿技术，并在国际化环境中拓展多元化的学术和实践经验，为未来从事跨国项目奠定了扎实的基础
+在上海华东师范大学完成了软件工程硕士学位。深入学习软件开发、系统设计及前沿技术，并在国际化环境中拓展多元化的学术和实践经验，为从事跨国项目奠定了扎实的基础
 """
 skills = ["硕士学位", "软件工程", "中国政府奖学金生"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "软件工程学院"
 major = "软件工程"
-gpa = "3.3/4.0"
+gpa = "3.31/4.0"
 
 [[languages.zh.params.experience]]
 date = "2021.4 - 2023.6"
@@ -501,26 +508,16 @@ skills = ["TCPIP", "jQuery"]
 
 # == Projects (Chinese) ==
 [[languages.zh.params.projects]]
-title = "东方航空 派工优化项目"
-period = "2024.9 - 至今"
-overview = """参与东方航空的派工优化项目，以提高任务分配和调度效率。
-使用深度强化学习（CVNet）和群智能算法（ABC、FA），开发可适应实时动态环境的派工模型"""
-roles = """【模型设计】
-- 将任务分配建模为半马尔可夫决策过程（SMDP），考虑任务优先级、移动成本和技能适配性
-- 基于员工技能（A、B、C）解决组合约束
-
-【算法实现】
-- 采用CVNet学习任务价值函数，优化动态任务分配
-- 利用群智能算法（ABC、FA）在降低移动成本的同时提升调度效率
-
-【成果提案】
-- 向东方航空提出项目研究成果，包括算法实现细节、性能评估及实际运用的可行性
-"""
-results = """【成果】
-- 提出新的派工模型，为东方航空的运营效率提高做出贡献
-- 开发可实现实时动态任务调整的算法
-- 设计方案充分考虑航空运营一线的实际应用需求
-"""
+title = "中国东方航空地服多技能人员派工调度优化项目"
+period = "2024.9 - 2026.6"
+overview = """针对航空地面服务复杂的时空耦合与法规约束问题，构建了基于深度价值网络（DVN）与大语言模型（LLM）协同的多技能人员可解释调度系统。"""
+roles = """【角色】
+- 算法研发 / 软件工程师"""
+results = """【成果与业绩】
+- 研发 DVN-LLM 协同模型：利用 DVN 对航班运行状态、人员分布、任务时窗等连续状态特征进行高效的价值评估与候选方案筛选。结合 LLM 的语义推理能力，实现了兼顾优化效率与规则合规性的自动化调度。
+- 基于 RAG 与 CoT 的可解释性决策：整合《中国民用航空规章》（CCAR）、标准操作程序（SOP）及历史排班案例，构建了长短时双层记忆检索体系（RAG）。引入层次化思维链（CoT）推理流程，打破了传统强化学习的黑盒局限。在输出标准化派工结果的同时，同步生成包含规则依据和人员选择理由的自然语言解释文本。
+- 严格落实业务规则与约束：通过大模型的文本解析能力，将员工连续作业时长限制、技能资质匹配互斥以及不同角色层级的向下兼容替代关系等复杂硬性约束融入系统中。该方法有效避免了违规派单，提升了安全冗余。
+- 动态环境适应与仿真验证：针对航班延误、临时换机位及突发人员短缺等异常场景，通过真实历史数据的闭环仿真测试，验证了系统在全局任务重构中的鲁棒性与高效实时响应能力。"""
 
 [[languages.zh.params.spoken_languages]]
 name = "日语"
@@ -532,7 +529,8 @@ level = "商务会话"
 
 [[languages.zh.params.spoken_languages]]
 name = "中文"
-level = "商务会话 (HSK6级（汉语水平考试）)"
+level = "商务会话 (HSK6级 220/300)"
+
 
 ###############################################################################
 # Filipino (Tagalog)
@@ -555,34 +553,41 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (FIL) with four fields ==
 [[languages.fil.params.introduce]]
 Introduction = """
-Kumusta! Ako si NAGAHARA IKUMA.
-Kasalukuyan akong kumukuha ng Master’s degree sa Software Engineering sa East China Normal University sa Shanghai, Tsina.
-Tuwang-tuwa akong mag-aral sa isang internasyonal na kapaligiran kasama ang aking mga kaklase na Tsino, na nagbibigay sa akin ng mas malawak na pananaw sa akademya at kultura.
+Kumusta! Ako si Ikuma Nagahara. Nagtapos ako ng Master's degree sa East China Normal University sa Tsina noong 2026. Bilang pagmamalaki nang kaunti, isa akong Chinese Government Scholarship (full scholarship) student sa loob ng tatlong taon. Libre ang aking matrikula at dormitoryo, at tumatanggap pa ako ng 3,000 RMB na allowance buwan-buwan. Palagi talaga akong sinuswerte! (haha). Hayaan ninyong ibahagi ko ang aking "human side". Sa totoo lang, sanay akong matulog nang late at gumising nang late—sobrang ayaw kong gumising nang maaga. Naglaro ako ng baseball mula Grade 3 hanggang grumadweyt ng junior high, pero hindi ko naman talaga masyadong gusto. Ngayon, isa na lang akong "festival fan" na nanonood at nag-chi-cheer lang tuwing WBC at FIFA World Cup.
 """
 
 Development = """
-Mahilig akong maglakbay at nakapunta na ako sa iba’t ibang bansa gaya ng Taiwan, Tsina, Hong Kong, Dubai, Italya, at South Korea.
-Malaki ang naitulong ng mga paglalakbay na ito upang maunawaan ko ang iba’t ibang kultura at pag-iisip, at lubos na napalawak ang aking pang-unawa.
+Kahit medyo chill ako sa buhay, kapag ginusto ko ang isang bagay, ibinibigay ko ang lahat. Noong grad school, nagtayo kami ng roommate ko ng car sales at rental business sa Thailand. Kapag wala kaming inventory, naging madiskarte kami at nagsilbing broker para sa mga kakumpitensya, at kumita kami nang sapat para magpakasarap sa Thailand tuwing bakasyon. Kasabay nito, seryoso rin ako sa aking pag-aaral at nag-focus sa pag-research at pag-improve ng reinforcement learning algorithms katuwang ang isang malaking airline company sa Tsina. Bilang isang Hapones, isinulat at idinepensa ko ang aking buong master's thesis sa simplified Chinese. Ang makakuha ng 90/100 na marka mula sa isang propesor ng Tsinghua University sa blind review ay isang bagay na lihim kong ipinagmamalaki.
 """
 
 Turn = """
-Sa aking propesyonal na karera, halos dalawang taon akong nagtrabaho sa Pixel Software Corporation sa Japan,
-kung saan ako ay nakibahagi sa pag-develop ng pang-industriyang real-time process information management systems at factory data management software.
-Pagkatapos noon, nakatapos ako ng remote work sa “Tomorrows AI” sa Estados Unidos, kung saan tumulong ako sa pagbuo ng isang media platform.
+Sa ngayon, ipinagkatiwala ko na sa roommate ko ang negosyo sa Thailand at nagtatrabaho na ako nang full-time bilang Software Engineer sa TSMC Headquarters sa Taiwan. Ang mahigpit kong karanasan sa pananaliksik sa Tsina ay may malaking impluwensya sa aking work style ngayon. Ang layunin ko sa trabaho ay simple lang: "Tapusin nang maayos ang mga naka-assign na gawain, at magbigay ng maayos na report." Kaysa magpasikat, mas gusto kong makuha ang tiwala ng aking team sa pamamagitan ng pare-pareho at maaasahang pagtatrabaho araw-araw.
 """
 
 Conclusion = """
-Gamit ang aking mga karanasan sa iba’t ibang kultura at kasanayan sa teknolohiya,
-nananabik akong mag-ambag sa mga internasyonal na proyekto at lumikha ng inobatibong halaga bilang isang propesyonal na inhinyero.
-Maraming salamat sa inyong oras, at umaasa akong magkaroon ng pagkakataong makipag-ugnayan sa inyo.
+Kasalukuyan akong nagtatrabaho sa TSMC HQ, na pang-anim sa global market cap as of 2026, at sobrang satisfied ako sa environment na ito. Ang mga katrabaho ko ay matatalino at may mabubuting personalidad; marami akong natututunan sa kanila araw-araw. Sa aking personal na buhay, ang pagkakakilala sa aking asawang Taiwanese ay nagbago nang malaki sa pananaw ko. Noong bata pa ako, masyado akong naka-focus sa "career at results!" Pero ngayon, naniniwala ako na ang isang masaganang buhay ay ang pagkakaroon ng masarap na pagkain, mahabang tulog, paminsan-minsang pag-travel sa labas ng bansa, at masayang private life. Gusto kong ipagpatuloy ang ganitong balanseng buhay—tinutupad ang aking mga responsibilidad sa trabaho habang nag-eenjoy kasama ang aking pamilya. Maraming salamat sa inyong oras, at sana'y naging interesado kayo sa aking profile!
 """
 
 # == Experience (FIL) ==
 [[languages.fil.params.experience]]
-date = "2025.07 - 2025.08"
-title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
+date = "2026.12 - Kasalukuyan"
+title = "Software Engineer (Full Time) - TSMC"
+description = """IT Department"""
 skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.fil.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Software Engineer (Internship) - TSMC"
+description = """
+IT Department
+
+- Bumuo ng mga mahusay na solusyon para sa test automation gamit ang Python at BDD (Behavior Driven Development) upang mapabuti ang kalidad ng software. Nakatuon sa GUI at API testing, nagdisenyo ng mga test case, nag-optimize ng workflows, at nagpabilis sa proseso ng backend development.
+
+- Nagtrabaho on-site kasama ang isang cross-functional na Taiwanese development team sa ilalim ng Scrum-based agile methodology gamit ang wikang Tsino (Chinese).
+"""
+skills = ["Python", "BDD (Behavior Driven Development)", "Test Automation", "GUI Testing", "API Testing", "Test Case Design", "Workflow Optimization", "Scrum", "Cross-functional Team Collaboration"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -603,18 +608,18 @@ url = "https://www.tomorrowsai.org/"
 
 [[languages.fil.params.experience]]
 date = "2023.9 - 2026.6"
-title = "Pagsisimula ng Master’s Degree - East China Normal University"
+title = "Nagtapos sa Master's Degree - East China Normal University"
 description = """
-Lumipat ako mula Japan patungong Shanghai, China, upang kumuha ng Master’s degree sa Software Engineering sa East China Normal University.
+Nagtapos ako ng Master's degree sa Software Engineering sa East China Normal University sa Shanghai.
 Sa programang ito, mas malalim kong pinag-aaralan ang advanced software development at system architecture,
-habang nakikipagtulungan sa mga kaklase mula sa iba’t ibang bansa na lalong nagpapayaman sa aking internasyonal na pananaw.
+habang nakikipagtulungan sa mga kaklase mula sa iba't ibang bansa na lalong nagpapayaman sa aking internasyonal na pananaw.
 """
-skills = ["Master’s Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
+skills = ["Master's Degree", "Software Engineering", "Chinese Government Full Scholarship Student"]
 logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.3/4.0"
+gpa = "3.31/4.0"
 
 [[languages.fil.params.experience]]
 date = "2021.4 - 2023.6"
@@ -647,14 +652,14 @@ url = "http://www.pixelsoft.co.jp/pc/index.html"
 
 [[languages.fil.params.experience]]
 date = "2019.9 - 2021.6"
-title = "Nagtapos sa Bachelor’s Degree - Shanghai International Studies University"
+title = "Nagtapos sa Bachelor's Degree - Shanghai International Studies University"
 description = """
-Nagtapos ako ng Bachelor’s degree sa Pagtuturo ng Wikang Tsino sa mga Dayuhan (Teaching Chinese to Speakers of Other Languages)
+Nagtapos ako ng Bachelor's degree sa Pagtuturo ng Wikang Tsino sa mga Dayuhan (Teaching Chinese to Speakers of Other Languages)
 mula sa School of Education ng Shanghai International Studies University.
 Ang akademikong background na ito ay nagbigay sa akin ng malalim na pag-unawa sa pagkatuto ng wika at cross-cultural communication,
 na lubos na nakatulong sa akin sa mga internasyonal na proyekto at kapaligiran.
 """
-skills = ["Bachelor’s Degree", "Chinese"]
+skills = ["Bachelor's Degree", "Chinese"]
 logo = "/icons/sisu.jpg"
 url = "https://en.shisu.edu.cn/"
 department = "School of Education"
@@ -688,26 +693,16 @@ skills = ["TCPIP", "jQuery"]
 
 # == Projects (Filipino) ==
 [[languages.fil.params.projects]]
-title = "China Eastern Airlines Dispatch Optimization"
+title = "Proyekto sa Pag-optimize ng Pagpapadala ng mga Tauhan na may Maraming Kasanayan sa Serbisyo sa Lupa ng China Eastern Airlines"
 period = "2024.9 - 2026.6"
-overview = """Nakibahagi sa isang dispatch optimization project ng China Eastern Airlines upang mapabuti ang task assignment at scheduling efficiency.
-Gumamit ng Deep Reinforcement Learning (CVNet) at mga swarm intelligence algorithms (ABC, FA) upang bumuo ng isang dispatch model na maaaring umangkop sa real-time dynamic environment."""
-roles = """[Disenyo ng Modelo]
-- Imodelo ang task assignment bilang isang Semi-Markov Decision Process (SMDP), kasama ang task priority, travel cost, at skill compatibility.
-- Tinalakay ang mga kombinasyong constraint batay sa kakayahan ng mga empleyado (A, B, C).
-
-[Implementasyon ng Algorithm]
-- Ginamit ang CVNet para matutunan ang value function ng mga gawain at ma-optimize ang dynamic task assignment.
-- Inapply ang mga swarm intelligence algorithms (ABC, FA) upang mapababa ang travel cost habang pinabubuti ang scheduling efficiency.
-
-[Paglalatag ng Resulta]
-- Iminungkahi sa China Eastern Airlines ang mga resulta ng pag-aaral, kasama ang detalye ng implementasyon, performance evaluation, at praktikal na aplikasyon.
-"""
-results = """[Kinalabasan]
-- Nakapagmungkahi ng bagong dispatch model na nakatutulong sa pagpapahusay ng operasyon sa China Eastern Airlines.
-- Nakabuo ng mga algorithm na may kakayahang mag-adjust nang real-time sa mga pabago-bagong gawain.
-- Ang panukala ay idinisenyo nang isinasaalang-alang ang aktwal na sitwasyon sa field.
-"""
+overview = """Bumuo ng isang naipapaliwanag na sistema ng pag-iskedyul para sa mga tauhan na may maraming kasanayan sa mga serbisyo sa lupa ng abyasyon, gamit ang isang kolaboratibong balangkas na nakabatay sa Deep Value Network (DVN) at Large Language Model (LLM)."""
+roles = """[Tungkulin]
+- Mananaliksik ng Algorithm / Inhinyero ng Software"""
+results = """[Mga Natamo / Resulta]
+- Pag-develop ng DVN-LLM Collaborative Model: Ginamit ang DVN upang mahusay na masuri ang halaga at salain ang mga kandidatong solusyon batay sa patuloy na mga katangian ng pagpapatakbo gaya ng katayuan ng flight, pamamahagi ng tauhan, at mga time window ng gawain. Pinagsama sa kakayahan sa semantikong pangangatwiran ng LLM, nakamit ang awtomatikong pag-iskedyul na nagbabalanse sa kahusayan at mahigpit na pagsunod sa mga panuntunan.
+- Maipapaliwanag na AI gamit ang RAG at CoT: Pinagsama ang Chinese Civil Aviation Regulations (CCAR), Standard Operating Procedures (SOP), at mga nakaraang kaso ng pag-iskedyul upang bumuo ng pangmatagalan at panandaliang dual-layer memory retrieval system (RAG). Ipinakilala ang isang hierarchical Chain-of-Thought (CoT) na proseso ng pangangatwiran, na sumisira sa limitasyong black-box ng tradisyonal na reinforcement learning. Sabay na bumuo ng mga pamantayang resulta ng pagpapadala kasama ng mga paliwanag sa natural na wika na nagdedetalye ng mga batayan sa regulasyon at mga dahilan sa pagpili ng tauhan.
+- Mahigpit na Pagpapatupad ng mga Panuntunan at Paghihigpit sa Negosyo: Ginamit ang kakayahan ng LLM sa pagsusuri ng teksto upang isama ang mga kumplikado at mahigpit na paghihigpit—tulad ng limitasyon sa tuloy-tuloy na oras ng pagtatrabaho, eksklusibong pagtutugma ng kasanayan, at downward-compatible na mga ugnayan ng pagpapalit sa iba't ibang antas ng tungkulin—sa systema. Epektibong naiwasan ng pamamaraang ito ang mga pagpapadalang labag sa patakaran at pinataas ang mga margin sa kaligtasan.
+- Dinamikong Adaptasyon at Pagsusuri ng Simulation: Tinugunan ang mga hindi normal na sitwasyon tulad ng mga pagkaantala ng flight, panandaliang pagbabago ng gate, at biglaang kakulangan sa tauhan sa pamamagitan ng closed-loop simulation testing gamit ang totoong historikal na datos. Pinatunayan nito ang katatagan ng sistema at ang napakahusay na kakayahang tumugon sa real-time sa pangkalahatang muling pag-aayos ng mga gawain."""
 
 [[languages.fil.params.spoken_languages]]
 name = "Hapones (Japanese)"
@@ -720,6 +715,7 @@ level = "Mataas na Kahusayan"
 [[languages.fil.params.spoken_languages]]
 name = "Tsino (Chinese)"
 level = "Mataas na Kahusayan (HSK6 220/300)"
+
 
 ###############################################################################
 # Thai
@@ -742,34 +738,41 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 # == Introduce (TH) with four fields ==
 [[languages.th.params.introduce]]
 Introduction = """
-สวัสดีครับ ผมชื่อ นากาฮาระ อิคุมะ
-ปัจจุบันกำลังศึกษาระดับปริญญาโทสาขาวิศวกรรมซอฟต์แวร์ที่มหาวิทยาลัยครูหัวตง (East China Normal University) ณ นครเซี่ยงไฮ้ ประเทศจีน
-ผมรู้สึกสนุกที่ได้เรียนรู้ในสภาพแวดล้อมนานาชาติร่วมกับเพื่อนชาวจีน ซึ่งช่วยเปิดโลกทัศน์ทางวิชาการและวัฒนธรรมเป็นอย่างมาก
+สวัสดีครับ! ผมชื่อ นากาฮาระ อิคุมะ ผมเพิ่งสำเร็จการศึกษาระดับปริญญาโทจากมหาวิทยาลัยครูหัวตง (East China Normal University) ที่ประเทศจีนในปี 2026 ขออวดสักนิดนะครับว่า ตลอด 3 ปีที่เรียนปริญญาโท ผมได้รับทุนรัฐบาลจีน (ทุนเต็มจำนวน) ซึ่งครอบคลุมทั้งค่าเทอมและค่าหอพัก แถมยังมีค่าครองชีพให้เดือนละ 3,000 หยวน ผมมักจะเป็นคนดวงดีมาตั้งแต่เด็กเลยครับ (ฮ่าๆ) ขออนุญาตแนะนำ "มุมสบายๆ" ของผมบ้างนะครับ จริงๆ แล้วผมเป็นคนที่ชอบนอนดึกตื่นสาย และเกลียดการตื่นเช้ามากๆ ผมเคยเล่นเบสบอลตั้งแต่ ป.3 จนจบ ม.ต้น แต่จริงๆ แล้วไม่ได้ชอบขนาดนั้น ปัจจุบันผมเป็นแค่ "แฟนกีฬาสายเทศกาล" ที่จะอินจัดๆ เฉพาะตอนดูการแข่งขัน WBC หรือฟุตบอลโลกเท่านั้นครับ
 """
 
 Development = """
-ผมชื่นชอบการท่องเที่ยวและได้เดินทางไปหลากหลายประเทศ ไม่ว่าจะเป็น ไต้หวัน จีน ฮ่องกง ดูไบ อิตาลี และเกาหลีใต้
-ประสบการณ์เหล่านี้ทำให้ผมได้สัมผัสกับวัฒนธรรมและมุมมองที่หลากหลาย และช่วยเสริมสร้างความเข้าใจข้ามวัฒนธรรมอย่างลึกซึ้ง
+ถึงแม้ผมจะดูเป็นคนใช้ชีวิตตามจังหวะของตัวเอง แต่ถ้าตั้งใจทำอะไรแล้ว ผมจะทุ่มเทสุดตัวครับ สมัยเรียนปริญญาโท ผมกับรูมเมทได้เปิดธุรกิจซื้อขายและให้เช่ารถยนต์ที่ประเทศไทย พอช่วงไหนรถหมด เราก็ไหวพริบดีผันตัวเป็นนายหน้าแนะนำลูกค้าให้คู่แข่งแทน ทำให้เรามีกำไรมากพอที่จะใช้ชีวิตหรูหราที่ไทยได้เป็นเดือนๆ ในช่วงปิดเทอมยาว ในขณะเดียวกัน ผมก็ไม่ได้ทิ้งการเรียน ผมทุ่มเทให้กับการวิจัยเพื่อปรับปรุงอัลกอริทึม Reinforcement Learning ร่วมกับสายการบินยักษ์ใหญ่ของจีน และในฐานะคนญี่ปุ่น ผมภูมิใจเล็กๆ ที่สามารถเขียนและสอบป้องกันวิทยานิพนธ์ระดับปริญญาโทเป็นอักษรจีนตัวย่อได้ทั้งหมด แถมยังได้คะแนนประเมินแบบไม่เปิดเผยชื่อจากศาสตราจารย์มหาวิทยาลัยชิงหวาถึง 90/100 คะแนนครับ
 """
 
 Turn = """
-ในเส้นทางอาชีพของผม ผมเคยทำงานที่ Pixel Software Corporation ในประเทศญี่ปุ่นประมาณสองปี
-มีส่วนร่วมในการพัฒนา Industrial Real-Time Process Information Management Systems และซอฟต์แวร์บริหารจัดการข้อมูลโรงงาน
-จากนั้นผมได้ฝึกงานทางไกลที่ “Tomorrows AI” ในสหรัฐอเมริกา โดยได้มีส่วนร่วมในการพัฒนาระบบแพลตฟอร์มสื่อ
+ปัจจุบัน ผมมอบหมายธุรกิจที่ไทยให้รูมเมทดูแลต่อ และมาทำงานประจำในตำแหน่ง Software Engineer ที่สำนักงานใหญ่ของ TSMC ในไต้หวัน ผมรู้สึกว่าประสบการณ์การทำวิจัยที่เข้มข้นในจีนส่งผลดีต่อสไตล์การทำงานของผมในตอนนี้ เป้าหมายในการทำงานของผมคือ "ตั้งใจทำงานที่ได้รับมอบหมายให้สำเร็จอย่างครบถ้วน และรายงานผลให้ชัดเจน" ผมไม่ได้อยากโดดเด่นหวือหวา แต่ผมอยากได้รับความไว้วางใจจากทีมผ่านการทำงานที่สม่ำเสมอและเชื่อถือได้ในทุกๆ วันครับ
 """
 
 Conclusion = """
-ด้วยประสบการณ์หลากหลายด้านวัฒนธรรมและทักษะด้านเทคโนโลยี
-ผมหวังว่าจะได้ร่วมงานในโครงการระดับนานาชาติ และสร้างคุณค่าเชิงนวัตกรรมในฐานะวิศวกรมืออาชีพ
-ขอขอบคุณที่สละเวลาอ่าน และหวังว่าจะได้มีโอกาสติดต่อพูดคุยกับคุณครับ
+ตอนนี้ผมทำงานที่สำนักงานใหญ่ TSMC ซึ่งมีมูลค่าตลาดรวม (Market Cap) เป็นอันดับ 6 ของโลก ณ ปี 2026 ผมพอใจกับสภาพแวดล้อมที่นี่มากๆ เพื่อนร่วมงานทุกคนฉลาดและนิสัยดี ทำให้ผมได้เรียนรู้อะไรมากมายทุกวัน ในด้านชีวิตส่วนตัว การได้พบกับภรรยาชาวไต้หวันทำให้มุมมองชีวิตของผมเปลี่ยนไปอย่างสิ้นเชิง สมัยก่อนผมมักจะคิดว่า "หน้าที่การงานและผลลัพธ์คือทุกสิ่ง!" แต่ตอนนี้ผมกลับมองว่า "การได้กินของอร่อย ได้นอนเต็มอิ่ม ได้ไปเที่ยวต่างประเทศบ้าง และมีชีวิตส่วนตัวที่มีความสุขต่างหาก คือชีวิตที่สมบูรณ์แบบ" ผมตั้งใจจะก้าวเดินต่อไปในแบบของตัวเอง นั่นคือการรับผิดชอบงานในสภาพแวดล้อมที่ดีเยี่ยม ควบคู่ไปกับการใช้เวลาอย่างมีความสุขกับครอบครัว ขอบคุณที่อ่านมาถึงตรงนี้นะครับ หวังว่าคุณจะสนใจโปรไฟล์ของผมไม่มากก็น้อย!
 """
 
 # == Experience (TH) ==
 [[languages.th.params.experience]]
-date = "2025.07 - 2025.08"
-title = "TSMC - Taiwan Semiconductor Manufacturing Company, Ltd."
-description = """"""
+date = "2026.12 - ปัจจุบัน"
+title = "Software Engineer (Full Time) - TSMC"
+description = """แผนก IT (IT Department)"""
 skills = []
+logo = "/icons/tsmc.png"
+url = "https://www.tsmc.com/english"
+
+[[languages.th.params.experience]]
+date = "2025.07 - 2025.08"
+title = "Software Engineer (Internship) - TSMC"
+description = """
+แผนก IT
+
+- พัฒนาระบบทดสอบอัตโนมัติ (Test Automation) ที่มีประสิทธิภาพโดยใช้ Python และ BDD (Behavior Driven Development) เพื่อยกระดับคุณภาพของซอฟต์แวร์ เน้นที่การทดสอบ GUI และ API, ออกแบบกรณีทดสอบ (Test cases), ปรับปรุงเวิร์กโฟลว์ และเร่งกระบวนการพัฒนาฝั่งแบ็กเอนด์
+
+- ทำงานในสถานที่จริง (On-site) ร่วมกับทีมพัฒนาข้ามสายงานชาวไต้หวัน ภายใต้วิธีการทำงานแบบ Agile (Scrum-based) โดยใช้ภาษาจีนในการสื่อสาร
+"""
+skills = ["Python", "BDD (Behavior Driven Development)", "การทดสอบอัตโนมัติ (Test Automation)", "GUI Testing", "API Testing", "การออกแบบกรณีทดสอบ (Test Case Design)", "การปรับปรุงเวิร์กโฟลว์ (Workflow Optimization)", "Scrum", "การทำงานร่วมกับทีมข้ามสายงาน (Cross-functional Team Collaboration)"]
 logo = "/icons/tsmc.png"
 url = "https://www.tsmc.com/english"
 
@@ -791,10 +794,9 @@ url = "https://www.tomorrowsai.org/"
 
 [[languages.th.params.experience]]
 date = "2023.9 - 2026.6"
-title = "เริ่มศึกษาระดับปริญญาโท - มหาวิทยาลัยครูหัวตง (East China Normal University)"
+title = "สำเร็จการศึกษาระดับปริญญาโท - มหาวิทยาลัยครูหัวตง (East China Normal University)"
 description = """
-ผมได้ย้ายจากญี่ปุ่นมายังเซี่ยงไฮ้ ประเทศจีน เพื่อศึกษาปริญญาโทสาขาวิศวกรรมซอฟต์แวร์
-ที่มหาวิทยาลัยครูหัวตง (East China Normal University)
+ผมสำเร็จการศึกษาระดับปริญญาโทสาขาวิศวกรรมซอฟต์แวร์ ที่มหาวิทยาลัยครูหัวตง (East China Normal University)
 หลักสูตรนี้ช่วยให้ผมได้ศึกษาเชิงลึกเกี่ยวกับการพัฒนาซอฟต์แวร์ขั้นสูง และสถาปัตยกรรมระบบ
 พร้อมทั้งได้รับมุมมองระดับนานาชาติจากการทำงานร่วมกับเพื่อนร่วมชั้นจากหลากหลายชาติ
 """
@@ -803,7 +805,7 @@ logo = "/icons/ecnu.jpg"
 url = "https://english.ecnu.edu.cn/"
 department = "Software Engineering Institute"
 major = "Software Engineering"
-gpa = "3.3/4.0"
+gpa = "3.31/4.0"
 
 [[languages.th.params.experience]]
 date = "2021.4 - 2023.6"
@@ -883,32 +885,16 @@ skills = ["TCPIP", "jQuery"]
 
 # == Projects (Thai) ==
 [[languages.th.params.projects]]
-title = "โครงการปรับปรุงการจัดสรรงาน (Dispatch Optimization) ของ China Eastern Airlines"
+title = "โครงการเพิ่มประสิทธิภาพการจัดตารางเวลาบุคลากรที่มีทักษะหลากหลายสำหรับบริการภาคพื้นดินของสายการบิน China Eastern Airlines"
 period = "2024.9 - 2026.6"
-overview = """เข้าร่วมโครงการปรับปรุงกระบวนการจัดสรรงานของสายการบิน China Eastern Airlines
-เพื่อเพิ่มประสิทธิภาพการมอบหมายงานและการจัดตารางเวลา
-โดยใช้เทคนิค Deep Reinforcement Learning (CVNet) และอัลกอริทึม Swarm Intelligence (ABC, FA)
-เพื่อพัฒนารูปแบบการจัดสรรงาน (dispatch model) ที่สามารถปรับเปลี่ยนตามสภาพแวดล้อมแบบเรียลไทม์ได้
-"""
-roles = """[การออกแบบโมเดล]
-- สร้างโมเดลการจัดสรรงานในรูปแบบ Semi-Markov Decision Process (SMDP) โดยคำนึงถึงลำดับความสำคัญของงาน (task priority),
-  ค่าใช้จ่ายในการเดินทาง (travel cost) และความสอดคล้องของทักษะ (skill compatibility)
-- จัดการข้อจำกัดด้านการผสมผสานตามระดับทักษะ (A, B, C) ของพนักงาน
-
-[การพัฒนาอัลกอริทึม]
-- ใช้ CVNet ในการเรียนรู้ value function ของงาน เพื่อให้การจัดสรรงานแบบไดนามิกมีประสิทธิภาพสูงสุด
-- ประยุกต์ใช้อัลกอริทึม Swarm Intelligence (ABC, FA) ในการลดต้นทุนด้านการเดินทาง
-  และเพิ่มประสิทธิภาพการจัดตารางเวลา
-
-[การนำเสนอผลลัพธ์]
-- นำเสนอผลงานวิจัยให้กับ China Eastern Airlines ซึ่งรวมถึงรายละเอียดการพัฒนาอัลกอริทึม
-  การประเมินประสิทธิภาพ และความเป็นไปได้ในการใช้งานจริง
-"""
-results = """[ผลลัพธ์]
-- เสนอโมเดลการจัดสรรงานรูปแบบใหม่ ที่ช่วยเพิ่มประสิทธิภาพในการดำเนินงานของ China Eastern Airlines
-- พัฒนาอัลกอริทึมที่สามารถปรับตัวต่อการเปลี่ยนแปลงแบบเรียลไทม์ได้
-- ออกแบบโซลูชันให้เหมาะสมกับการใช้งานในสถานการณ์จริงภาคสนาม
-"""
+overview = """พัฒนาระบบการจัดตารางเวลาที่สามารถอธิบายได้สำหรับบุคลากรที่มีทักษะหลากหลายในบริการภาคพื้นดินของการบิน โดยใช้กรอบการทำงานร่วมกันระหว่าง Deep Value Network (DVN) และ Large Language Model (LLM)"""
+roles = """[บทบาทหน้าที่]
+- นักวิจัยอัลกอริทึม / วิศวกรซอฟต์แวร์"""
+results = """[ความสำเร็จ / ผลลัพธ์]
+- การพัฒนาโมเดลการทำงานร่วมกันระหว่าง DVN และ LLM: ใช้ DVN ในการประเมินมูลค่าอย่างมีประสิทธิภาพและคัดกรองแนวทางแก้ไขที่เหมาะสมโดยอิงจากลักษณะสถานะการทำงานที่ต่อเนื่อง เช่น สถานะเที่ยวบิน การกระจายบุคลากร และกรอบเวลาของงาน เมื่อรวมกับความสามารถในการให้เหตุผลเชิงความหมายของ LLM ทำให้สามารถจัดตารางเวลาอัตโนมัติที่สร้างความสมดุลระหว่างประสิทธิภาพและปฏิบัติตามกฎระเบียบอย่างเคร่งครัด
+- AI ที่สามารถอธิบายได้ผ่าน RAG และ CoT: บูรณาการกฎระเบียบการบินพลเรือนของจีน (CCAR), ขั้นตอนการปฏิบัติงานมาตรฐาน (SOP) และกรณีการจัดตารางเวลาในอดีต เพื่อสร้างระบบดึงข้อมูลหน่วยความจำแบบสองชั้นทั้งระยะสั้นและระยะยาว (RAG) นำกระบวนการให้เหตุผลแบบ Chain-of-Thought (CoT) ตามลำดับชั้นมาใช้ เพื่อทำลายข้อจำกัดแบบกล่องดำ (Black-box) ของการเรียนรู้แบบเสริมกำลังแบบดั้งเดิม พร้อมทั้งสร้างผลลัพธ์การจัดสรรงานที่เป็นมาตรฐานควบคู่ไปกับข้อความอธิบายในภาษาธรรมชาติที่ให้รายละเอียดเกี่ยวกับฐานกฎระเบียบและเหตุผลในการเลือกบุคลากร
+- การบังคับใช้กฎระเบียบและข้อจำกัดทางธุรกิจอย่างเคร่งครัด: ใช้ความสามารถในการวิเคราะห์ข้อความของ LLM เพื่อบูรณาการข้อจำกัดที่เข้มงวดและซับซ้อน เช่น ขีดจำกัดชั่วโมงการทำงานต่อเนื่อง การจับคู่ทักษะที่ใช้ร่วมกันไม่ได้ และความสัมพันธ์ในการทดแทนที่เข้ากันได้ในระดับต่ำกว่าในลำดับชั้นบทบาทต่างๆ เข้าสู่ระบบ วิธีนี้ช่วยหลีกเลี่ยงการจัดสรรงานที่ไม่เป็นไปตามข้อกำหนดได้อย่างมีประสิทธิภาพและช่วยเพิ่มระดับความปลอดภัย
+- การปรับตัวแบบไดนามิกและการตรวจสอบแบบจำลอง: จัดการกับสถานการณ์ที่ไม่ปกติ เช่น เที่ยวบินล่าช้า การเปลี่ยนประตูขึ้นเครื่องชั่วคราว และการขาดแคลนบุคลากรกะทันหัน ผ่านการทดสอบแบบจำลองระบบปิด (Closed-loop simulation) โดยใช้ข้อมูลในอดีตที่แท้จริง ซึ่งช่วยยืนยันความแข็งแกร่งของระบบและความสามารถในการตอบสนองแบบเรียลไทม์ที่มีประสิทธิภาพสูงระหว่างการกำหนดค่างานใหม่ในภาพรวม"""
 
 [[languages.th.params.spoken_languages]]
 name = "ภาษาญี่ปุ่น"
