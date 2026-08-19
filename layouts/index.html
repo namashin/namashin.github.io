@@ -114,6 +114,61 @@
   {{ end }}
 </section>
 
+<!-- PUBLICATIONS / RESEARCHセクション -->
+<section id="publications" class="section">
+  <h2>{{ i18n "publications" }}</h2>
+
+  {{ range .Site.Params.publications }}
+  <div class="project-row">
+
+    <div class="project-left">
+      {{ with .year }}
+      <p><strong>{{ . }}</strong></p>
+      {{ end }}
+
+      {{ with .status }}
+      <p>{{ i18n . }}</p>
+      {{ end }}
+    </div>
+
+    <div class="project-right">
+      <h3>{{ .title }}</h3>
+
+      {{ with .authors }}
+      <p><strong>{{ i18n "authors" }}:</strong> {{ . }}</p>
+      {{ end }}
+
+      {{ with .conference }}
+      <p><strong>{{ i18n "conference" }}:</strong> {{ . }}</p>
+      {{ end }}
+
+      {{ with .paper_id }}
+      <p><strong>{{ i18n "paper_id" }}:</strong> {{ . }}</p>
+      {{ end }}
+
+      {{ with .presentation }}
+      <p><strong>{{ i18n "presentation" }}:</strong> {{ i18n . }}</p>
+      {{ end }}
+
+      {{ with .description }}
+      <h4>{{ i18n "research_overview" }}</h4>
+      <p>{{ . }}</p>
+      {{ end }}
+
+      {{ with .highlights }}
+      <h4>{{ i18n "highlights" }}</h4>
+      <div class="skills">
+        {{ range . }}
+        <span>{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+  {{ end }}
+</section>
+
 <!-- LANGUAGESセクション -->
 <section id="languages" class="section">
   <h2>{{ i18n "languages" }}</h2>

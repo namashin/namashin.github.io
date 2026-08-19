@@ -174,6 +174,29 @@ results = """[Achievements]
 - Strict Application of Business Rules and Constraints: Utilized the LLM's text parsing capabilities to integrate complex rigid constraints—such as continuous working hour limits, mutually exclusive skill matching, and downward-compatible substitution relationships across different role hierarchies—into the system. This method effectively avoided non-compliant dispatching and enhanced safety margins.
 - Dynamic Adaptation and Simulation Validation: Addressed abnormal scenarios such as flight delays, temporary gate changes, and sudden personnel shortages through closed-loop simulation testing using authentic historical data. This validated the system's robustness and highly efficient real-time response capabilities during global task reconfiguration."""
 
+# == Publications / Research ==
+[[languages.en.params.publications]]
+title = "Multi-Skilled Staff Dispatch in Airline Ground Operations via Event-Driven SMDP and Value-Guided Assignment Optimization"
+authors = "NAGAHARA IKUMA, Du De Hui"
+conference = "ICIC 2026 - International Conference on Intelligent Computing"
+paper_id = "883"
+year = "2026"
+date = "2026.04.27"
+status = "accepted"
+presentation = "poster"
+description = """
+Accepted for Poster presentation at the 2026 International Conference on Intelligent Computing (ICIC 2026).
+
+This paper formulates real-time multi-skilled staff dispatching in airline ground operations as a Semi-Markov Decision Process (SMDP) and proposes a hybrid framework combining value-based learning with surrogate-optimal assignment via the Hungarian algorithm, augmented with a gated Large Language Model (LLM) module for handling unstructured inputs.
+"""
+highlights = [
+    "Event-Driven Semi-Markov Decision Process (SMDP)",
+    "Value-Guided Assignment Optimization",
+    "Hungarian Algorithm",
+    "Large Language Model (LLM)",
+    "Real-world airline ground operations dataset"
+]
+
 [[languages.en.params.spoken_languages]]
 name = "Japanese"
 level = "Native or bilingual proficiency"
@@ -344,6 +367,28 @@ results = """【実績・成果】
 ・RAGとCoTを活用した説明可能なAI：中国民用航空規章（CCAR）、標準作業手順書（SOP）、過去のスケジュール履歴を統合し、長期・短期の双層記憶検索システム（RAG）を構築しました。階層的な思考連鎖（CoT）推論プロセスを導入し、従来の強化学習におけるブラックボックスの限界を打破しました。標準化された派工（タスク割り当て）結果を出力すると同時に、ルール根拠や人員選択の理由を含む自然言語の説明テキストを生成する仕組みを実装しました。
 ・業務ルールと制約の厳密な適用：LLMのテキスト解析能力を通じて、従業員の連続作業時間の制限、スキル資格の排他マッチング、異なる役割階層の互換（下位代替）関係などの複雑で厳格な制約をシステムに組み込みました。この手法により、コンプライアンス違反による割り当てを効果的に回避し、安全性のマージンを向上させました。
 ・動的環境への適応とシミュレーション検証：航空機の遅延、搭乗ゲートの急な変更、突発的な人員不足といった異常シナリオに対して、実際の履歴データを用いた閉ループシミュレーションテストを実施し、グローバルなタスク再構築におけるシステムの堅牢性と高効率なリアルタイム応答能力を検証しました。"""
+
+[[languages.ja.params.publications]]
+title = "Multi-Skilled Staff Dispatch in Airline Ground Operations via Event-Driven SMDP and Value-Guided Assignment Optimization"
+authors = "NAGAHARA IKUMA, Du De Hui"
+conference = "ICIC 2026 - International Conference on Intelligent Computing"
+paper_id = "883"
+year = "2026"
+date = "2026.04.27"
+status = "accepted"
+presentation = "poster"
+description = """
+ICIC 2026（International Conference on Intelligent Computing）において、ポスター発表論文として採択されました。
+
+本研究では、航空地上業務におけるリアルタイムなマルチスキル人員派工をSemi-Markov Decision Process（SMDP）として定式化し、価値ベース学習とHungarian Algorithmによる割当最適化を組み合わせたハイブリッド手法を提案しました。さらに、非構造化入力への対応を目的としてgated Large Language Model（LLM）モジュールを導入しました。
+"""
+highlights = [
+    "Event-Driven Semi-Markov Decision Process（SMDP）",
+    "Value-Guided Assignment Optimization",
+    "Hungarian Algorithm",
+    "Large Language Model（LLM）",
+    "航空地上業務の実データを用いた評価"
+]
 
 [[languages.ja.params.spoken_languages]]
 name = "日本語"
@@ -518,6 +563,30 @@ results = """【成果与业绩】
 - 基于 RAG 与 CoT 的可解释性决策：整合《中国民用航空规章》（CCAR）、标准操作程序（SOP）及历史排班案例，构建了长短时双层记忆检索体系（RAG）。引入层次化思维链（CoT）推理流程，打破了传统强化学习的黑盒局限。在输出标准化派工结果的同时，同步生成包含规则依据和人员选择理由的自然语言解释文本。
 - 严格落实业务规则与约束：通过大模型的文本解析能力，将员工连续作业时长限制、技能资质匹配互斥以及不同角色层级的向下兼容替代关系等复杂硬性约束融入系统中。该方法有效避免了违规派单，提升了安全冗余。
 - 动态环境适应与仿真验证：针对航班延误、临时换机位及突发人员短缺等异常场景，通过真实历史数据的闭环仿真测试，验证了系统在全局任务重构中的鲁棒性与高效实时响应能力。"""
+
+# == Publications / Research ==
+[[languages.zh.params.publications]]
+title = "基于事件驱动SMDP与价值引导分配优化的航空地面多技能人员派工"
+authors = "NAGAHARA IKUMA, Du De Hui"
+conference = "ICIC 2026 - International Conference on Intelligent Computing"
+paper_id = "883"
+year = "2026"
+date = "2026.04.27"
+status = "accepted"
+presentation = "poster"
+description = """
+论文已被ICIC 2026（International Conference on Intelligent Computing）录用，并接受Poster形式展示。
+
+本研究将航空地面运行中的实时多技能人员派工问题建模为半马尔可夫决策过程（SMDP），提出一种结合价值学习与基于Hungarian Algorithm的最优近似分配方法的混合框架，并进一步引入gated Large Language Model（LLM）模块以处理非结构化输入。
+"""
+highlights = [
+    "ICIC 2026 Poster论文录用",
+    "事件驱动半马尔可夫决策过程（SMDP）",
+    "价值引导的人员分配优化",
+    "Hungarian Algorithm",
+    "Large Language Model（LLM）",
+    "基于真实航空地面运行数据进行评估"
+]
 
 [[languages.zh.params.spoken_languages]]
 name = "日语"
@@ -703,6 +772,29 @@ results = """[Mga Natamo / Resulta]
 - Maipapaliwanag na AI gamit ang RAG at CoT: Pinagsama ang Chinese Civil Aviation Regulations (CCAR), Standard Operating Procedures (SOP), at mga nakaraang kaso ng pag-iskedyul upang bumuo ng pangmatagalan at panandaliang dual-layer memory retrieval system (RAG). Ipinakilala ang isang hierarchical Chain-of-Thought (CoT) na proseso ng pangangatwiran, na sumisira sa limitasyong black-box ng tradisyonal na reinforcement learning. Sabay na bumuo ng mga pamantayang resulta ng pagpapadala kasama ng mga paliwanag sa natural na wika na nagdedetalye ng mga batayan sa regulasyon at mga dahilan sa pagpili ng tauhan.
 - Mahigpit na Pagpapatupad ng mga Panuntunan at Paghihigpit sa Negosyo: Ginamit ang kakayahan ng LLM sa pagsusuri ng teksto upang isama ang mga kumplikado at mahigpit na paghihigpit—tulad ng limitasyon sa tuloy-tuloy na oras ng pagtatrabaho, eksklusibong pagtutugma ng kasanayan, at downward-compatible na mga ugnayan ng pagpapalit sa iba't ibang antas ng tungkulin—sa systema. Epektibong naiwasan ng pamamaraang ito ang mga pagpapadalang labag sa patakaran at pinataas ang mga margin sa kaligtasan.
 - Dinamikong Adaptasyon at Pagsusuri ng Simulation: Tinugunan ang mga hindi normal na sitwasyon tulad ng mga pagkaantala ng flight, panandaliang pagbabago ng gate, at biglaang kakulangan sa tauhan sa pamamagitan ng closed-loop simulation testing gamit ang totoong historikal na datos. Pinatunayan nito ang katatagan ng sistema at ang napakahusay na kakayahang tumugon sa real-time sa pangkalahatang muling pag-aayos ng mga gawain."""
+
+# == Publications / Research ==
+[[languages.fil.params.publications]]
+title = "Multi-Skilled Staff Dispatch in Airline Ground Operations via Event-Driven SMDP and Value-Guided Assignment Optimization"
+authors = "NAGAHARA IKUMA, Du De Hui"
+conference = "ICIC 2026 - International Conference on Intelligent Computing"
+paper_id = "883"
+year = "2026"
+date = "2026.04.27"
+status = "accepted"
+presentation = "poster"
+description = """
+Tinanggap ang paper para sa Poster presentation sa 2026 International Conference on Intelligent Computing (ICIC 2026).
+
+Ino-model ng pag-aaral ang real-time multi-skilled staff dispatching sa airline ground operations bilang isang Semi-Markov Decision Process (SMDP). Iminungkahi rin ang isang hybrid framework na pinagsasama ang value-based learning, Hungarian Algorithm-based assignment optimization, at gated Large Language Model (LLM) para sa unstructured inputs.
+"""
+highlights = [
+    "Accepted for Poster Presentation at ICIC 2026",
+    "Event-Driven Semi-Markov Decision Process (SMDP)",
+    "Value-Guided Assignment Optimization",
+    "Hungarian Algorithm",
+    "Large Language Model (LLM)"
+]
 
 [[languages.fil.params.spoken_languages]]
 name = "Hapones (Japanese)"
@@ -895,6 +987,29 @@ results = """[ความสำเร็จ / ผลลัพธ์]
 - AI ที่สามารถอธิบายได้ผ่าน RAG และ CoT: บูรณาการกฎระเบียบการบินพลเรือนของจีน (CCAR), ขั้นตอนการปฏิบัติงานมาตรฐาน (SOP) และกรณีการจัดตารางเวลาในอดีต เพื่อสร้างระบบดึงข้อมูลหน่วยความจำแบบสองชั้นทั้งระยะสั้นและระยะยาว (RAG) นำกระบวนการให้เหตุผลแบบ Chain-of-Thought (CoT) ตามลำดับชั้นมาใช้ เพื่อทำลายข้อจำกัดแบบกล่องดำ (Black-box) ของการเรียนรู้แบบเสริมกำลังแบบดั้งเดิม พร้อมทั้งสร้างผลลัพธ์การจัดสรรงานที่เป็นมาตรฐานควบคู่ไปกับข้อความอธิบายในภาษาธรรมชาติที่ให้รายละเอียดเกี่ยวกับฐานกฎระเบียบและเหตุผลในการเลือกบุคลากร
 - การบังคับใช้กฎระเบียบและข้อจำกัดทางธุรกิจอย่างเคร่งครัด: ใช้ความสามารถในการวิเคราะห์ข้อความของ LLM เพื่อบูรณาการข้อจำกัดที่เข้มงวดและซับซ้อน เช่น ขีดจำกัดชั่วโมงการทำงานต่อเนื่อง การจับคู่ทักษะที่ใช้ร่วมกันไม่ได้ และความสัมพันธ์ในการทดแทนที่เข้ากันได้ในระดับต่ำกว่าในลำดับชั้นบทบาทต่างๆ เข้าสู่ระบบ วิธีนี้ช่วยหลีกเลี่ยงการจัดสรรงานที่ไม่เป็นไปตามข้อกำหนดได้อย่างมีประสิทธิภาพและช่วยเพิ่มระดับความปลอดภัย
 - การปรับตัวแบบไดนามิกและการตรวจสอบแบบจำลอง: จัดการกับสถานการณ์ที่ไม่ปกติ เช่น เที่ยวบินล่าช้า การเปลี่ยนประตูขึ้นเครื่องชั่วคราว และการขาดแคลนบุคลากรกะทันหัน ผ่านการทดสอบแบบจำลองระบบปิด (Closed-loop simulation) โดยใช้ข้อมูลในอดีตที่แท้จริง ซึ่งช่วยยืนยันความแข็งแกร่งของระบบและความสามารถในการตอบสนองแบบเรียลไทม์ที่มีประสิทธิภาพสูงระหว่างการกำหนดค่างานใหม่ในภาพรวม"""
+
+# == Publications / Research ==
+[[languages.th.params.publications]]
+title = "Multi-Skilled Staff Dispatch in Airline Ground Operations via Event-Driven SMDP and Value-Guided Assignment Optimization"
+authors = "NAGAHARA IKUMA, Du De Hui"
+conference = "ICIC 2026 - International Conference on Intelligent Computing"
+paper_id = "883"
+year = "2026"
+date = "2026.04.27"
+status = "accepted"
+presentation = "poster"
+description = """
+ผลงานวิจัยได้รับการตอบรับให้เข้าร่วมการนำเสนอในรูปแบบ Poster ในงาน ICIC 2026 (International Conference on Intelligent Computing)
+
+งานวิจัยนี้นำเสนอการสร้างแบบจำลองปัญหาการจัดสรรบุคลากรหลายทักษะแบบเรียลไทม์ในงานบริการภาคพื้นของสายการบินด้วย Semi-Markov Decision Process (SMDP) และพัฒนากรอบการทำงานแบบผสมผสานระหว่าง value-based learning, Hungarian Algorithm และ gated Large Language Model (LLM) สำหรับการจัดการข้อมูลที่ไม่มีโครงสร้าง
+"""
+highlights = [
+    "Accepted for Poster Presentation at ICIC 2026",
+    "Event-Driven Semi-Markov Decision Process (SMDP)",
+    "Value-Guided Assignment Optimization",
+    "Hungarian Algorithm",
+    "Large Language Model (LLM)"
+]
 
 [[languages.th.params.spoken_languages]]
 name = "ภาษาญี่ปุ่น"
