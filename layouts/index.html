@@ -119,6 +119,7 @@
   <h2>{{ i18n "publications" }}</h2>
 
   {{ range .Site.Params.publications }}
+  {{ $publication := . }}
   <div class="project-row">
 
     <div class="project-left">
@@ -139,7 +140,14 @@
       {{ end }}
 
       {{ with .conference }}
-      <p><strong>{{ i18n "conference" }}:</strong> {{ . }}</p>
+      <p>
+        <strong>{{ i18n "conference" }}:</strong>
+        {{ if $publication.conference_url }}
+        <a href="{{ $publication.conference_url }}" target="_blank" rel="noopener noreferrer">{{ . }}</a>
+        {{ else }}
+        {{ . }}
+        {{ end }}
+      </p>
       {{ end }}
 
       {{ with .paper_id }}
