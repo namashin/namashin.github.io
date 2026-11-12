@@ -27,21 +27,13 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 # == Introduce (EN) with four fields ==
 [[languages.en.params.introduce]]
-Introduction = """
-Hello! I'm Ikuma Nagahara. I graduated with a Master's degree from East China Normal University in China in 2026. To brag a little, I was a Chinese Government Scholarship (full scholarship) student for all three years, which covered my tuition and dorm fees, plus a monthly stipend of 3,000 RMB. I've always had good luck! (lol). Let me share a bit of my "human side." I've always been a night owl and absolutely hate waking up early. I played baseball from 3rd grade until junior high, but I never really liked it much. Now, I'm just a "festival fan" who only gets excited during the WBC and the FIFA World Cup.
-"""
+Introduction = """Hello World"""
 
-Development = """
-Despite moving at my own pace, when I do something, I go all in. During grad school, my roommate and I started a car sales and rental business in Thailand. When we had no inventory, we shrewdly acted as brokers, referring customers to competitors, and made enough profit to live luxuriously in Thailand during long holidays. At the same time, I took my studies seriously, dedicating myself to researching and improving reinforcement learning algorithms in collaboration with a major Chinese airline. As a Japanese student, I wrote my entire master's thesis and defended it in simplified Chinese. Earning a score of 90/100 from a Tsinghua University professor in the blind review is a secret pride of mine.
-"""
+Development = """"""
 
-Turn = """
-I've since handed the Thai business over to my roommate and am now working full-time as a Software Engineer at TSMC Headquarters in Taiwan. My tough research experiences in China definitely shape my current work style at a Taiwanese company. My professional goal right now is simply to "reliably complete assigned tasks and ensure proper reporting and sharing." Rather than being flashy, I want to earn my team's trust through steady, daily execution.
-"""
+Turn = """"""
 
-Conclusion = """
-I am currently working at TSMC HQ, which ranks 6th in global market capitalization as of 2026, and I am very satisfied with this environment. My colleagues are incredibly smart and have wonderful personalities; I learn so much from them every day. On a personal note, meeting my Taiwanese wife drastically changed my outlook on life. When I was younger, I was all about "career and results!" Now, I believe a rich life means eating delicious food, sleeping a lot, traveling abroad occasionally, and enjoying a fulfilling private life. I want to continue this balanced lifestyle—fulfilling my responsibilities in a blessed work environment while fully enjoying my family time. Thank you for reading, and I hope you find my profile interesting!
-"""
+Conclusion = """"""
 
 # == Experience ==
 [[languages.en.params.experience]]
@@ -231,22 +223,13 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 # == Introduce (JA) with four fields ==
 [[languages.ja.params.introduce]]
-Introduction = """
-はじめまして！長原生真です。2026年に中国の華東師範大学で修士課程を修了しました。少し自慢になりますが、修士の3年間は中国政府奨学生（全額奨学金）として学費・寮費が無料で、毎月3000元の生活費まで頂いていました。昔から運だけは良いんです（笑）。少し私の「人間味」をご紹介させてください。実は昔から「遅寝遅起き」で早起きが大の苦手。小3から中学卒業まで野球をしていましたがそこまで好きではなく、今はWBCやサッカーW杯の時だけ熱狂する「お祭り観戦タイプ」です。
-"""
+Introduction = """こんにちは、世界！"""
 
-Development = """
-そんなマイペースな私ですが、やるときはトコトンやります。大学院時代は、当時のルームメイトとタイで車の売買やレンタルビジネスを立ち上げました。在庫がない時は他社へお客様を流す仲介業もこなし、長期休みにタイで贅沢できるくらい稼ぐしたたかさもありました。一方で学業も手を抜かず、中国の大手航空会社と共同で強化学習アルゴリズムの改良研究に没頭しました。日本人でありながら修士論文をすべて簡体字で執筆して答弁に臨み、審査では清華大学の教授から100点満点中90点を頂けたのは密かな誇りです。
-"""
+Development = """"""
 
-Turn = """
-現在はタイのビジネスをルームメイトに任せ、台湾のTSMC本社でソフトウェアエンジニアとしてフルタイムで働いています。大学院時代の中国でのタフな研究経験が、現在の台湾企業での仕事の流儀にも繋がっていると感じます。仕事での目標は、「まずは与えられた任務を確実にこなし、しっかりと報告・共有する」という基本を徹底すること。派手さよりも、日々の着実なタスク遂行を通じてチームから信頼される存在でありたいと思っています。
-"""
+Turn = """"""
 
-Conclusion = """
-現在、2026年時点で世界時価総額ランキング6位となるTSMC台湾本社で働かせてもらい、この環境にとても満足しています。同僚はみんな頭が良く、性格も素晴らしいチームメイトばかりで、日々多くのことを学ばせてもらっています。一方で、プライベートでは今の台湾人の妻と出会い、人生観が大きく変わりました。若い頃は「キャリアや結果が全て！」と肩肘を張っていましたが、今は「美味しいものを食べ、たくさん寝て、時々海外旅行をする。そんなプライベートの充実こそが豊かな人生ではないか」と思うようになりました。恵まれた環境でしっかり仕事の責任を果たしつつ、家族との時間も存分に楽しむ。そんな等身大の歩み方をこれからも続けていきたいです。こんな私ですが、少しでも興味を持っていただけたら嬉しいです！
-※内容は事実ですが、文章はAI作成です...
-"""
+Conclusion = """"""
 
 # == Experience ==
 [[languages.ja.params.experience]]
@@ -425,26 +408,18 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 # == Introduce (ZH) with four fields ==
 [[languages.zh.params.introduce]]
-Introduction = """
-大家好！我是长原生真。我于2026年从中国华东师范大学硕士毕业。稍微自夸一下，在读研的三年里，我作为中国政府奖学金（全额奖学金）获得者，不仅免除了学费和住宿费，每月还能拿到3000元人民币的生活费。我从小运气就特别好（笑）。让我介绍一下我比较“接地气”的一面吧。其实我一直是个“晚睡晚起”的人，最怕早起。虽然从小学三年级到初中毕业都在打棒球，但我其实没那么喜欢，现在也只是个“凑热闹型”球迷，只有在WBC（世界棒球经典赛）和男足世界杯时才会狂热一下。
-"""
+Introduction = """你好，世界！"""
 
-Development = """
-虽然我平时比较随性，但一旦决定做某件事就会全力以赴。读研期间，我和当时的室友在泰国做起了汽车买卖和租赁生意。当没有库存时，我们会机智地作为中介将客户介绍给竞争对手，赚到的利润足够我们在长假期间在泰国过上相当奢侈的生活。与此同时，我也没落下学业，全身心投入到与中国一家大型航空公司合作的强化学习算法改进研究中。作为一个日本人，我用简体中文完成了所有的硕士论文撰写及答辩，在盲审中获得了清华大学教授给出的90分（满分100分）的高分，这也是我暗自骄傲的一点。
-"""
+Development = """"""
 
-Turn = """
-目前，我把泰国的生意交给了室友，自己在台湾的台积电（TSMC）总部全职担任软件工程师。在中国的硬核研究经历，也深深影响了我现在在台湾企业的工作作风。目前我工作上的目标非常纯粹：“首先确保完成交付的任务，并做好汇报和沟通”。比起追求表面上的光鲜亮丽，我更希望能通过每天踏实的工作来赢得团队的信任。
-"""
+Turn = """"""
 
-Conclusion = """
-截至2026年，台积电的全球市值排名第六，能在这里的总部工作，我对现在的环境非常满意。身边的同事都很聪明，性格也非常好，我每天都能从这些优秀的团队伙伴身上学到很多。在生活方面，遇到我现在的台湾妻子后，我的人生观发生了很大的变化。年轻时我总觉得“事业和结果就是一切！”，但现在我认为，“吃好吃的，睡饱觉，偶尔去海外旅行，拥有充实的个人生活，这才是丰富的人生”。我希望在优越的环境中尽好工作的责任，同时也尽情享受家庭时光，继续踏实地走好自己的人生路。这就是我，如果能引起您的一点兴趣，我将不胜荣幸！
-"""
+Conclusion = """"""
 
 # == Experience ==
 [[languages.zh.params.experience]]
 date = "2026.12 - 至今"
-title = "软件工程师 (全职) - TSMC 台湾积体电路制造股份有限公司"
+title = "软件工程师 (全职) - TSMC"
 description = """IT部门 (IT Department)"""
 skills = []
 logo = "/icons/tsmc.png"
@@ -624,21 +599,13 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 # == Introduce (FIL) with four fields ==
 [[languages.fil.params.introduce]]
-Introduction = """
-Kumusta! Ako si Ikuma Nagahara. Nagtapos ako ng Master's degree sa East China Normal University sa Tsina noong 2026. Bilang pagmamalaki nang kaunti, isa akong Chinese Government Scholarship (full scholarship) student sa loob ng tatlong taon. Libre ang aking matrikula at dormitoryo, at tumatanggap pa ako ng 3,000 RMB na allowance buwan-buwan. Palagi talaga akong sinuswerte! (haha). Hayaan ninyong ibahagi ko ang aking "human side". Sa totoo lang, sanay akong matulog nang late at gumising nang late—sobrang ayaw kong gumising nang maaga. Naglaro ako ng baseball mula Grade 3 hanggang grumadweyt ng junior high, pero hindi ko naman talaga masyadong gusto. Ngayon, isa na lang akong "festival fan" na nanonood at nag-chi-cheer lang tuwing WBC at FIFA World Cup.
-"""
+Introduction = """Kumusta, mundo!"""
 
-Development = """
-Kahit medyo chill ako sa buhay, kapag ginusto ko ang isang bagay, ibinibigay ko ang lahat. Noong grad school, nagtayo kami ng roommate ko ng car sales at rental business sa Thailand. Kapag wala kaming inventory, naging madiskarte kami at nagsilbing broker para sa mga kakumpitensya, at kumita kami nang sapat para magpakasarap sa Thailand tuwing bakasyon. Kasabay nito, seryoso rin ako sa aking pag-aaral at nag-focus sa pag-research at pag-improve ng reinforcement learning algorithms katuwang ang isang malaking airline company sa Tsina. Bilang isang Hapones, isinulat at idinepensa ko ang aking buong master's thesis sa simplified Chinese. Ang makakuha ng 90/100 na marka mula sa isang propesor ng Tsinghua University sa blind review ay isang bagay na lihim kong ipinagmamalaki.
-"""
+Development = """"""
 
-Turn = """
-Sa ngayon, ipinagkatiwala ko na sa roommate ko ang negosyo sa Thailand at nagtatrabaho na ako nang full-time bilang Software Engineer sa TSMC Headquarters sa Taiwan. Ang mahigpit kong karanasan sa pananaliksik sa Tsina ay may malaking impluwensya sa aking work style ngayon. Ang layunin ko sa trabaho ay simple lang: "Tapusin nang maayos ang mga naka-assign na gawain, at magbigay ng maayos na report." Kaysa magpasikat, mas gusto kong makuha ang tiwala ng aking team sa pamamagitan ng pare-pareho at maaasahang pagtatrabaho araw-araw.
-"""
+Turn = """"""
 
-Conclusion = """
-Kasalukuyan akong nagtatrabaho sa TSMC HQ, na pang-anim sa global market cap as of 2026, at sobrang satisfied ako sa environment na ito. Ang mga katrabaho ko ay matatalino at may mabubuting personalidad; marami akong natututunan sa kanila araw-araw. Sa aking personal na buhay, ang pagkakakilala sa aking asawang Taiwanese ay nagbago nang malaki sa pananaw ko. Noong bata pa ako, masyado akong naka-focus sa "career at results!" Pero ngayon, naniniwala ako na ang isang masaganang buhay ay ang pagkakaroon ng masarap na pagkain, mahabang tulog, paminsan-minsang pag-travel sa labas ng bansa, at masayang private life. Gusto kong ipagpatuloy ang ganitong balanseng buhay—tinutupad ang aking mga responsibilidad sa trabaho habang nag-eenjoy kasama ang aking pamilya. Maraming salamat sa inyong oras, at sana'y naging interesado kayo sa aking profile!
-"""
+Conclusion = """"""
 
 # == Experience (FIL) ==
 [[languages.fil.params.experience]]
@@ -833,21 +800,13 @@ resume = "/materials/NagaharaIkuma_Resume.pdf"
 
 # == Introduce (TH) with four fields ==
 [[languages.th.params.introduce]]
-Introduction = """
-สวัสดีครับ! ผมชื่อ นากาฮาระ อิคุมะ ผมเพิ่งสำเร็จการศึกษาระดับปริญญาโทจากมหาวิทยาลัยครูหัวตง (East China Normal University) ที่ประเทศจีนในปี 2026 ขออวดสักนิดนะครับว่า ตลอด 3 ปีที่เรียนปริญญาโท ผมได้รับทุนรัฐบาลจีน (ทุนเต็มจำนวน) ซึ่งครอบคลุมทั้งค่าเทอมและค่าหอพัก แถมยังมีค่าครองชีพให้เดือนละ 3,000 หยวน ผมมักจะเป็นคนดวงดีมาตั้งแต่เด็กเลยครับ (ฮ่าๆ) ขออนุญาตแนะนำ "มุมสบายๆ" ของผมบ้างนะครับ จริงๆ แล้วผมเป็นคนที่ชอบนอนดึกตื่นสาย และเกลียดการตื่นเช้ามากๆ ผมเคยเล่นเบสบอลตั้งแต่ ป.3 จนจบ ม.ต้น แต่จริงๆ แล้วไม่ได้ชอบขนาดนั้น ปัจจุบันผมเป็นแค่ "แฟนกีฬาสายเทศกาล" ที่จะอินจัดๆ เฉพาะตอนดูการแข่งขัน WBC หรือฟุตบอลโลกเท่านั้นครับ
-"""
+Introduction = """สวัสดีชาวโลก!"""
 
-Development = """
-ถึงแม้ผมจะดูเป็นคนใช้ชีวิตตามจังหวะของตัวเอง แต่ถ้าตั้งใจทำอะไรแล้ว ผมจะทุ่มเทสุดตัวครับ สมัยเรียนปริญญาโท ผมกับรูมเมทได้เปิดธุรกิจซื้อขายและให้เช่ารถยนต์ที่ประเทศไทย พอช่วงไหนรถหมด เราก็ไหวพริบดีผันตัวเป็นนายหน้าแนะนำลูกค้าให้คู่แข่งแทน ทำให้เรามีกำไรมากพอที่จะใช้ชีวิตหรูหราที่ไทยได้เป็นเดือนๆ ในช่วงปิดเทอมยาว ในขณะเดียวกัน ผมก็ไม่ได้ทิ้งการเรียน ผมทุ่มเทให้กับการวิจัยเพื่อปรับปรุงอัลกอริทึม Reinforcement Learning ร่วมกับสายการบินยักษ์ใหญ่ของจีน และในฐานะคนญี่ปุ่น ผมภูมิใจเล็กๆ ที่สามารถเขียนและสอบป้องกันวิทยานิพนธ์ระดับปริญญาโทเป็นอักษรจีนตัวย่อได้ทั้งหมด แถมยังได้คะแนนประเมินแบบไม่เปิดเผยชื่อจากศาสตราจารย์มหาวิทยาลัยชิงหวาถึง 90/100 คะแนนครับ
-"""
+Development = """"""
 
-Turn = """
-ปัจจุบัน ผมมอบหมายธุรกิจที่ไทยให้รูมเมทดูแลต่อ และมาทำงานประจำในตำแหน่ง Software Engineer ที่สำนักงานใหญ่ของ TSMC ในไต้หวัน ผมรู้สึกว่าประสบการณ์การทำวิจัยที่เข้มข้นในจีนส่งผลดีต่อสไตล์การทำงานของผมในตอนนี้ เป้าหมายในการทำงานของผมคือ "ตั้งใจทำงานที่ได้รับมอบหมายให้สำเร็จอย่างครบถ้วน และรายงานผลให้ชัดเจน" ผมไม่ได้อยากโดดเด่นหวือหวา แต่ผมอยากได้รับความไว้วางใจจากทีมผ่านการทำงานที่สม่ำเสมอและเชื่อถือได้ในทุกๆ วันครับ
-"""
+Turn = """"""
 
-Conclusion = """
-ตอนนี้ผมทำงานที่สำนักงานใหญ่ TSMC ซึ่งมีมูลค่าตลาดรวม (Market Cap) เป็นอันดับ 6 ของโลก ณ ปี 2026 ผมพอใจกับสภาพแวดล้อมที่นี่มากๆ เพื่อนร่วมงานทุกคนฉลาดและนิสัยดี ทำให้ผมได้เรียนรู้อะไรมากมายทุกวัน ในด้านชีวิตส่วนตัว การได้พบกับภรรยาชาวไต้หวันทำให้มุมมองชีวิตของผมเปลี่ยนไปอย่างสิ้นเชิง สมัยก่อนผมมักจะคิดว่า "หน้าที่การงานและผลลัพธ์คือทุกสิ่ง!" แต่ตอนนี้ผมกลับมองว่า "การได้กินของอร่อย ได้นอนเต็มอิ่ม ได้ไปเที่ยวต่างประเทศบ้าง และมีชีวิตส่วนตัวที่มีความสุขต่างหาก คือชีวิตที่สมบูรณ์แบบ" ผมตั้งใจจะก้าวเดินต่อไปในแบบของตัวเอง นั่นคือการรับผิดชอบงานในสภาพแวดล้อมที่ดีเยี่ยม ควบคู่ไปกับการใช้เวลาอย่างมีความสุขกับครอบครัว ขอบคุณที่อ่านมาถึงตรงนี้นะครับ หวังว่าคุณจะสนใจโปรไฟล์ของผมไม่มากก็น้อย!
-"""
+Conclusion = """"""
 
 # == Experience (TH) ==
 [[languages.th.params.experience]]
